@@ -632,36 +632,6 @@ Connection ~ 2200 5550
 Wire Wire Line
 	2200 5550 2200 5600
 $Comp
-L nxp:TVS-2-pin D?
-U 1 1 5B7B78B3
-P 2850 5650
-F 0 "D?" H 2928 5703 60  0000 L CNN
-F 1 "PESD5V0S1BB,115" V 2700 5200 60  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-523" H 2850 5650 60  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BA_BB_BL.pdf" H 2850 5650 60  0001 C CNN
-F 4 "Nexperia" H 2850 5650 50  0001 C CNN "Manufacturer"
-F 5 "PESD5V0S1BB,115" H 2850 5650 50  0001 C CNN "Part Number"
-F 6 "SOD-523" H 2850 5650 50  0001 C CNN "Package"
-F 7 "TVS DIODE 5V 14V SOD523" H 2850 5650 50  0001 C CNN "Description"
-	1    2850 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L nxp:TVS-2-pin D?
-U 1 1 5B7B7C8D
-P 3300 5650
-F 0 "D?" H 3378 5703 60  0000 L CNN
-F 1 "PESD5V0S1BB,115" V 3150 5200 60  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-523" H 3300 5650 60  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BA_BB_BL.pdf" H 3300 5650 60  0001 C CNN
-F 4 "Nexperia" H 3300 5650 50  0001 C CNN "Manufacturer"
-F 5 "PESD5V0S1BB,115" H 3300 5650 50  0001 C CNN "Part Number"
-F 6 "SOD-523" H 3300 5650 50  0001 C CNN "Package"
-F 7 "TVS DIODE 5V 14V SOD523" H 3300 5650 50  0001 C CNN "Description"
-	1    3300 5650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5B7B7CD7
 P 2850 5950
@@ -775,4 +745,80 @@ NoConn ~ 6100 4800
 NoConn ~ 6100 4300
 NoConn ~ 6100 4200
 NoConn ~ 6100 4100
+$Comp
+L nxp:TVS-2-pin D?
+U 1 1 5B92C2E9
+P 2850 5650
+AR Path="/5B782859/5B92C2E9" Ref="D?"  Part="1" 
+AR Path="/5B7DAEA8/5B92C2E9" Ref="D?"  Part="1" 
+F 0 "D?" H 2928 5703 60  0000 L CNN
+F 1 "ESD8472MUT5G" V 2700 5200 60  0000 L CNN
+F 2 "on_semi:ONSEMI_0201_DSN2_153AF" H 2850 5650 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 2850 5650 60  0001 C CNN
+F 4 "ON Semiconductor" H 2850 5650 50  0001 C CNN "Manufacturer"
+F 5 "ESD8472MUT5G" H 2850 5650 50  0001 C CNN "Part Number"
+F 6 "0201 (0603 Metric)" H 2850 5650 50  0001 C CNN "Package"
+F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 2850 5650 50  0001 C CNN "Description"
+	1    2850 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L nxp:TVS-2-pin D?
+U 1 1 5B92E2C8
+P 3300 5650
+AR Path="/5B782859/5B92E2C8" Ref="D?"  Part="1" 
+AR Path="/5B7DAEA8/5B92E2C8" Ref="D?"  Part="1" 
+F 0 "D?" H 3378 5703 60  0000 L CNN
+F 1 "ESD8472MUT5G" V 3150 5200 60  0000 L CNN
+F 2 "on_semi:ONSEMI_0201_DSN2_153AF" H 3300 5650 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 3300 5650 60  0001 C CNN
+F 4 "ON Semiconductor" H 3300 5650 50  0001 C CNN "Manufacturer"
+F 5 "ESD8472MUT5G" H 3300 5650 50  0001 C CNN "Part Number"
+F 6 "0201 (0603 Metric)" H 3300 5650 50  0001 C CNN "Package"
+F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 3300 5650 50  0001 C CNN "Description"
+	1    3300 5650
+	1    0    0    -1  
+$EndComp
+Text HLabel 8350 2700 0    50   Output ~ 0
+BYP_LNA1
+Text HLabel 8350 2800 0    50   Output ~ 0
+BYP_LNA1_N
+Text HLabel 8350 2900 0    50   Output ~ 0
+BYP_LNA2
+Text HLabel 8350 3000 0    50   Output ~ 0
+BYP_LNA2_N
+Text HLabel 8450 4600 0    50   Output ~ 0
+SWA_V1
+Text HLabel 8450 4700 0    50   Output ~ 0
+SWA_V2
+Text HLabel 8450 4800 0    50   Output ~ 0
+SWA_V3
+Text HLabel 8450 4900 0    50   Output ~ 0
+SWB_V1
+Text HLabel 8450 5000 0    50   Output ~ 0
+SWB_V2
+Text HLabel 8450 5100 0    50   Output ~ 0
+SWB_V3
+Wire Wire Line
+	8450 4600 8950 4600
+Wire Wire Line
+	8450 4700 8950 4700
+Wire Wire Line
+	8450 4800 8950 4800
+Wire Wire Line
+	8450 4900 8950 4900
+Wire Wire Line
+	8450 5000 8950 5000
+Wire Wire Line
+	8450 5100 8950 5100
+Wire Wire Line
+	8350 2700 8950 2700
+Wire Wire Line
+	8350 2800 8950 2800
+Wire Wire Line
+	8350 2900 8950 2900
+Wire Wire Line
+	8350 3000 8950 3000
+Text Notes 3200 3000 0    100  ~ 20
+NEED TO ADD SPI PROGRAMMING CONNECTOR
 $EndSCHEMATC
