@@ -1873,4 +1873,6 @@ Wire Wire Line
 	1450 4900 1750 4900
 Wire Wire Line
 	1450 3750 1450 4900
+Text Notes 9550 5800 0    50   ~ 10
+V1      V2      V3     RF\n0        0       0      1\n0        0       1      2\n0        1       0      3\n0        1       1      4\n1        0       0      ISO\n1        0       1      50 Ohm\n1        1       1      SHDN
 $EndSCHEMATC
