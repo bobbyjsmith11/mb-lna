@@ -20,7 +20,7 @@ U 1 1 5B78291C
 P 9550 3900
 F 0 "U4" H 8950 2650 50  0000 C CNN
 F 1 "ATmega328P-MU" H 8700 2550 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 9550 3900 50  0001 C CIN
+F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 9550 3900 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 9550 3900 50  0001 C CNN
 F 4 "Microchip Technology" H 9550 3900 50  0001 C CNN "Manufacturer"
 F 5 "ATMEGA328P-MUR" H 9550 3900 50  0001 C CNN "Part Number"
@@ -35,7 +35,7 @@ U 1 1 5B782A3F
 P 4500 5850
 F 0 "U3" H 4100 6650 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN24" H 5000 6650 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 4950 5050 50  0001 L CNN
+F 2 "Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm" H 4950 5050 50  0001 L CNN
 F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 4550 4800 50  0001 C CNN
 F 4 "Silicon Labs" H 4500 5850 50  0001 C CNN "Manufacturer"
 F 5 "CP2102N-A01-GQFN24" H 4500 5850 50  0001 C CNN "Part Number"
@@ -341,22 +341,6 @@ F 8 "GRM022R60J104ME15L" H 8950 2000 50  0001 C CNN "Alternate Part Number"
 	1    8950 2000
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C C14
-U 1 1 5B791580
-P 10100 2000
-F 0 "C14" V 9950 2000 50  0000 L CNN
-F 1 "100nF" V 10250 1900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 10138 1850 50  0001 C CNN
-F 3 "~" H 10100 2000 50  0001 C CNN
-F 4 "CL05A104MP5NNNC" H 10100 2000 50  0001 C CNN "Part Number"
-F 5 "0402" H 10100 2000 50  0001 C CNN "Package"
-F 6 "CAP CER 0.1UF 10V X5R 0402" H 10100 2000 50  0001 C CNN "Description"
-F 7 "6.3V or greater" H 10100 2000 50  0001 C CNN "Notes"
-F 8 "GRM022R60J104ME15L" H 10100 2000 50  0001 C CNN "Alternate Part Number"
-	1    10100 2000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9100 2000 9450 2000
 Wire Wire Line
@@ -366,8 +350,6 @@ Wire Wire Line
 Connection ~ 9450 2250
 Wire Wire Line
 	9450 2250 9450 2400
-Wire Wire Line
-	9950 2000 9550 2000
 Wire Wire Line
 	9550 2000 9550 2250
 Wire Wire Line
@@ -387,12 +369,7 @@ F 3 "" H 10300 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 2000 10300 2000
-Wire Wire Line
-	10300 2000 10300 2250
-Wire Wire Line
 	10000 2250 10300 2250
-Connection ~ 10300 2250
 Wire Wire Line
 	10300 2250 10300 2300
 $Comp
@@ -418,7 +395,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 2000 9500 2000
 Connection ~ 9450 2000
-Connection ~ 9550 2000
 Connection ~ 9500 2000
 Wire Wire Line
 	9500 2000 9550 2000
@@ -428,7 +404,7 @@ U 1 1 5B7987BD
 P 2250 1450
 F 0 "U2" H 2250 1817 50  0000 C CNN
 F 1 "TPS73233DBVR" H 2250 1726 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 2250 1050 50  0001 C CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2250 1050 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps732.pdf" H 2250 950 50  0001 C CNN
 F 4 "Texas Instruments" H 2250 1450 50  0001 C CNN "Manufacturer"
 F 5 "TPS73233DBVR" H 2250 1450 50  0001 C CNN "Part Number"
@@ -994,7 +970,7 @@ AR Path="/5B782859/5BCDC92A" Ref="U1"  Part="1"
 AR Path="/5B7DAEA8/5BCDC92A" Ref="U?"  Part="1" 
 F 0 "U1" H 2200 3217 50  0000 C CNN
 F 1 "TPS73233DBVR" H 2200 3126 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 2200 2450 50  0001 C CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2200 2450 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps732.pdf" H 2200 2350 50  0001 C CNN
 F 4 "Texas Instruments" H 2200 2850 50  0001 C CNN "Manufacturer"
 F 5 "TPS73233DBVR" H 2200 2850 50  0001 C CNN "Part Number"
@@ -1220,10 +1196,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 6050 2650 6050
 $Comp
-L Device:LED D?
+L Device:LED D9
 U 1 1 5BF7029D
 P 7150 3400
-F 0 "D?" V 7188 3283 50  0000 R CNN
+F 0 "D9" V 7188 3283 50  0000 R CNN
 F 1 "SML-LX0402SUGC-TR" V 7097 3283 50  0000 R CNN
 F 2 "LEDs:LED_0402" H 7150 3400 50  0001 C CNN
 F 3 "https://www.lumex.com/content/files/ProductAttachment/SML-LX0402SUGC-TR.pdf" H 7150 3400 50  0001 C CNN
@@ -1235,10 +1211,10 @@ F 7 "LED GREEN CLEAR SMD" H 7150 3400 50  0001 C CNN "Description"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R20
 U 1 1 5BF704B7
 P 7150 3050
-F 0 "R?" H 7220 3096 50  0000 L CNN
+F 0 "R20" H 7220 3096 50  0000 L CNN
 F 1 "1K" V 7150 3000 50  0000 L CNN
 F 2 "Resistors_SMD:R_0402" V 7080 3050 50  0001 C CNN
 F 3 "~" H 7150 3050 50  0001 C CNN
@@ -1253,10 +1229,10 @@ $EndComp
 Wire Wire Line
 	7150 3200 7150 3250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0122
 U 1 1 5BF7F1BE
 P 7150 3600
-F 0 "#PWR?" H 7150 3350 50  0001 C CNN
+F 0 "#PWR0122" H 7150 3350 50  0001 C CNN
 F 1 "GND" H 7155 3427 50  0000 C CNN
 F 2 "" H 7150 3600 50  0001 C CNN
 F 3 "" H 7150 3600 50  0001 C CNN
