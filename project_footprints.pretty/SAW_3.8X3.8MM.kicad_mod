@@ -1,4 +1,4 @@
-(module SAW_3.8X3.8MM (layer F.Cu) (tedit 5B82D3D7)
+(module SAW_3.8X3.8MM (layer F.Cu) (tedit 5B835250)
   (fp_text reference FL3 (at 0.1 -2.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -15,7 +15,7 @@
   (pad 3 smd rect (at -1.4 1.29) (size 1.2 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.4 0) (size 1.2 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.9 -1.27) (size 2.2 0.8) (layers F.Cu F.Paste F.Mask))
-  (model /home/bsmith/kicad/lib/manfang_fp/3d_models/SAW_3.8x3.8mm_SMD.STEP
+  (model /home/bsmith/kicad/lib/manfang_fp/3d_models/saw_filters.3dshaped/SAW_3.8x3.8mm_SMD.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

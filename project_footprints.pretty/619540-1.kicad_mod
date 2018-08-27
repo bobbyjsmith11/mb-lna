@@ -1,4 +1,4 @@
-(module te_connectivity:619540-1 (layer F.Cu) (tedit 5B82D98D)
+(module 619540-1 (layer F.Cu) (tedit 5B8351BF)
   (descr "SMA pcb through hole jack")
   (tags "SMA THT Jack Straight")
   (fp_text reference J5 (at 0 -5) (layer F.SilkS)
@@ -45,9 +45,9 @@
   (pad 2 thru_hole circle (at 2.54 -2.54) (size 2.2 2.2) (drill 1.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 -2.54) (size 2.2 2.2) (drill 1.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 2.54) (size 2.2 2.2) (drill 1.7) (layers *.Cu *.Mask))
-  (model /home/bsmith/kicad/lib/manfang_fp/3d_models/c-619540-1-a-3d.stp
-    (offset (xyz -15.8 0 6.39))
+  (model /home/bsmith/kicad/lib/manfang_fp/3d_models/te_connectivity.3dshapes/c-619540-1-a-3d.stp
+    (offset (xyz -15.75 0 6.4))
     (scale (xyz 1 1 1))
-    (rotate (xyz 90 180 -90))
+    (rotate (xyz -90 0 90))
   )
 )

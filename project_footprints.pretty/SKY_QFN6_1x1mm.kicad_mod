@@ -1,4 +1,4 @@
-(module skyworks:SKY_QFN6_1x1mm (layer F.Cu) (tedit 5B78628D)
+(module SKY_QFN6_1x1mm (layer F.Cu) (tedit 5B835303)
   (fp_text reference U7 (at 0 -5.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -21,4 +21,9 @@
   (pad 3 smd rect (at -0.485 0.35 90) (size 0.15 0.33) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -0.485 0 90) (size 0.15 0.33) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.485 -0.35 90) (size 0.15 0.33) (layers F.Cu F.Paste F.Mask))
+  (model /home/bsmith/kicad/lib/manfang_fp/3d_models/skyworks.3dshapes/SKY13351-378LF.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
