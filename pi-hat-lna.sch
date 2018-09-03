@@ -89,163 +89,6 @@ F 3 "" H 1900 2250 50  0000 C CNN
 	1    2600 2250
 	1    0    0    -1  
 $EndComp
-Text Label 3150 7400 2    60   ~ 0
-P3V3
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J6
-U 1 1 58E13683
-P 6050 4600
-F 0 "J6" H 6050 4750 50  0000 C CNN
-F 1 "CONN_02X02" H 6050 4450 50  0000 C CNN
-F 2 "project_footprints:PinHeader_2x02_P2.54mm_Vertical" H 6050 3400 50  0001 C CNN
-F 3 "" H 6050 3400 50  0000 C CNN
-	1    6050 4600
-	1    0    0    -1  
-$EndComp
-Text Label 5250 4600 0    60   ~ 0
-P3V3
-Text Label 5250 4700 0    60   ~ 0
-P5V
-Wire Wire Line
-	5250 4600 5750 4600
-Wire Wire Line
-	5250 4700 5750 4700
-Text Label 6950 4600 2    60   ~ 0
-P3V3_HAT
-Text Label 6950 4700 2    60   ~ 0
-P5V_HAT
-Wire Wire Line
-	6350 4600 6400 4600
-Wire Wire Line
-	6350 4700 6400 4700
-Text Notes 5450 4250 0    60   ~ 0
-FLEXIBLE POWER SELECTION
-Text Label 7150 2400 2    60   ~ 0
-P5V_HAT
-Wire Wire Line
-	6400 2400 6550 2400
-Text Label 5300 2400 0    60   ~ 0
-P5V
-Wire Wire Line
-	5300 2400 5750 2400
-Text Notes 5150 1750 0    118  ~ 24
-5V Powered HAT Protection
-Text Notes 4900 2050 0    60   ~ 0
-This is the recommended 5V rail protection for \na HAT with power going to the Pi.\nSee https://github.com/raspberrypi/hats/blob/master/designguide.md#back-powering-the-pi-via-the-j8-gpio-header
-$Comp
-L raspberrypi_hat:DMG2305UX Q1
-U 1 1 58E14EB1
-P 6150 2400
-F 0 "Q1" V 6300 2550 50  0000 R CNN
-F 1 "DMG2305UX" V 6300 2350 50  0000 R CNN
-F 2 "project_footprints:SOT-23" H 6350 2500 50  0001 C CNN
-F 3 "" H 6150 2400 50  0000 C CNN
-	1    6150 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L raspberrypi_hat:DMMT5401 Q2
-U 1 1 58E1538B
-P 5850 3000
-F 0 "Q2" H 6050 3075 50  0000 L CNN
-F 1 "DMMT5401" H 6050 3000 50  0000 L CNN
-F 2 "project_footprints:SOT-23-6" H 6050 2925 50  0000 L CIN
-F 3 "" H 5850 3000 50  0000 L CNN
-	1    5850 3000
-	-1   0    0    1   
-$EndComp
-$Comp
-L raspberrypi_hat:DMMT5401 Q2
-U 2 1 58E153D6
-P 6450 3000
-F 0 "Q2" H 6650 3075 50  0000 L CNN
-F 1 "DMMT5401" H 6650 3000 50  0000 L CNN
-F 2 "project_footprints:SOT-23-6" H 6650 2925 50  0000 L CIN
-F 3 "" H 6450 3000 50  0000 L CNN
-	2    6450 3000
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R23
-U 1 1 58E15896
-P 5750 3600
-F 0 "R23" V 5830 3600 50  0000 C CNN
-F 1 "22" V 5750 3600 50  0000 C CNN
-F 2 "project_footprints:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 5680 3600 50  0001 C CNN
-F 3 "" H 5750 3600 50  0001 C CNN
-F 4 "Yageo" H -9800 -10750 50  0001 C CNN "MFR"
-F 5 "RC0402JR-0722RL" H -9800 -10750 50  0001 C CNN "MPN"
-F 6 "Digikey" H -9800 -10750 50  0001 C CNN "SPR"
-F 7 "311-22JRCT-ND" H -9800 -10750 50  0001 C CNN "SPN"
-F 8 "" H -9800 -10750 50  0001 C CNN "SPURL"
-	1    5750 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R24
-U 1 1 58E158A1
-P 6550 3600
-F 0 "R24" V 6630 3600 50  0000 C CNN
-F 1 "22" V 6550 3600 50  0000 C CNN
-F 2 "project_footprints:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 6480 3600 50  0001 C CNN
-F 3 "" H 6550 3600 50  0001 C CNN
-F 4 "Yageo" H -9000 -10950 50  0001 C CNN "MFR"
-F 5 "RC0402JR-0722RL" H -9000 -10950 50  0001 C CNN "MPN"
-F 6 "Digikey" H -9000 -10950 50  0001 C CNN "SPR"
-F 7 "311-22JRCT-ND" H -9000 -10950 50  0001 C CNN "SPN"
-F 8 "" H -9000 -10950 50  0001 C CNN "SPURL"
-	1    6550 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01
-U 1 1 58E15A41
-P 5750 3800
-F 0 "#PWR01" H 5750 3550 50  0001 C CNN
-F 1 "GND" H 5750 3650 50  0000 C CNN
-F 2 "" H 5750 3800 50  0000 C CNN
-F 3 "" H 5750 3800 50  0000 C CNN
-	1    5750 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 58E15A9E
-P 6550 3800
-F 0 "#PWR02" H 6550 3550 50  0001 C CNN
-F 1 "GND" H 6550 3650 50  0000 C CNN
-F 2 "" H 6550 3800 50  0000 C CNN
-F 3 "" H 6550 3800 50  0000 C CNN
-	1    6550 3800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 3800 5750 3750
-Wire Wire Line
-	6550 3800 6550 3750
-Wire Wire Line
-	6550 3200 6550 3300
-Wire Wire Line
-	6150 2650 6150 3300
-Wire Wire Line
-	6150 3300 6550 3300
-Connection ~ 6550 3300
-Wire Wire Line
-	5750 3200 5750 3350
-Wire Wire Line
-	6050 3000 6050 3350
-Wire Wire Line
-	5750 3350 6050 3350
-Connection ~ 5750 3350
-Wire Wire Line
-	6250 3350 6250 3000
-Connection ~ 6050 3350
-Wire Wire Line
-	5750 2800 5750 2400
-Connection ~ 5750 2400
-Wire Wire Line
-	6550 2800 6550 2400
-Connection ~ 6550 2400
 $Comp
 L raspberrypi_hat:CAT24C32 U2
 U 1 1 58E1713F
@@ -351,10 +194,6 @@ F 8 "" H -14000 -8100 50  0001 C CNN "SPURL"
 	1    1550 6250
 	-1   0    0    1   
 $EndComp
-Text Label 2400 5350 2    60   ~ 0
-P3V3
-Wire Wire Line
-	2100 5350 2400 5350
 Wire Wire Line
 	2100 5350 2100 5450
 $Comp
@@ -388,60 +227,8 @@ F 3 "" H 1050 6150 50  0000 C CNN
 	1    1050 6150
 	1    0    0    -1  
 $EndComp
-Text Notes 3250 5350 0    60   ~ 0
+Text Notes 3100 5250 0    60   ~ 0
 EEPROM WRITE ENABLE
-$Comp
-L Device:R R7
-U 1 1 58E22085
-P 6100 4300
-F 0 "R7" V 6180 4300 50  0000 C CNN
-F 1 "DNP" V 6100 4300 50  0000 C CNN
-F 2 "project_footprints:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 6030 4300 50  0001 C CNN
-F 3 "" H 6100 4300 50  0001 C CNN
-F 4 "Yageo" H -9450 -10050 50  0001 C CNN "MFR"
-F 5 "RC0402JR-0722RL" H -9450 -10050 50  0001 C CNN "MPN"
-F 6 "Digikey" H -9450 -10050 50  0001 C CNN "SPR"
-F 7 "311-22JRCT-ND" H -9450 -10050 50  0001 C CNN "SPN"
-F 8 "" H -9450 -10050 50  0001 C CNN "SPURL"
-	1    6100 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 58E2218F
-P 6100 4950
-F 0 "R9" V 6180 4950 50  0000 C CNN
-F 1 "DNP" V 6100 4950 50  0000 C CNN
-F 2 "project_footprints:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 6030 4950 50  0001 C CNN
-F 3 "" H 6100 4950 50  0001 C CNN
-F 4 "Yageo" H -9450 -9400 50  0001 C CNN "MFR"
-F 5 "RC0402JR-0722RL" H -9450 -9400 50  0001 C CNN "MPN"
-F 6 "Digikey" H -9450 -9400 50  0001 C CNN "SPR"
-F 7 "311-22JRCT-ND" H -9450 -9400 50  0001 C CNN "SPN"
-F 8 "" H -9450 -9400 50  0001 C CNN "SPURL"
-	1    6100 4950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5750 4700 5750 4950
-Wire Wire Line
-	5750 4950 5950 4950
-Connection ~ 5750 4700
-Wire Wire Line
-	6250 4950 6400 4950
-Wire Wire Line
-	6400 4950 6400 4700
-Connection ~ 6400 4700
-Wire Wire Line
-	6400 4600 6400 4300
-Wire Wire Line
-	6400 4300 6250 4300
-Connection ~ 6400 4600
-Wire Wire Line
-	5950 4300 5750 4300
-Wire Wire Line
-	5750 4300 5750 4600
-Connection ~ 5750 4600
 $Comp
 L Device:R R11
 U 1 1 58E22900
@@ -460,7 +247,7 @@ F 8 "" H -14250 -8250 50  0001 C CNN "SPURL"
 $EndComp
 Text Notes 1550 7050 0    118  ~ 24
 Pullup Resistors
-Text Notes 2000 4800 0    118  ~ 24
+Text Notes 2000 4650 0    118  ~ 24
 HAT EEPROM
 Text Notes 5300 5700 0    118  ~ 24
 Mounting Holes
@@ -520,9 +307,7 @@ Wire Wire Line
 	3200 2250 4400 2250
 Wire Wire Line
 	2700 7650 2700 7400
-Text Notes 7150 4950 0    60   ~ 0
-HAT spec indicates to NEVER\npower the 3.3V pins on the Raspberry Pi \nfrom the HAT header. Only connect the 3.3V\npower from the Pi if the HAT does not have\n3.3V on board.\n\nIF you are designing a board that could\neither be powered by the Pi or from the HAT\nthe jumpers here can be used.\n\nIn most cases, either design the HAT \nto provide the 5V to the Pi and use the\nprotection circuit above OR power the\nHAT from the Pi and directly connect\nthe P3V3 and P5V to the P3V3_HAT and P5V_HAT\npins.
-Text Notes 1200 5200 0    60   ~ 0
+Text Notes 1200 5050 0    60   ~ 0
 The HAT spec requires this EEPROM with system information\nto be in place in order to be called a HAT. It should be set up as write\nprotected (WP pin held high), so it may be desirable to either put a \njumper as shown to enable writing, or to hook up a spare IO pin to do so.
 Text Notes 1100 7250 0    60   ~ 0
 These are just pullup resistors for the I2C bus on the EEPROM.\nThe resistor values are per the HAT spec.
@@ -541,8 +326,6 @@ F 3 "" H 2100 6350 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2100 6250 2100 6350
-Text Label 1800 6550 2    60   ~ 0
-P3V3
 Wire Wire Line
 	1800 6550 1550 6550
 Wire Wire Line
@@ -565,16 +348,6 @@ Connection ~ 1050 6100
 Wire Wire Line
 	950  6000 1550 6000
 Wire Wire Line
-	6550 3300 6550 3450
-Wire Wire Line
-	5750 3350 5750 3450
-Wire Wire Line
-	6050 3350 6250 3350
-Wire Wire Line
-	5750 2400 5900 2400
-Wire Wire Line
-	6550 2400 7150 2400
-Wire Wire Line
 	2150 7650 2200 7650
 Wire Wire Line
 	2150 7400 2200 7400
@@ -582,14 +355,6 @@ Wire Wire Line
 	2700 7400 3150 7400
 Wire Wire Line
 	1300 5750 1300 5850
-Wire Wire Line
-	5750 4700 5850 4700
-Wire Wire Line
-	6400 4700 6950 4700
-Wire Wire Line
-	6400 4600 6950 4600
-Wire Wire Line
-	5750 4600 5850 4600
 Wire Wire Line
 	1300 5650 1600 5650
 Wire Wire Line
@@ -599,57 +364,49 @@ Wire Wire Line
 Wire Wire Line
 	1050 6100 1150 6100
 $Sheet
-S 8550 6400 1000 1500
+S 8150 2750 1000 1500
 U 5C1B036A
 F0 "avr-usb" 50
 F1 "avr-usb.sch" 50
-F2 "BYP_LNA1" O R 9550 6600 50 
-F3 "BYP_LNA1_N" O R 9550 6700 50 
-F4 "BYP_LNA2" O R 9550 6800 50 
-F5 "BYP_LNA2_N" O R 9550 6900 50 
-F6 "SWA_V1" O R 9550 7100 50 
-F7 "SWA_V2" O R 9550 7200 50 
-F8 "SWA_V3" O R 9550 7300 50 
-F9 "SWB_V1" O R 9550 7400 50 
-F10 "SWB_V2" O R 9550 7500 50 
-F11 "SWB_V3" O R 9550 7600 50 
+F2 "BYP_LNA1" O R 9150 2950 50 
+F3 "BYP_LNA2" O R 9150 3150 50 
+F4 "SWA_V1" O R 9150 3450 50 
+F5 "SWA_V2" O R 9150 3550 50 
+F6 "SWA_V3" O R 9150 3650 50 
+F7 "SWB_V1" O R 9150 3750 50 
+F8 "SWB_V2" O R 9150 3850 50 
+F9 "SWB_V3" O R 9150 3950 50 
 $EndSheet
 $Sheet
-S 10650 6400 1000 1500
+S 10250 2750 1000 1500
 U 5C1B2C8B
 F0 "rf-section" 50
 F1 "rf-section.sch" 50
-F2 "BYP_LNA1" I L 10650 6600 50 
-F3 "BYP_LNA1_N" I L 10650 6700 50 
-F4 "SWA_V1" I L 10650 7100 50 
-F5 "SWA_V2" I L 10650 7200 50 
-F6 "SWA_V3" I L 10650 7300 50 
-F7 "SWB_V1" I L 10650 7400 50 
-F8 "SWB_V2" I L 10650 7500 50 
-F9 "SWB_V3" I L 10650 7600 50 
-F10 "BYP_LNA2" I L 10650 6800 50 
-F11 "BYP_LNA2_N" I L 10650 6900 50 
+F2 "BYP_LNA1" I L 10250 2950 50 
+F3 "SWA_V1" I L 10250 3450 50 
+F4 "SWA_V2" I L 10250 3550 50 
+F5 "SWA_V3" I L 10250 3650 50 
+F6 "SWB_V1" I L 10250 3750 50 
+F7 "SWB_V2" I L 10250 3850 50 
+F8 "SWB_V3" I L 10250 3950 50 
+F9 "BYP_LNA2" I L 10250 3150 50 
 $EndSheet
 Wire Wire Line
-	9550 6600 10650 6600
+	9150 2950 10250 2950
 Wire Wire Line
-	9550 6700 10650 6700
+	9150 3150 10250 3150
 Wire Wire Line
-	9550 6800 10650 6800
+	9150 3450 10250 3450
 Wire Wire Line
-	9550 6900 10650 6900
+	9150 3550 10250 3550
 Wire Wire Line
-	9550 7100 10650 7100
+	9150 3650 10250 3650
 Wire Wire Line
-	9550 7200 10650 7200
+	9150 3750 10250 3750
 Wire Wire Line
-	9550 7300 10650 7300
+	9150 3850 10250 3850
 Wire Wire Line
-	9550 7400 10650 7400
-Wire Wire Line
-	9550 7500 10650 7500
-Wire Wire Line
-	9550 7600 10650 7600
+	9150 3950 10250 3950
 NoConn ~ 2000 2350
 NoConn ~ 2000 2450
 NoConn ~ 2000 2550
@@ -678,15 +435,473 @@ NoConn ~ 2000 3850
 NoConn ~ 2000 3750
 NoConn ~ 2000 3650
 $Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 5B839C32
-P 2100 5350
-F 0 "#FLG0101" H 2100 5425 50  0001 C CNN
-F 1 "PWR_FLAG" V 2100 5478 50  0000 L CNN
-F 2 "" H 2100 5350 50  0001 C CNN
-F 3 "~" H 2100 5350 50  0001 C CNN
-	1    2100 5350
+L Diode:B160-E3 D11
+U 1 1 5B970E1C
+P 3750 8350
+F 0 "D11" V 3796 8271 50  0000 R CNN
+F 1 "BAT165" V 3705 8271 50  0000 R CNN
+F 2 "project_footprints:D_SOD-323" H 3750 8175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 3750 8350 50  0001 C CNN
+F 4 "Infineon" H 3750 8350 50  0001 C CNN "Manufacturer"
+F 5 "BAT165E6327HTSA1" H 3750 8350 50  0001 C CNN "Part Number"
+F 6 "SOD-323" H 3750 8350 50  0001 C CNN "Package"
+F 7 "Diode Schottky 40V 750mA (DC) Surface Mount PG-SOD323-2" H 3750 8350 50  0001 C CNN "Description"
+	1    3750 8350
 	0    -1   -1   0   
 $EndComp
-Connection ~ 2100 5350
+$Comp
+L Regulator_Linear:ADP7142AUZJ U?
+U 1 1 5B97D4B2
+P 4700 8650
+AR Path="/5C1B036A/5B97D4B2" Ref="U?"  Part="1" 
+AR Path="/5B97D4B2" Ref="U3"  Part="1" 
+F 0 "U3" H 4700 9017 50  0000 C CNN
+F 1 "TPS73233DBVR" H 4700 8926 50  0000 C CNN
+F 2 "project_footprints:SOT-23-5" H 4700 8250 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps732.pdf" H 4700 8150 50  0001 C CNN
+F 4 "Texas Instruments" H 4700 8650 50  0001 C CNN "Manufacturer"
+F 5 "TPS73233DBVR" H 4700 8650 50  0001 C CNN "Part Number"
+F 6 "SOT-23-5" H 4700 8650 50  0001 C CNN "Package"
+F 7 "IC REG LINEAR 3.3V 250MA SOT23-5" H 4700 8650 50  0001 C CNN "Description"
+F 8 "ADP7142AUJZ-3.3-R7" H 4700 8650 50  0001 C CNN "Alternate Part Number"
+	1    4700 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B97D4BF
+P 3950 8700
+AR Path="/5C1B036A/5B97D4BF" Ref="C?"  Part="1" 
+AR Path="/5B97D4BF" Ref="C2"  Part="1" 
+F 0 "C2" H 3950 8800 50  0000 L CNN
+F 1 "1uF" H 3950 8600 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 3988 8550 50  0001 C CNN
+F 3 "~" H 3950 8700 50  0001 C CNN
+F 4 "Murata" H 3950 8700 50  0001 C CNN "Manufacturer"
+F 5 "GRM153R60J105ME95D" H 3950 8700 50  0001 C CNN "Part Number"
+F 6 "0402" H 3950 8700 50  0001 C CNN "Package"
+F 7 "CAP 1UF 6.3V X5R 0402" H 3950 8700 50  0001 C CNN "Description"
+F 8 "6.3V or greater" H 3950 8700 50  0001 C CNN "Notes"
+F 9 "CL05A105MQ3LNNH" H 3950 8700 50  0001 C CNN "Alternate Part Number"
+	1    3950 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B97D4CC
+P 5500 8700
+AR Path="/5C1B036A/5B97D4CC" Ref="C?"  Part="1" 
+AR Path="/5B97D4CC" Ref="C6"  Part="1" 
+F 0 "C6" H 5500 8800 50  0000 L CNN
+F 1 "1uF" H 5500 8600 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 5538 8550 50  0001 C CNN
+F 3 "~" H 5500 8700 50  0001 C CNN
+F 4 "Murata" H 5500 8700 50  0001 C CNN "Manufacturer"
+F 5 "GRM153R60J105ME95D" H 5500 8700 50  0001 C CNN "Part Number"
+F 6 "0402" H 5500 8700 50  0001 C CNN "Package"
+F 7 "CAP 1UF 6.3V X5R 0402" H 5500 8700 50  0001 C CNN "Description"
+F 8 "6.3V or greater" H 5500 8700 50  0001 C CNN "Notes"
+F 9 "CL05A105MQ3LNNH" H 5500 8700 50  0001 C CNN "Alternate Part Number"
+	1    5500 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B97D4D8
+P 5250 8900
+AR Path="/5C1B036A/5B97D4D8" Ref="C?"  Part="1" 
+AR Path="/5B97D4D8" Ref="C4"  Part="1" 
+F 0 "C4" H 5250 9000 50  0000 L CNN
+F 1 "100nF" H 5250 8800 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 5288 8750 50  0001 C CNN
+F 3 "~" H 5250 8900 50  0001 C CNN
+F 4 "CL05A104MP5NNNC" H 5250 8900 50  0001 C CNN "Part Number"
+F 5 "0402" H 5250 8900 50  0001 C CNN "Package"
+F 6 "CAP CER 0.1UF 10V X5R 0402" H 5250 8900 50  0001 C CNN "Description"
+F 7 "6.3V or greater" H 5250 8900 50  0001 C CNN "Notes"
+F 8 "GRM022R60J104ME15L" H 5250 8900 50  0001 C CNN "Alternate Part Number"
+	1    5250 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B97D4DF
+P 4700 9050
+AR Path="/5C1B036A/5B97D4DF" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D4DF" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 4700 8800 50  0001 C CNN
+F 1 "GND" H 4705 8877 50  0000 C CNN
+F 2 "" H 4700 9050 50  0001 C CNN
+F 3 "" H 4700 9050 50  0001 C CNN
+	1    4700 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 8950 4700 9050
+$Comp
+L power:GND #PWR?
+U 1 1 5B97D4E6
+P 3950 8950
+AR Path="/5C1B036A/5B97D4E6" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D4E6" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 3950 8700 50  0001 C CNN
+F 1 "GND" H 3955 8777 50  0000 C CNN
+F 2 "" H 3950 8950 50  0001 C CNN
+F 3 "" H 3950 8950 50  0001 C CNN
+	1    3950 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B97D4EC
+P 5250 9100
+AR Path="/5C1B036A/5B97D4EC" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D4EC" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 5250 8850 50  0001 C CNN
+F 1 "GND" H 5255 8927 50  0000 C CNN
+F 2 "" H 5250 9100 50  0001 C CNN
+F 3 "" H 5250 9100 50  0001 C CNN
+	1    5250 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B97D4F2
+P 5500 9100
+AR Path="/5C1B036A/5B97D4F2" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D4F2" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 5500 8850 50  0001 C CNN
+F 1 "GND" H 5505 8927 50  0000 C CNN
+F 2 "" H 5500 9100 50  0001 C CNN
+F 3 "" H 5500 9100 50  0001 C CNN
+	1    5500 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 8850 5500 9100
+Wire Wire Line
+	5250 9050 5250 9100
+Wire Wire Line
+	3950 8850 3950 8950
+Wire Wire Line
+	3950 8550 4200 8550
+Wire Wire Line
+	4300 8750 4200 8750
+Wire Wire Line
+	4200 8750 4200 8550
+Connection ~ 4200 8550
+Wire Wire Line
+	4200 8550 4300 8550
+Wire Wire Line
+	5100 8750 5250 8750
+Wire Wire Line
+	5100 8550 5500 8550
+$Comp
+L power:VBUS #PWR?
+U 1 1 5B97D502
+P 3750 8100
+AR Path="/5C1B036A/5B97D502" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D502" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 3750 7950 50  0001 C CNN
+F 1 "VBUS" H 3765 8273 50  0000 C CNN
+F 2 "" H 3750 8100 50  0001 C CNN
+F 3 "" H 3750 8100 50  0001 C CNN
+	1    3750 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 8500 3750 8550
+Wire Wire Line
+	3750 8550 3950 8550
+Connection ~ 3950 8550
+Connection ~ 5500 8550
+$Comp
+L Regulator_Linear:ADP7142AUZJ U?
+U 1 1 5B97D511
+P 4650 10050
+AR Path="/5B782859/5B97D511" Ref="U?"  Part="1" 
+AR Path="/5B7DAEA8/5B97D511" Ref="U?"  Part="1" 
+AR Path="/5C1B036A/5B97D511" Ref="U?"  Part="1" 
+AR Path="/5B97D511" Ref="U1"  Part="1" 
+F 0 "U1" H 4650 10417 50  0000 C CNN
+F 1 "TPS73233DBVR" H 4650 10326 50  0000 C CNN
+F 2 "project_footprints:SOT-23-5" H 4650 9650 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tps732.pdf" H 4650 9550 50  0001 C CNN
+F 4 "Texas Instruments" H 4650 10050 50  0001 C CNN "Manufacturer"
+F 5 "TPS73233DBVR" H 4650 10050 50  0001 C CNN "Part Number"
+F 6 "SOT-23-5" H 4650 10050 50  0001 C CNN "Package"
+F 7 "IC REG LINEAR 3.3V 250MA SOT23-5" H 4650 10050 50  0001 C CNN "Description"
+F 8 "ADP7142AUJZ-3.3-R7" H 4650 10050 50  0001 C CNN "Alternate Part Number"
+	1    4650 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B97D51E
+P 3900 10100
+AR Path="/5B782859/5B97D51E" Ref="C?"  Part="1" 
+AR Path="/5B7DAEA8/5B97D51E" Ref="C?"  Part="1" 
+AR Path="/5C1B036A/5B97D51E" Ref="C?"  Part="1" 
+AR Path="/5B97D51E" Ref="C1"  Part="1" 
+F 0 "C1" H 3900 10200 50  0000 L CNN
+F 1 "1uF" H 3900 10000 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 3938 9950 50  0001 C CNN
+F 3 "~" H 3900 10100 50  0001 C CNN
+F 4 "Murata" H 3900 10100 50  0001 C CNN "Manufacturer"
+F 5 "GRM153R60J105ME95D" H 3900 10100 50  0001 C CNN "Part Number"
+F 6 "0402" H 3900 10100 50  0001 C CNN "Package"
+F 7 "CAP 1UF 6.3V X5R 0402" H 3900 10100 50  0001 C CNN "Description"
+F 8 "6.3V or greater" H 3900 10100 50  0001 C CNN "Notes"
+F 9 "CL05A105MQ3LNNH" H 3900 10100 50  0001 C CNN "Alternate Part Number"
+	1    3900 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B97D52B
+P 5450 10100
+AR Path="/5B782859/5B97D52B" Ref="C?"  Part="1" 
+AR Path="/5B7DAEA8/5B97D52B" Ref="C?"  Part="1" 
+AR Path="/5C1B036A/5B97D52B" Ref="C?"  Part="1" 
+AR Path="/5B97D52B" Ref="C5"  Part="1" 
+F 0 "C5" H 5450 10200 50  0000 L CNN
+F 1 "1uF" H 5450 10000 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 5488 9950 50  0001 C CNN
+F 3 "~" H 5450 10100 50  0001 C CNN
+F 4 "Murata" H 5450 10100 50  0001 C CNN "Manufacturer"
+F 5 "GRM153R60J105ME95D" H 5450 10100 50  0001 C CNN "Part Number"
+F 6 "0402" H 5450 10100 50  0001 C CNN "Package"
+F 7 "CAP 1UF 6.3V X5R 0402" H 5450 10100 50  0001 C CNN "Description"
+F 8 "6.3V or greater" H 5450 10100 50  0001 C CNN "Notes"
+F 9 "CL05A105MQ3LNNH" H 5450 10100 50  0001 C CNN "Alternate Part Number"
+	1    5450 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B97D537
+P 5100 10300
+AR Path="/5B782859/5B97D537" Ref="C?"  Part="1" 
+AR Path="/5B7DAEA8/5B97D537" Ref="C?"  Part="1" 
+AR Path="/5C1B036A/5B97D537" Ref="C?"  Part="1" 
+AR Path="/5B97D537" Ref="C3"  Part="1" 
+F 0 "C3" H 5100 10400 50  0000 L CNN
+F 1 "100nF" H 5100 10200 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 5138 10150 50  0001 C CNN
+F 3 "~" H 5100 10300 50  0001 C CNN
+F 4 "CL05A104MP5NNNC" H 5100 10300 50  0001 C CNN "Part Number"
+F 5 "0402" H 5100 10300 50  0001 C CNN "Package"
+F 6 "CAP CER 0.1UF 10V X5R 0402" H 5100 10300 50  0001 C CNN "Description"
+F 7 "6.3V or greater" H 5100 10300 50  0001 C CNN "Notes"
+F 8 "GRM022R60J104ME15L" H 5100 10300 50  0001 C CNN "Alternate Part Number"
+	1    5100 10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B97D53E
+P 4650 10450
+AR Path="/5B782859/5B97D53E" Ref="#PWR?"  Part="1" 
+AR Path="/5B7DAEA8/5B97D53E" Ref="#PWR?"  Part="1" 
+AR Path="/5C1B036A/5B97D53E" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D53E" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 4650 10200 50  0001 C CNN
+F 1 "GND" H 4655 10277 50  0000 C CNN
+F 2 "" H 4650 10450 50  0001 C CNN
+F 3 "" H 4650 10450 50  0001 C CNN
+	1    4650 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 10350 4650 10450
+$Comp
+L power:GND #PWR?
+U 1 1 5B97D545
+P 3900 10350
+AR Path="/5B782859/5B97D545" Ref="#PWR?"  Part="1" 
+AR Path="/5B7DAEA8/5B97D545" Ref="#PWR?"  Part="1" 
+AR Path="/5C1B036A/5B97D545" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D545" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 3900 10100 50  0001 C CNN
+F 1 "GND" H 3905 10177 50  0000 C CNN
+F 2 "" H 3900 10350 50  0001 C CNN
+F 3 "" H 3900 10350 50  0001 C CNN
+	1    3900 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B97D54B
+P 5100 10500
+AR Path="/5B782859/5B97D54B" Ref="#PWR?"  Part="1" 
+AR Path="/5B7DAEA8/5B97D54B" Ref="#PWR?"  Part="1" 
+AR Path="/5C1B036A/5B97D54B" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D54B" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 5100 10250 50  0001 C CNN
+F 1 "GND" H 5105 10327 50  0000 C CNN
+F 2 "" H 5100 10500 50  0001 C CNN
+F 3 "" H 5100 10500 50  0001 C CNN
+	1    5100 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B97D551
+P 5450 10300
+AR Path="/5B782859/5B97D551" Ref="#PWR?"  Part="1" 
+AR Path="/5B7DAEA8/5B97D551" Ref="#PWR?"  Part="1" 
+AR Path="/5C1B036A/5B97D551" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D551" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 5450 10050 50  0001 C CNN
+F 1 "GND" H 5455 10127 50  0000 C CNN
+F 2 "" H 5450 10300 50  0001 C CNN
+F 3 "" H 5450 10300 50  0001 C CNN
+	1    5450 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 10250 5450 10300
+Wire Wire Line
+	3900 10250 3900 10350
+Wire Wire Line
+	3900 9950 4150 9950
+Wire Wire Line
+	4250 10150 4150 10150
+Wire Wire Line
+	4150 10150 4150 9950
+Connection ~ 4150 9950
+Wire Wire Line
+	4150 9950 4250 9950
+Wire Wire Line
+	5050 10150 5100 10150
+Wire Wire Line
+	5050 9950 5450 9950
+$Comp
+L power:VBUS #PWR?
+U 1 1 5B97D560
+P 3700 9900
+AR Path="/5B782859/5B97D560" Ref="#PWR?"  Part="1" 
+AR Path="/5B7DAEA8/5B97D560" Ref="#PWR?"  Part="1" 
+AR Path="/5C1B036A/5B97D560" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D560" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 3700 9750 50  0001 C CNN
+F 1 "VBUS" H 3715 10073 50  0000 C CNN
+F 2 "" H 3700 9900 50  0001 C CNN
+F 3 "" H 3700 9900 50  0001 C CNN
+	1    3700 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 9900 3700 9950
+Wire Wire Line
+	3700 9950 3900 9950
+Connection ~ 3900 9950
+Connection ~ 5450 9950
+Wire Wire Line
+	5100 10450 5100 10500
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 5B97D56B
+P 6150 9900
+AR Path="/5B7DAEA8/5B97D56B" Ref="#PWR?"  Part="1" 
+AR Path="/5B782859/5B97D56B" Ref="#PWR?"  Part="1" 
+AR Path="/5C1B036A/5B97D56B" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D56B" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 6150 9750 50  0001 C CNN
+F 1 "+3.3VA" H 6165 10073 50  0000 C CNN
+F 2 "" H 6150 9900 50  0001 C CNN
+F 3 "" H 6150 9900 50  0001 C CNN
+	1    6150 9900
+	1    0    0    -1  
+$EndComp
+Text Notes 5900 10150 0    50   ~ 10
+analog\nsupply
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B97D572
+P 6150 8500
+AR Path="/5C1B036A/5B97D572" Ref="#PWR?"  Part="1" 
+AR Path="/5B97D572" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 6150 8350 50  0001 C CNN
+F 1 "+3.3V" H 6165 8673 50  0000 C CNN
+F 2 "" H 6150 8500 50  0001 C CNN
+F 3 "" H 6150 8500 50  0001 C CNN
+	1    6150 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 8500 6150 8550
+Text Notes 5900 8800 0    50   ~ 10
+digital\nsupply
+Wire Wire Line
+	6150 9900 6150 9950
+Wire Wire Line
+	5500 8550 6150 8550
+Wire Wire Line
+	5450 9950 6150 9950
+Wire Wire Line
+	3750 8100 3750 8200
+$Comp
+L Diode:B160-E3 D10
+U 1 1 5B997810
+P 3200 8350
+F 0 "D10" V 3246 8271 50  0000 R CNN
+F 1 "BAT165" V 3155 8271 50  0000 R CNN
+F 2 "project_footprints:D_SOD-323" H 3200 8175 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 3200 8350 50  0001 C CNN
+F 4 "Infineon" H 3200 8350 50  0001 C CNN "Manufacturer"
+F 5 "BAT165E6327HTSA1" H 3200 8350 50  0001 C CNN "Part Number"
+F 6 "SOD-323" H 3200 8350 50  0001 C CNN "Package"
+F 7 "Diode Schottky 40V 750mA (DC) Surface Mount PG-SOD323-2" H 3200 8350 50  0001 C CNN "Description"
+	1    3200 8350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 8500 3200 8550
+Wire Wire Line
+	3200 8550 3750 8550
+Connection ~ 3750 8550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B99AB35
+P 2100 5350
+AR Path="/5C1B036A/5B99AB35" Ref="#PWR?"  Part="1" 
+AR Path="/5B99AB35" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2100 5200 50  0001 C CNN
+F 1 "+3.3V" H 2115 5523 50  0000 C CNN
+F 2 "" H 2100 5350 50  0001 C CNN
+F 3 "" H 2100 5350 50  0001 C CNN
+	1    2100 5350
+	1    0    0    -1  
+$EndComp
+Text Label 2900 8200 2    60   ~ 0
+P5V_HAT
+Wire Wire Line
+	2500 8200 3200 8200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B9A2DED
+P 1800 6550
+AR Path="/5C1B036A/5B9A2DED" Ref="#PWR?"  Part="1" 
+AR Path="/5B9A2DED" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 1800 6400 50  0001 C CNN
+F 1 "+3.3V" H 1815 6723 50  0000 C CNN
+F 2 "" H 1800 6550 50  0001 C CNN
+F 3 "" H 1800 6550 50  0001 C CNN
+	1    1800 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5B9A2E88
+P 3150 7400
+AR Path="/5C1B036A/5B9A2E88" Ref="#PWR?"  Part="1" 
+AR Path="/5B9A2E88" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 3150 7250 50  0001 C CNN
+F 1 "+3.3V" H 3165 7573 50  0000 C CNN
+F 2 "" H 3150 7400 50  0001 C CNN
+F 3 "" H 3150 7400 50  0001 C CNN
+	1    3150 7400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -15,272 +15,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L skyworks:SKY13351-378LF U13
-U 1 1 5B7DBC44
-P 9550 1650
-F 0 "U13" H 9550 2115 50  0000 C CNN
-F 1 "SKY13351-378LF" H 9550 2024 50  0000 C CNN
-F 2 "project_footprints:SKY_QFN6_1x1mm" H 9500 1650 50  0001 C CNN
-F 3 "http://www.skyworksinc.com/uploads/documents/SKY13351_378LF_201132I.pdf" H 9500 1650 50  0001 C CNN
-F 4 "Skyworks" H 9550 1650 50  0001 C CNN "Manufacturer"
-F 5 "SKY13351-378LF" H 9550 1650 50  0001 C CNN "Part Number"
-F 6 "6MLPD" H 9550 1650 50  0001 C CNN "Package"
-F 7 "IC SW SPDT 2.0-6GHZ GAAS 6MLPD" H 9550 1650 50  0001 C CNN "Description"
-	1    9550 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L qorvo:SPF5122Z U11
-U 1 1 5B7DC224
-P 7050 1850
-F 0 "U11" H 7000 2150 50  0000 C CNN
-F 1 "SPF5122Z" H 7150 1500 50  0000 C CNN
-F 2 "project_footprints:DFN-8" H 7050 1850 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/412/pf5122z_data_sheet-781947.pdf" H 7050 1850 50  0001 C CNN
-F 4 "Qorvo" H 7050 1850 50  0001 C CNN "Manufacturer"
-F 5 "SPF5122Z" H 7050 1850 50  0001 C CNN "Part Number"
-F 6 "DFN8" H 7050 1850 50  0001 C CNN "Package"
-F 7 "RF Amplifier .05-4GHz SSG 12.2dB NF .65dB GaAs" H 7050 1850 50  0001 C CNN "Description"
-	1    7050 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR059
-U 1 1 5B7DC2EE
-P 8900 2050
-F 0 "#PWR059" H 8900 1800 50  0001 C CNN
-F 1 "GND" H 8905 1877 50  0000 C CNN
-F 2 "" H 8900 2050 50  0001 C CNN
-F 3 "" H 8900 2050 50  0001 C CNN
-	1    8900 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR055
-U 1 1 5B7DC316
-P 8150 2250
-F 0 "#PWR055" H 8150 2000 50  0001 C CNN
-F 1 "GND" H 8155 2077 50  0000 C CNN
-F 2 "" H 8150 2250 50  0001 C CNN
-F 3 "" H 8150 2250 50  0001 C CNN
-	1    8150 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 1700 8150 1700
-Wire Wire Line
-	8150 1700 8150 2000
-Wire Wire Line
-	8050 2100 8150 2100
-Connection ~ 8150 2100
-Wire Wire Line
-	8150 2100 8150 2250
-Wire Wire Line
-	8050 2000 8150 2000
-Connection ~ 8150 2000
-Wire Wire Line
-	8150 2000 8150 2100
-$Comp
-L power:GND #PWR054
-U 1 1 5B7DC368
-P 6650 2250
-F 0 "#PWR054" H 6650 2000 50  0001 C CNN
-F 1 "GND" H 6655 2077 50  0000 C CNN
-F 2 "" H 6650 2250 50  0001 C CNN
-F 3 "" H 6650 2250 50  0001 C CNN
-	1    6650 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 1700 6650 1700
-Wire Wire Line
-	6650 1700 6650 2000
-Wire Wire Line
-	6750 2000 6650 2000
-Connection ~ 6650 2000
-Wire Wire Line
-	6650 2000 6650 2250
-Wire Wire Line
-	6750 1800 6550 1800
-Wire Wire Line
-	6550 1800 6550 1850
-Wire Wire Line
-	6550 1900 6750 1900
-Wire Wire Line
-	8050 1800 8300 1800
-Wire Wire Line
-	8300 1800 8300 1850
-Wire Wire Line
-	8300 1900 8050 1900
-$Comp
 L power:GND #PWR053
 U 1 1 5B7DCEC2
-P 6000 2050
-F 0 "#PWR053" H 6000 1800 50  0001 C CNN
-F 1 "GND" H 6005 1877 50  0000 C CNN
-F 2 "" H 6000 2050 50  0001 C CNN
-F 3 "" H 6000 2050 50  0001 C CNN
-	1    6000 2050
+P 5500 2250
+F 0 "#PWR053" H 5500 2000 50  0001 C CNN
+F 1 "GND" H 5505 2077 50  0000 C CNN
+F 2 "" H 5500 2250 50  0001 C CNN
+F 3 "" H 5500 2250 50  0001 C CNN
+	1    5500 2250
 	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5850 1650 6000 1650
-Wire Wire Line
-	6000 1650 6000 2050
-Wire Wire Line
-	8400 1850 8300 1850
-Connection ~ 8300 1850
-Wire Wire Line
-	8300 1850 8300 1900
-Wire Wire Line
-	6400 1850 6550 1850
-Connection ~ 6550 1850
-Wire Wire Line
-	6550 1850 6550 1900
-Wire Wire Line
-	6100 1850 5850 1850
-Wire Wire Line
-	8900 1650 8900 2050
-Wire Wire Line
-	9050 1650 8900 1650
-$Comp
-L Device:C C?
-U 1 1 5B7E1582
-P 6250 1850
-AR Path="/5B782859/5B7E1582" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7E1582" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7E1582" Ref="C27"  Part="1" 
-F 0 "C27" V 6100 1800 50  0000 L CNN
-F 1 "100pF" V 6400 1750 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 6288 1700 50  0001 C CNN
-F 3 "~" H 6250 1850 50  0001 C CNN
-F 4 "Murata" H 6250 1850 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 6250 1850 50  0001 C CNN "Part Number"
-F 6 "0402" H 6250 1850 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 6250 1850 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 6250 1850 50  0001 C CNN "Alternate Part Number"
-	1    6250 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5B7E1807
-P 8550 1850
-AR Path="/5B782859/5B7E1807" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7E1807" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7E1807" Ref="C33"  Part="1" 
-F 0 "C33" V 8400 1800 50  0000 L CNN
-F 1 "100pF" V 8700 1750 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 8588 1700 50  0001 C CNN
-F 3 "~" H 8550 1850 50  0001 C CNN
-F 4 "Murata" H 8550 1850 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 8550 1850 50  0001 C CNN "Part Number"
-F 6 "0402" H 8550 1850 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 8550 1850 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 8550 1850 50  0001 C CNN "Alternate Part Number"
-	1    8550 1850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8700 1850 9050 1850
-$Comp
-L Device:C C?
-U 1 1 5B7E2078
-P 7350 1450
-AR Path="/5B782859/5B7E2078" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7E2078" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7E2078" Ref="C31"  Part="1" 
-F 0 "C31" V 7300 1500 50  0000 L CNN
-F 1 "100pF" V 7400 1500 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 7388 1300 50  0001 C CNN
-F 3 "~" H 7350 1450 50  0001 C CNN
-F 4 "Murata" H 7350 1450 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 7350 1450 50  0001 C CNN "Part Number"
-F 6 "0402" H 7350 1450 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 7350 1450 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 7350 1450 50  0001 C CNN "Alternate Part Number"
-	1    7350 1450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7200 1450 5850 1450
-Wire Wire Line
-	7500 1450 9050 1450
-$Comp
-L Device:L L2
-U 1 1 5B7E4BFE
-P 8300 1200
-F 0 "L2" H 8353 1246 50  0000 L CNN
-F 1 "150nH" H 8353 1155 50  0000 L CNN
-F 2 "project_footprints:L_0603" H 8300 1200 50  0001 C CNN
-F 3 "~" H 8300 1200 50  0001 C CNN
-F 4 "Johanson Technology" H 8300 1200 50  0001 C CNN "Manufacturer"
-F 5 "L-14CR15JV4T" H 8300 1200 50  0001 C CNN "Part Number"
-F 6 "0603" H 8300 1200 50  0001 C CNN "Package"
-F 7 "FIXED IND 150NH 300MA 1.4 OHM" H 8300 1200 50  0001 C CNN "Description"
-F 8 "HK1608R15J-T" H 8300 1200 50  0001 C CNN "Alternate Part Number"
-	1    8300 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 1350 8300 1800
-Connection ~ 8300 1800
-$Comp
-L Device:C C?
-U 1 1 5B7E668C
-P 4450 1650
-AR Path="/5B782859/5B7E668C" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7E668C" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7E668C" Ref="C23"  Part="1" 
-F 0 "C23" V 4300 1600 50  0000 L CNN
-F 1 "100pF" V 4600 1550 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 4488 1500 50  0001 C CNN
-F 3 "~" H 4450 1650 50  0001 C CNN
-F 4 "Murata" H 4450 1650 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 4450 1650 50  0001 C CNN "Part Number"
-F 6 "0402" H 4450 1650 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 4450 1650 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 4450 1650 50  0001 C CNN "Alternate Part Number"
-	1    4450 1650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4600 1650 4850 1650
-$Comp
-L Device:C C?
-U 1 1 5B7E6FBD
-P 10400 1650
-AR Path="/5B782859/5B7E6FBD" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7E6FBD" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7E6FBD" Ref="C36"  Part="1" 
-F 0 "C36" V 10250 1600 50  0000 L CNN
-F 1 "100pF" V 10550 1550 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 10438 1500 50  0001 C CNN
-F 3 "~" H 10400 1650 50  0001 C CNN
-F 4 "Murata" H 10400 1650 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 10400 1650 50  0001 C CNN "Part Number"
-F 6 "0402" H 10400 1650 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 10400 1650 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 10400 1650 50  0001 C CNN "Alternate Part Number"
-	1    10400 1650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10050 1650 10250 1650
-$Comp
-L skyworks:SKY13351-378LF U9
-U 1 1 5B7E7B0F
-P 5350 1650
-F 0 "U9" H 5300 1300 50  0000 C CNN
-F 1 "SKY13351-378LF" H 5350 2000 50  0000 C CNN
-F 2 "project_footprints:SKY_QFN6_1x1mm" H 5300 1650 50  0001 C CNN
-F 3 "http://www.skyworksinc.com/uploads/documents/SKY13351_378LF_201132I.pdf" H 5300 1650 50  0001 C CNN
-F 4 "Skyworks" H 5350 1650 50  0001 C CNN "Manufacturer"
-F 5 "SKY13351-378LF" H 5350 1650 50  0001 C CNN "Part Number"
-F 6 "6MLPD" H 5350 1650 50  0001 C CNN "Package"
-F 7 "IC SW SPDT 2.0-6GHZ GAAS 6MLPD" H 5350 1650 50  0001 C CNN "Description"
-	1    5350 1650
-	-1   0    0    1   
 $EndComp
 $Comp
 L skyworks:SKY13414-485LF U12
@@ -300,44 +43,24 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5B7E9173
-P 8500 900
+P 6000 750
 AR Path="/5B782859/5B7E9173" Ref="C?"  Part="1" 
 AR Path="/5B7DAEA8/5B7E9173" Ref="C?"  Part="1" 
 AR Path="/5C1B2C8B/5B7E9173" Ref="C32"  Part="1" 
-F 0 "C32" V 8350 850 50  0000 L CNN
-F 1 "100nF" V 8650 800 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 8538 750 50  0001 C CNN
-F 3 "~" H 8500 900 50  0001 C CNN
-F 4 "CL05A104MP5NNNC" H 8500 900 50  0001 C CNN "Part Number"
-F 5 "0402" H 8500 900 50  0001 C CNN "Package"
-F 6 "CAP CER 0.1UF 10V X5R 0402" H 8500 900 50  0001 C CNN "Description"
-F 7 "6.3V or greater" H 8500 900 50  0001 C CNN "Notes"
-F 8 "GRM022R60J104ME15L" H 8500 900 50  0001 C CNN "Alternate Part Number"
-	1    8500 900 
+F 0 "C32" V 5850 700 50  0000 L CNN
+F 1 "100nF" V 6150 650 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 6038 600 50  0001 C CNN
+F 3 "~" H 6000 750 50  0001 C CNN
+F 4 "CL05A104MP5NNNC" H 6000 750 50  0001 C CNN "Part Number"
+F 5 "0402" H 6000 750 50  0001 C CNN "Package"
+F 6 "CAP CER 0.1UF 10V X5R 0402" H 6000 750 50  0001 C CNN "Description"
+F 7 "6.3V or greater" H 6000 750 50  0001 C CNN "Notes"
+F 8 "GRM022R60J104ME15L" H 6000 750 50  0001 C CNN "Alternate Part Number"
+	1    6000 750 
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B7E9CB7
-P 8800 900
-AR Path="/5B782859/5B7E9CB7" Ref="#PWR?"  Part="1" 
-AR Path="/5B7DAEA8/5B7E9CB7" Ref="#PWR?"  Part="1" 
-AR Path="/5C1B2C8B/5B7E9CB7" Ref="#PWR058"  Part="1" 
-F 0 "#PWR058" H 8800 650 50  0001 C CNN
-F 1 "GND" H 8805 727 50  0000 C CNN
-F 2 "" H 8800 900 50  0001 C CNN
-F 3 "" H 8800 900 50  0001 C CNN
-	1    8800 900 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8350 900  8300 900 
-Wire Wire Line
-	8300 900  8300 1050
-Wire Wire Line
-	8650 900  8800 900 
-Wire Wire Line
-	10650 4100 9900 4100
+	10650 4100 10450 4100
 $Comp
 L power:GND #PWR062
 U 1 1 5B7ECA44
@@ -469,313 +192,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 4500 9450 4750
 $Comp
-L skyworks:SKY13351-378LF U10
-U 1 1 5B7F7D6C
-P 6100 6200
-F 0 "U10" H 6000 6550 50  0000 C CNN
-F 1 "SKY13351-378LF" H 6100 5850 50  0000 C CNN
-F 2 "project_footprints:SKY_QFN6_1x1mm" H 6050 6200 50  0001 C CNN
-F 3 "http://www.skyworksinc.com/uploads/documents/SKY13351_378LF_201132I.pdf" H 6050 6200 50  0001 C CNN
-F 4 "Skyworks" H 6100 6200 50  0001 C CNN "Manufacturer"
-F 5 "SKY13351-378LF" H 6100 6200 50  0001 C CNN "Part Number"
-F 6 "6MLPD" H 6100 6200 50  0001 C CNN "Package"
-F 7 "IC SW SPDT 2.0-6GHZ GAAS 6MLPD" H 6100 6200 50  0001 C CNN "Description"
-	1    6100 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L qorvo:SPF5122Z U8
-U 1 1 5B7F7D77
-P 3600 6400
-F 0 "U8" H 3550 6700 50  0000 C CNN
-F 1 "SPF5122Z" H 3700 6050 50  0000 C CNN
-F 2 "project_footprints:DFN-8" H 3600 6400 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/412/pf5122z_data_sheet-781947.pdf" H 3600 6400 50  0001 C CNN
-F 4 "Qorvo" H 3600 6400 50  0001 C CNN "Manufacturer"
-F 5 "SPF5122Z" H 3600 6400 50  0001 C CNN "Part Number"
-F 6 "DFN8" H 3600 6400 50  0001 C CNN "Package"
-F 7 "RF Amplifier .05-4GHz SSG 12.2dB NF .65dB GaAs" H 3600 6400 50  0001 C CNN "Description"
-	1    3600 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR051
-U 1 1 5B7F7D7E
-P 5450 6600
-F 0 "#PWR051" H 5450 6350 50  0001 C CNN
-F 1 "GND" H 5455 6427 50  0000 C CNN
-F 2 "" H 5450 6600 50  0001 C CNN
-F 3 "" H 5450 6600 50  0001 C CNN
-	1    5450 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR047
-U 1 1 5B7F7D84
-P 4700 6800
-F 0 "#PWR047" H 4700 6550 50  0001 C CNN
-F 1 "GND" H 4705 6627 50  0000 C CNN
-F 2 "" H 4700 6800 50  0001 C CNN
-F 3 "" H 4700 6800 50  0001 C CNN
-	1    4700 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 6250 4700 6250
-Wire Wire Line
-	4700 6250 4700 6550
-Wire Wire Line
-	4600 6650 4700 6650
-Connection ~ 4700 6650
-Wire Wire Line
-	4700 6650 4700 6800
-Wire Wire Line
-	4600 6550 4700 6550
-Connection ~ 4700 6550
-Wire Wire Line
-	4700 6550 4700 6650
-$Comp
-L power:GND #PWR042
-U 1 1 5B7F7D92
-P 3200 6800
-F 0 "#PWR042" H 3200 6550 50  0001 C CNN
-F 1 "GND" H 3205 6627 50  0000 C CNN
-F 2 "" H 3200 6800 50  0001 C CNN
-F 3 "" H 3200 6800 50  0001 C CNN
-	1    3200 6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 6250 3200 6250
-Wire Wire Line
-	3200 6250 3200 6550
-Wire Wire Line
-	3300 6550 3200 6550
-Connection ~ 3200 6550
-Wire Wire Line
-	3200 6550 3200 6800
-Wire Wire Line
-	3300 6350 3100 6350
-Wire Wire Line
-	3100 6350 3100 6400
-Wire Wire Line
-	3100 6450 3300 6450
-Wire Wire Line
-	4600 6350 4850 6350
-Wire Wire Line
-	4850 6350 4850 6400
-Wire Wire Line
-	4850 6450 4600 6450
-$Comp
-L power:GND #PWR039
-U 1 1 5B7F7DA3
-P 2550 6600
-F 0 "#PWR039" H 2550 6350 50  0001 C CNN
-F 1 "GND" H 2555 6427 50  0000 C CNN
-F 2 "" H 2550 6600 50  0001 C CNN
-F 3 "" H 2550 6600 50  0001 C CNN
-	1    2550 6600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2400 6200 2550 6200
-Wire Wire Line
-	2550 6200 2550 6600
-Wire Wire Line
-	4950 6400 4850 6400
-Connection ~ 4850 6400
-Wire Wire Line
-	4850 6400 4850 6450
-Wire Wire Line
-	2950 6400 3100 6400
-Connection ~ 3100 6400
-Wire Wire Line
-	3100 6400 3100 6450
-Wire Wire Line
-	2650 6400 2400 6400
-Wire Wire Line
-	5450 6200 5450 6600
-Wire Wire Line
-	5600 6200 5450 6200
-$Comp
-L Device:C C?
-U 1 1 5B7F7E20
-P 2800 6400
-AR Path="/5B782859/5B7F7E20" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7F7E20" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7F7E20" Ref="C19"  Part="1" 
-F 0 "C19" V 2650 6350 50  0000 L CNN
-F 1 "100pF" V 2950 6300 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 2838 6250 50  0001 C CNN
-F 3 "~" H 2800 6400 50  0001 C CNN
-F 4 "Murata" H 2800 6400 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 2800 6400 50  0001 C CNN "Part Number"
-F 6 "0402" H 2800 6400 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 2800 6400 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 2800 6400 50  0001 C CNN "Alternate Part Number"
-	1    2800 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5B7F7E2C
-P 5100 6400
-AR Path="/5B782859/5B7F7E2C" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7F7E2C" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7F7E2C" Ref="C25"  Part="1" 
-F 0 "C25" V 4950 6350 50  0000 L CNN
-F 1 "100pF" V 5250 6300 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 5138 6250 50  0001 C CNN
-F 3 "~" H 5100 6400 50  0001 C CNN
-F 4 "Murata" H 5100 6400 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 5100 6400 50  0001 C CNN "Part Number"
-F 6 "0402" H 5100 6400 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 5100 6400 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 5100 6400 50  0001 C CNN "Alternate Part Number"
-	1    5100 6400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5250 6400 5600 6400
-$Comp
-L Device:C C?
-U 1 1 5B7F7E39
-P 3900 6000
-AR Path="/5B782859/5B7F7E39" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7F7E39" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7F7E39" Ref="C21"  Part="1" 
-F 0 "C21" V 3850 6050 50  0000 L CNN
-F 1 "100pF" V 3950 6050 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 3938 5850 50  0001 C CNN
-F 3 "~" H 3900 6000 50  0001 C CNN
-F 4 "Murata" H 3900 6000 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 3900 6000 50  0001 C CNN "Part Number"
-F 6 "0402" H 3900 6000 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 3900 6000 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 3900 6000 50  0001 C CNN "Alternate Part Number"
-	1    3900 6000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3750 6000 2400 6000
-Wire Wire Line
-	4050 6000 5600 6000
-$Comp
-L Device:L L1
-U 1 1 5B7F7E47
-P 4850 5750
-F 0 "L1" H 4903 5796 50  0000 L CNN
-F 1 "150nH" H 4903 5705 50  0000 L CNN
-F 2 "project_footprints:L_0603" H 4850 5750 50  0001 C CNN
-F 3 "~" H 4850 5750 50  0001 C CNN
-F 4 "Johanson Technology" H 4850 5750 50  0001 C CNN "Manufacturer"
-F 5 "L-14CR15JV4T" H 4850 5750 50  0001 C CNN "Part Number"
-F 6 "0603" H 4850 5750 50  0001 C CNN "Package"
-F 7 "FIXED IND 150NH 300MA 1.4 OHM" H 4850 5750 50  0001 C CNN "Description"
-F 8 "HK1608R15J-T" H 4850 5750 50  0001 C CNN "Alternate Part Number"
-	1    4850 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 5900 4850 6350
-Connection ~ 4850 6350
-$Comp
-L Device:C C?
-U 1 1 5B7F7E57
-P 1000 6200
-AR Path="/5B782859/5B7F7E57" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7F7E57" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7F7E57" Ref="C15"  Part="1" 
-F 0 "C15" V 850 6150 50  0000 L CNN
-F 1 "100pF" V 1150 6100 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 1038 6050 50  0001 C CNN
-F 3 "~" H 1000 6200 50  0001 C CNN
-F 4 "Murata" H 1000 6200 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 1000 6200 50  0001 C CNN "Part Number"
-F 6 "0402" H 1000 6200 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 1000 6200 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 1000 6200 50  0001 C CNN "Alternate Part Number"
-	1    1000 6200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1150 6200 1400 6200
-$Comp
-L Device:C C?
-U 1 1 5B7F7E64
-P 6950 6200
-AR Path="/5B782859/5B7F7E64" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7F7E64" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7F7E64" Ref="C30"  Part="1" 
-F 0 "C30" V 6800 6150 50  0000 L CNN
-F 1 "100pF" V 7100 6100 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 6988 6050 50  0001 C CNN
-F 3 "~" H 6950 6200 50  0001 C CNN
-F 4 "Murata" H 6950 6200 50  0001 C CNN "Manufacturer"
-F 5 "GRM0225C1E101GA02L" H 6950 6200 50  0001 C CNN "Part Number"
-F 6 "0402" H 6950 6200 50  0001 C CNN "Package"
-F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 6950 6200 50  0001 C CNN "Description"
-F 8 "500X07N101MV4T" H 6950 6200 50  0001 C CNN "Alternate Part Number"
-	1    6950 6200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6600 6200 6800 6200
-$Comp
-L skyworks:SKY13351-378LF U7
-U 1 1 5B7F7E70
-P 1900 6200
-F 0 "U7" H 1900 5850 50  0000 C CNN
-F 1 "SKY13351-378LF" H 1900 6550 50  0000 C CNN
-F 2 "project_footprints:SKY_QFN6_1x1mm" H 1850 6200 50  0001 C CNN
-F 3 "http://www.skyworksinc.com/uploads/documents/SKY13351_378LF_201132I.pdf" H 1850 6200 50  0001 C CNN
-F 4 "Skyworks" H 1900 6200 50  0001 C CNN "Manufacturer"
-F 5 "SKY13351-378LF" H 1900 6200 50  0001 C CNN "Part Number"
-F 6 "6MLPD" H 1900 6200 50  0001 C CNN "Package"
-F 7 "IC SW SPDT 2.0-6GHZ GAAS 6MLPD" H 1900 6200 50  0001 C CNN "Description"
-	1    1900 6200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5B7F7E7C
-P 5050 5450
-AR Path="/5B782859/5B7F7E7C" Ref="C?"  Part="1" 
-AR Path="/5B7DAEA8/5B7F7E7C" Ref="C?"  Part="1" 
-AR Path="/5C1B2C8B/5B7F7E7C" Ref="C24"  Part="1" 
-F 0 "C24" V 4900 5400 50  0000 L CNN
-F 1 "100nF" V 5200 5350 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 5088 5300 50  0001 C CNN
-F 3 "~" H 5050 5450 50  0001 C CNN
-F 4 "CL05A104MP5NNNC" H 5050 5450 50  0001 C CNN "Part Number"
-F 5 "0402" H 5050 5450 50  0001 C CNN "Package"
-F 6 "CAP CER 0.1UF 10V X5R 0402" H 5050 5450 50  0001 C CNN "Description"
-F 7 "6.3V or greater" H 5050 5450 50  0001 C CNN "Notes"
-F 8 "GRM022R60J104ME15L" H 5050 5450 50  0001 C CNN "Alternate Part Number"
-	1    5050 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5B7F7E83
-P 5350 5450
-AR Path="/5B782859/5B7F7E83" Ref="#PWR?"  Part="1" 
-AR Path="/5B7DAEA8/5B7F7E83" Ref="#PWR?"  Part="1" 
-AR Path="/5C1B2C8B/5B7F7E83" Ref="#PWR050"  Part="1" 
-F 0 "#PWR050" H 5350 5200 50  0001 C CNN
-F 1 "GND" H 5355 5277 50  0000 C CNN
-F 2 "" H 5350 5450 50  0001 C CNN
-F 3 "" H 5350 5450 50  0001 C CNN
-	1    5350 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 5450 4850 5450
-Wire Wire Line
-	4850 5450 4850 5600
-Wire Wire Line
-	5200 5450 5350 5450
-$Comp
 L skyworks:SKY13414-485LF U6
 U 1 1 5B80ED56
 P 1550 3450
@@ -898,22 +314,6 @@ Wire Wire Line
 	1450 2950 1450 2550
 Wire Wire Line
 	1450 2550 1750 2550
-$Comp
-L power:+3.3VA #PWR056
-U 1 1 5B854268
-P 8300 800
-F 0 "#PWR056" H 8300 650 50  0001 C CNN
-F 1 "+3.3VA" H 8315 973 50  0000 C CNN
-F 2 "" H 8300 800 50  0001 C CNN
-F 3 "" H 8300 800 50  0001 C CNN
-	1    8300 800 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 800  8300 900 
-Connection ~ 8300 900 
-Wire Wire Line
-	10550 1650 10650 1650
 Wire Wire Line
 	1350 3800 900  3800
 Wire Wire Line
@@ -936,22 +336,6 @@ Wire Wire Line
 Connection ~ 900  3800
 Wire Wire Line
 	1000 3350 700  3350
-Wire Wire Line
-	700  6200 850  6200
-$Comp
-L power:+3.3VA #PWR048
-U 1 1 5B86F92D
-P 4850 5350
-F 0 "#PWR048" H 4850 5200 50  0001 C CNN
-F 1 "+3.3VA" H 4865 5523 50  0000 C CNN
-F 2 "" H 4850 5350 50  0001 C CNN
-F 3 "" H 4850 5350 50  0001 C CNN
-	1    4850 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 5350 4850 5450
-Connection ~ 4850 5450
 $Comp
 L Device:C C?
 U 1 1 5B87596F
@@ -1055,65 +439,63 @@ Connection ~ 2200 3900
 Wire Wire Line
 	2200 3900 2250 3900
 Wire Wire Line
-	700  3350 700  6200
-Wire Wire Line
-	10650 1650 10650 4100
+	700  3350 700  6750
 $Comp
 L nxp:TVS-2-pin D?
 U 1 1 5B915CC7
-P 4050 1850
+P 3950 1950
 AR Path="/5B782859/5B915CC7" Ref="D?"  Part="1" 
 AR Path="/5B7DAEA8/5B915CC7" Ref="D?"  Part="1" 
 AR Path="/5C1B2C8B/5B915CC7" Ref="D7"  Part="1" 
-F 0 "D7" V 4150 1800 60  0000 L CNN
-F 1 "ESD8472MUT5G" V 3900 1350 60  0000 L CNN
-F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 4050 1850 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 4050 1850 60  0001 C CNN
-F 4 "ON Semiconductor" H 4050 1850 50  0001 C CNN "Manufacturer"
-F 5 "ESD8472MUT5G" H 4050 1850 50  0001 C CNN "Part Number"
-F 6 "0201 (0603 Metric)" H 4050 1850 50  0001 C CNN "Package"
-F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 4050 1850 50  0001 C CNN "Description"
-	1    4050 1850
+F 0 "D7" V 4050 1900 60  0000 L CNN
+F 1 "ESD8472MUT5G" V 3800 1450 60  0000 L CNN
+F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 3950 1950 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 3950 1950 60  0001 C CNN
+F 4 "ON Semiconductor" H 3950 1950 50  0001 C CNN "Manufacturer"
+F 5 "ESD8472MUT5G" H 3950 1950 50  0001 C CNN "Part Number"
+F 6 "0201 (0603 Metric)" H 3950 1950 50  0001 C CNN "Package"
+F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 3950 1950 50  0001 C CNN "Description"
+	1    3950 1950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR043
 U 1 1 5B91D76E
-P 3800 2050
-F 0 "#PWR043" H 3800 1800 50  0001 C CNN
-F 1 "GND" H 3805 1877 50  0000 C CNN
-F 2 "" H 3800 2050 50  0001 C CNN
-F 3 "" H 3800 2050 50  0001 C CNN
-	1    3800 2050
+P 3700 2150
+F 0 "#PWR043" H 3700 1900 50  0001 C CNN
+F 1 "GND" H 3705 1977 50  0000 C CNN
+F 2 "" H 3700 2150 50  0001 C CNN
+F 3 "" H 3700 2150 50  0001 C CNN
+	1    3700 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR057
 U 1 1 5B95A466
-P 8400 6300
-F 0 "#PWR057" H 8400 6050 50  0001 C CNN
-F 1 "GND" H 8405 6127 50  0000 C CNN
-F 2 "" H 8400 6300 50  0001 C CNN
-F 3 "" H 8400 6300 50  0001 C CNN
-	1    8400 6300
+P 4650 7000
+F 0 "#PWR057" H 4650 6750 50  0001 C CNN
+F 1 "GND" H 4655 6827 50  0000 C CNN
+F 2 "" H 4650 7000 50  0001 C CNN
+F 3 "" H 4650 7000 50  0001 C CNN
+	1    4650 7000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L nxp:TVS-2-pin D?
 U 1 1 5B9767C9
-P 8000 6200
+P 4250 6900
 AR Path="/5B782859/5B9767C9" Ref="D?"  Part="1" 
 AR Path="/5B7DAEA8/5B9767C9" Ref="D?"  Part="1" 
 AR Path="/5C1B2C8B/5B9767C9" Ref="D8"  Part="1" 
-F 0 "D8" V 7900 6150 60  0000 L CNN
-F 1 "ESD8472MUT5G" V 8100 5850 60  0000 L CNN
-F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 8000 6200 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 8000 6200 60  0001 C CNN
-F 4 "ON Semiconductor" H 8000 6200 50  0001 C CNN "Manufacturer"
-F 5 "ESD8472MUT5G" H 8000 6200 50  0001 C CNN "Part Number"
-F 6 "0201 (0603 Metric)" H 8000 6200 50  0001 C CNN "Package"
-F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 8000 6200 50  0001 C CNN "Description"
-	1    8000 6200
+F 0 "D8" V 4150 6850 60  0000 L CNN
+F 1 "ESD8472MUT5G" V 4350 6550 60  0000 L CNN
+F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 4250 6900 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 4250 6900 60  0001 C CNN
+F 4 "ON Semiconductor" H 4250 6900 50  0001 C CNN "Manufacturer"
+F 5 "ESD8472MUT5G" H 4250 6900 50  0001 C CNN "Part Number"
+F 6 "0201 (0603 Metric)" H 4250 6900 50  0001 C CNN "Package"
+F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 4250 6900 50  0001 C CNN "Description"
+	1    4250 6900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1203,25 +585,19 @@ Connection ~ 1950 1950
 Wire Wire Line
 	1950 1950 1350 1950
 Wire Wire Line
-	8400 6050 7800 6050
+	4650 6750 4050 6750
+Connection ~ 4050 6750
 Wire Wire Line
-	7700 6050 7700 6200
+	3700 1750 4150 1750
 Wire Wire Line
-	7700 6200 7100 6200
-Connection ~ 7800 6050
+	3750 1950 3700 1950
 Wire Wire Line
-	7800 6050 7700 6050
+	3700 1950 3700 2150
 Wire Wire Line
-	3800 1650 4250 1650
+	4150 1950 4150 1750
+Connection ~ 4150 1750
 Wire Wire Line
-	3850 1850 3800 1850
-Wire Wire Line
-	3800 1850 3800 2050
-Wire Wire Line
-	4250 1850 4250 1650
-Connection ~ 4250 1650
-Wire Wire Line
-	4250 1650 4300 1650
+	4150 1750 4200 1750
 $Comp
 L Device:R R?
 U 1 1 5BA19EF0
@@ -1370,230 +746,33 @@ Wire Wire Line
 	8750 3950 8900 3950
 $Comp
 L Device:R R?
-U 1 1 5BAC5C86
-P 4850 2050
-AR Path="/5B782859/5BAC5C86" Ref="R?"  Part="1" 
-AR Path="/5B7DAEA8/5BAC5C86" Ref="R?"  Part="1" 
-AR Path="/5C1B2C8B/5BAC5C86" Ref="R18"  Part="1" 
-F 0 "R18" H 4650 2100 50  0000 L CNN
-F 1 "100" V 4850 2000 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 4780 2050 50  0001 C CNN
-F 3 "~" H 4850 2050 50  0001 C CNN
-F 4 "Panasonic" H 4850 2050 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1001X" H 4850 2050 50  0001 C CNN "Part Number"
-F 6 "0402" H 4850 2050 50  0001 C CNN "Package"
-F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 4850 2050 50  0001 C CNN "Description"
-F 8 "RT0402FRE071KL" H 4850 2050 50  0001 C CNN "Alternate Part Number"
-	1    4850 2050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4850 1850 4850 1900
-$Comp
-L Device:R R?
 U 1 1 5BADC549
-P 4850 1200
+P 4850 1400
 AR Path="/5B782859/5BADC549" Ref="R?"  Part="1" 
 AR Path="/5B7DAEA8/5BADC549" Ref="R?"  Part="1" 
 AR Path="/5C1B2C8B/5BADC549" Ref="R17"  Part="1" 
-F 0 "R17" H 4650 1250 50  0000 L CNN
-F 1 "100" V 4850 1150 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 4780 1200 50  0001 C CNN
-F 3 "~" H 4850 1200 50  0001 C CNN
-F 4 "Panasonic" H 4850 1200 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1001X" H 4850 1200 50  0001 C CNN "Part Number"
-F 6 "0402" H 4850 1200 50  0001 C CNN "Package"
-F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 4850 1200 50  0001 C CNN "Description"
-F 8 "RT0402FRE071KL" H 4850 1200 50  0001 C CNN "Alternate Part Number"
-	1    4850 1200
-	-1   0    0    1   
+F 0 "R17" H 4650 1450 50  0000 L CNN
+F 1 "100" V 4850 1350 50  0000 L CNN
+F 2 "project_footprints:R_0402" V 4780 1400 50  0001 C CNN
+F 3 "~" H 4850 1400 50  0001 C CNN
+F 4 "Panasonic" H 4850 1400 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1001X" H 4850 1400 50  0001 C CNN "Part Number"
+F 6 "0402" H 4850 1400 50  0001 C CNN "Package"
+F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 4850 1400 50  0001 C CNN "Description"
+F 8 "RT0402FRE071KL" H 4850 1400 50  0001 C CNN "Alternate Part Number"
+	1    4850 1400
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 1350 4850 1450
-Wire Wire Line
-	1800 700  1300 700 
-Wire Wire Line
-	1800 850  1300 850 
-Text Label 1350 700  0    50   ~ 0
+	4850 1250 4350 1250
+Text Label 4400 1250 0    50   ~ 0
 BYP_LNA1
-Text Label 1350 850  0    50   ~ 0
-BYP_LNA1_N
-Text Label 5100 1050 0    50   ~ 0
-BYP_LNA1
-Text Label 5050 2200 0    50   ~ 0
-BYP_LNA1_N
-$Comp
-L Device:R R?
-U 1 1 5BB2DB92
-P 10100 2000
-AR Path="/5B782859/5BB2DB92" Ref="R?"  Part="1" 
-AR Path="/5B7DAEA8/5BB2DB92" Ref="R?"  Part="1" 
-AR Path="/5C1B2C8B/5BB2DB92" Ref="R27"  Part="1" 
-F 0 "R27" H 9900 2050 50  0000 L CNN
-F 1 "100" V 10100 1950 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 10030 2000 50  0001 C CNN
-F 3 "~" H 10100 2000 50  0001 C CNN
-F 4 "Panasonic" H 10100 2000 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1001X" H 10100 2000 50  0001 C CNN "Part Number"
-F 6 "0402" H 10100 2000 50  0001 C CNN "Package"
-F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 10100 2000 50  0001 C CNN "Description"
-F 8 "RT0402FRE071KL" H 10100 2000 50  0001 C CNN "Alternate Part Number"
-	1    10100 2000
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	10100 1850 10050 1850
-Wire Wire Line
-	9200 2150 10100 2150
-$Comp
-L Device:R R?
-U 1 1 5BB45A8B
-P 10100 1200
-AR Path="/5B782859/5BB45A8B" Ref="R?"  Part="1" 
-AR Path="/5B7DAEA8/5BB45A8B" Ref="R?"  Part="1" 
-AR Path="/5C1B2C8B/5BB45A8B" Ref="R26"  Part="1" 
-F 0 "R26" H 9900 1250 50  0000 L CNN
-F 1 "100" V 10100 1150 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 10030 1200 50  0001 C CNN
-F 3 "~" H 10100 1200 50  0001 C CNN
-F 4 "Panasonic" H 10100 1200 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1001X" H 10100 1200 50  0001 C CNN "Part Number"
-F 6 "0402" H 10100 1200 50  0001 C CNN "Package"
-F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 10100 1200 50  0001 C CNN "Description"
-F 8 "RT0402FRE071KL" H 10100 1200 50  0001 C CNN "Alternate Part Number"
-	1    10100 1200
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10100 1350 10100 1450
-Wire Wire Line
-	10100 1450 10050 1450
-Wire Wire Line
-	9250 1050 10100 1050
-Text Label 9400 1050 0    50   ~ 0
-BYP_LNA1
-Text Label 9350 2150 0    50   ~ 0
-BYP_LNA1_N
-Wire Wire Line
-	5650 2200 4850 2200
-Wire Wire Line
-	5650 1050 4850 1050
-$Comp
-L Device:R R?
-U 1 1 5BB832EC
-P 1300 6700
-AR Path="/5B782859/5BB832EC" Ref="R?"  Part="1" 
-AR Path="/5B7DAEA8/5BB832EC" Ref="R?"  Part="1" 
-AR Path="/5C1B2C8B/5BB832EC" Ref="R13"  Part="1" 
-F 0 "R13" H 1100 6750 50  0000 L CNN
-F 1 "100" V 1300 6650 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 1230 6700 50  0001 C CNN
-F 3 "~" H 1300 6700 50  0001 C CNN
-F 4 "Panasonic" H 1300 6700 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1001X" H 1300 6700 50  0001 C CNN "Part Number"
-F 6 "0402" H 1300 6700 50  0001 C CNN "Package"
-F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 1300 6700 50  0001 C CNN "Description"
-F 8 "RT0402FRE071KL" H 1300 6700 50  0001 C CNN "Alternate Part Number"
-	1    1300 6700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5BB8358D
-P 1250 5750
-AR Path="/5B782859/5BB8358D" Ref="R?"  Part="1" 
-AR Path="/5B7DAEA8/5BB8358D" Ref="R?"  Part="1" 
-AR Path="/5C1B2C8B/5BB8358D" Ref="R12"  Part="1" 
-F 0 "R12" H 1050 5800 50  0000 L CNN
-F 1 "100" V 1250 5700 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 1180 5750 50  0001 C CNN
-F 3 "~" H 1250 5750 50  0001 C CNN
-F 4 "Panasonic" H 1250 5750 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1001X" H 1250 5750 50  0001 C CNN "Part Number"
-F 6 "0402" H 1250 5750 50  0001 C CNN "Package"
-F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 1250 5750 50  0001 C CNN "Description"
-F 8 "RT0402FRE071KL" H 1250 5750 50  0001 C CNN "Alternate Part Number"
-	1    1250 5750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2250 6850 1300 6850
-Wire Wire Line
-	1250 5900 1250 6000
-Wire Wire Line
-	1250 6000 1400 6000
-Wire Wire Line
-	1400 6400 1300 6400
-Wire Wire Line
-	1300 6400 1300 6550
-Wire Wire Line
-	2200 5600 1250 5600
-Wire Wire Line
-	1900 7350 1400 7350
-Wire Wire Line
-	1900 7500 1400 7500
-Text Label 1450 7350 0    50   ~ 0
+	2100 6250 1600 6250
+Text Label 1650 6250 0    50   ~ 0
 BYP_LNA2
-Text Label 1450 7500 0    50   ~ 0
-BYP_LNA2_N
-Text Label 1700 6850 0    50   ~ 0
-BYP_LNA2_N
-Text Label 1700 5600 0    50   ~ 0
-BYP_LNA2
-$Comp
-L Device:R R?
-U 1 1 5BBEAAF5
-P 6600 5700
-AR Path="/5B782859/5BBEAAF5" Ref="R?"  Part="1" 
-AR Path="/5B7DAEA8/5BBEAAF5" Ref="R?"  Part="1" 
-AR Path="/5C1B2C8B/5BBEAAF5" Ref="R19"  Part="1" 
-F 0 "R19" H 6400 5800 50  0000 L CNN
-F 1 "100" V 6600 5650 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 6530 5700 50  0001 C CNN
-F 3 "~" H 6600 5700 50  0001 C CNN
-F 4 "Panasonic" H 6600 5700 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1001X" H 6600 5700 50  0001 C CNN "Part Number"
-F 6 "0402" H 6600 5700 50  0001 C CNN "Package"
-F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 6600 5700 50  0001 C CNN "Description"
-F 8 "RT0402FRE071KL" H 6600 5700 50  0001 C CNN "Alternate Part Number"
-	1    6600 5700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5BBEABDB
-P 6600 6700
-AR Path="/5B782859/5BBEABDB" Ref="R?"  Part="1" 
-AR Path="/5B7DAEA8/5BBEABDB" Ref="R?"  Part="1" 
-AR Path="/5C1B2C8B/5BBEABDB" Ref="R20"  Part="1" 
-F 0 "R20" H 6400 6750 50  0000 L CNN
-F 1 "100" V 6600 6650 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 6530 6700 50  0001 C CNN
-F 3 "~" H 6600 6700 50  0001 C CNN
-F 4 "Panasonic" H 6600 6700 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1001X" H 6600 6700 50  0001 C CNN "Part Number"
-F 6 "0402" H 6600 6700 50  0001 C CNN "Package"
-F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 6600 6700 50  0001 C CNN "Description"
-F 8 "RT0402FRE071KL" H 6600 6700 50  0001 C CNN "Alternate Part Number"
-	1    6600 6700
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6600 6000 6600 5850
-Wire Wire Line
-	6600 6400 6600 6550
-Wire Wire Line
-	5800 5550 6600 5550
-Wire Wire Line
-	5800 6850 6600 6850
-Text Label 5900 6850 0    50   ~ 0
-BYP_LNA2_N
-Text Label 5950 5550 0    50   ~ 0
-BYP_LNA2
-Text HLabel 1300 700  0    50   Input ~ 0
+Text HLabel 4350 1250 0    50   Input ~ 0
 BYP_LNA1
-Text HLabel 1300 850  0    50   Input ~ 0
-BYP_LNA1_N
 Text HLabel 3000 3200 2    50   Input ~ 0
 SWA_V1
 Text HLabel 3000 3350 2    50   Input ~ 0
@@ -1606,10 +785,8 @@ Text HLabel 8100 4000 0    50   Input ~ 0
 SWB_V2
 Text HLabel 8100 3850 0    50   Input ~ 0
 SWB_V3
-Text HLabel 1400 7350 0    50   Input ~ 0
+Text HLabel 1600 6250 0    50   Input ~ 0
 BYP_LNA2
-Text HLabel 1400 7500 0    50   Input ~ 0
-BYP_LNA2_N
 $Comp
 L murata:SAW_3X3mm FL2
 U 1 1 5BD7AFCE
@@ -1621,7 +798,7 @@ F 3 "https://wireless.murata.com/RFM/data/sf2250e.pdf" H 4800 4350 200 0001 C CN
 F 4 "Murata" H 4800 4350 50  0001 C CNN "Manufacturer"
 F 5 "SF2250E" H 4800 4350 50  0001 C CNN "Part Number"
 F 6 "SAW 3x3mm" H 4800 4350 50  0001 C CNN "Package"
-F 7 "FILTER SAW 1.615GHZ 6SMD" H 4800 4300 50  0000 C CNN "Description"
+F 7 "FILTER SAW FC=1615MHZ BW=20MHz 6SMD" H 4800 4300 50  0000 C CNN "Description"
 	1    4800 4350
 	1    0    0    -1  
 $EndComp
@@ -1638,21 +815,6 @@ F 5 "SF2098E" H 3450 5050 50  0001 C CNN "Part Number"
 F 6 "SAW 3x3mm" H 3450 5050 50  0001 C CNN "Package"
 F 7 "FILTER SAW 915MHZ 6SMD" H 3450 5000 50  0000 C CNN "Description"
 	1    3450 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L murata:SAW_3X3mm FL3
-U 1 1 5BD95323
-P 5150 2950
-F 0 "FL3" H 4950 3400 50  0000 C CNN
-F 1 "TA1090EC" H 5050 3300 50  0000 C CNN
-F 2 "project_footprints:SAW_3.8X3.8MM" H 5150 2950 200 0001 C CNN
-F 3 "https://www.rfmw.com/datasheets/tai-saw/TA1090EC%20_Rev.3.0_.pdf" H 5150 2950 200 0001 C CNN
-F 4 "TAI-SAW" H 5150 2950 50  0001 C CNN "Manufacturer"
-F 5 "TA1090EC" H 5150 2950 50  0001 C CNN "Part Number"
-F 6 "SAW 3.8x3.8mm" H 5150 2950 50  0001 C CNN "Package"
-F 7 "FILTER SAW 1090MHz" H 5150 2900 50  0000 C CNN "Description"
-	1    5150 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1785,7 +947,7 @@ Wire Wire Line
 	1450 3750 1450 4900
 Text Notes 9550 5800 0    50   ~ 10
 V1      V2      V3     RF\n0        0       0      1\n0        0       1      2\n0        1       0      3\n0        1       1      4\n1        0       0      ISO\n1        0       1      50 Ohm\n1        1       1      SHDN
-Text Notes 3000 7650 0    50   ~ 10
+Text Notes 5500 6350 0    50   ~ 10
 BAND    SWA_V1    SWA_V2    SWA_V3     SWB_V1     SWB_V2    SWB_V3\nFL1         0         1          0          0            1           1\nFL2         0         0          1          0            0           0\nFL3         0         0          0          0            0           1\nEXT         0         1          1          0            1           0
 Wire Wire Line
 	7200 4750 9450 4750
@@ -1822,23 +984,23 @@ Wire Wire Line
 $Comp
 L rf_connectors:RF-GND1 J5
 U 1 1 5B859577
-P 3600 1650
-F 0 "J5" H 3529 1886 50  0000 C CNN
-F 1 "619540-1" H 3529 1795 50  0000 C CNN
-F 2 "project_footprints:619540-1" H 3600 1650 50  0001 C CNN
-F 3 "" H 3600 1650 50  0001 C CNN
-F 4 "TE Connectivity" H 3600 1650 50  0001 C CNN "Manufacturer"
-F 5 "619540-1" H 3600 1650 50  0001 C CNN "Part Number"
-F 6 "SMA THRU RA" H 3600 1650 50  0001 C CNN "Package"
-F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 3600 1650 50  0001 C CNN "Description"
-	1    3600 1650
+P 3500 1750
+F 0 "J5" H 3429 1986 50  0000 C CNN
+F 1 "619540-1" H 3429 1895 50  0000 C CNN
+F 2 "project_footprints:619540-1" H 3500 1750 50  0001 C CNN
+F 3 "" H 3500 1750 50  0001 C CNN
+F 4 "TE Connectivity" H 3500 1750 50  0001 C CNN "Manufacturer"
+F 5 "619540-1" H 3500 1750 50  0001 C CNN "Part Number"
+F 6 "SMA THRU RA" H 3500 1750 50  0001 C CNN "Package"
+F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 3500 1750 50  0001 C CNN "Description"
+	1    3500 1750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 1800 3600 1850
+	3500 1900 3500 1950
 Wire Wire Line
-	3600 1850 3800 1850
-Connection ~ 3800 1850
+	3500 1950 3700 1950
+Connection ~ 3700 1950
 $Comp
 L rf_connectors:RF-GND1 J4
 U 1 1 5B84979D
@@ -1878,27 +1040,27 @@ Connection ~ 9800 2750
 $Comp
 L rf_connectors:RF-GND1 J7
 U 1 1 5B86BC5C
-P 8600 6050
-F 0 "J7" H 8529 6286 50  0000 C CNN
-F 1 "619540-1" H 8529 6195 50  0000 C CNN
-F 2 "project_footprints:619540-1" H 8600 6050 50  0001 C CNN
-F 3 "" H 8600 6050 50  0001 C CNN
-F 4 "TE Connectivity" H 8600 6050 50  0001 C CNN "Manufacturer"
-F 5 "619540-1" H 8600 6050 50  0001 C CNN "Part Number"
-F 6 "SMA THRU RA" H 8600 6050 50  0001 C CNN "Package"
-F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 8600 6050 50  0001 C CNN "Description"
-	1    8600 6050
+P 4850 6750
+F 0 "J7" H 4779 6986 50  0000 C CNN
+F 1 "619540-1" H 4779 6895 50  0000 C CNN
+F 2 "project_footprints:619540-1" H 4850 6750 50  0001 C CNN
+F 3 "" H 4850 6750 50  0001 C CNN
+F 4 "TE Connectivity" H 4850 6750 50  0001 C CNN "Manufacturer"
+F 5 "619540-1" H 4850 6750 50  0001 C CNN "Part Number"
+F 6 "SMA THRU RA" H 4850 6750 50  0001 C CNN "Package"
+F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 4850 6750 50  0001 C CNN "Description"
+	1    4850 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 6200 7800 6050
+	4050 6900 4050 6750
 Wire Wire Line
-	8200 6200 8400 6200
+	4450 6900 4650 6900
 Wire Wire Line
-	8400 6200 8400 6300
-Connection ~ 8400 6200
+	4650 6900 4650 7000
+Connection ~ 4650 6900
 Wire Wire Line
-	8400 6200 8600 6200
+	4650 6900 4850 6900
 Wire Wire Line
 	2200 4200 2750 4200
 Wire Wire Line
@@ -1915,4 +1077,688 @@ Wire Wire Line
 	3200 4450 3200 4200
 Wire Wire Line
 	3200 4200 4400 4200
+$Comp
+L guerilla_rf:GRF4042 U8
+U 1 1 5B93EEA6
+P 5200 1850
+F 0 "U8" H 5850 2550 50  0000 L CNN
+F 1 "GRF4042" H 5800 2450 50  0000 L CNN
+F 2 "project_footprints:QFN-12_EP_2x2_Pitch0.5mm" H 5200 1850 50  0001 C CNN
+F 3 "https://www.guerrilla-rf.com/gfiles/parts/GRF4042/GRF4042DS.pdf" H 5200 1850 50  0001 C CNN
+F 4 "Guerilla RF" H 5200 1850 50  0001 C CNN "Manufacturer"
+F 5 "GRF4042" H 5200 1850 50  0001 C CNN "Part Number"
+F 6 "QFN-12 2x2mm" H 5200 1850 50  0001 C CNN "Package"
+F 7 "Low Noise Amplifier with Bypass" H 5200 1850 50  0001 C CNN "Description"
+	1    5200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1550 5100 1550
+$Comp
+L Device:L L3
+U 1 1 5B993A85
+P 4650 1950
+F 0 "L3" H 4703 1996 50  0000 L CNN
+F 1 "12nH" H 4703 1905 50  0000 L CNN
+F 2 "project_footprints:LQW15A" H 4650 1950 50  0001 C CNN
+F 3 "~" H 4650 1950 50  0001 C CNN
+F 4 "Murata" H 4650 1950 50  0001 C CNN "Manufacturer"
+F 5 "LQW15AN12NJ8ZD" H 4650 1950 50  0001 C CNN "Part Number"
+F 6 "0402" H 4650 1950 50  0001 C CNN "Package"
+F 7 "FIXED IND 12NH 1.24A 93 MOHM" H 4650 1950 50  0001 C CNN "Description"
+F 8 "HK1608R15J-T" H 4650 1950 50  0001 C CNN "Alternate Part Number"
+	1    4650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B993C68
+P 4350 1750
+AR Path="/5B782859/5B993C68" Ref="C?"  Part="1" 
+AR Path="/5B7DAEA8/5B993C68" Ref="C?"  Part="1" 
+AR Path="/5C1B2C8B/5B993C68" Ref="C19"  Part="1" 
+F 0 "C19" V 4200 1700 50  0000 L CNN
+F 1 "100pF" V 4500 1650 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 4388 1600 50  0001 C CNN
+F 3 "~" H 4350 1750 50  0001 C CNN
+F 4 "Murata" H 4350 1750 50  0001 C CNN "Manufacturer"
+F 5 "GRM0225C1E101GA02L" H 4350 1750 50  0001 C CNN "Part Number"
+F 6 "0402" H 4350 1750 50  0001 C CNN "Package"
+F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 4350 1750 50  0001 C CNN "Description"
+F 8 "500X07N101MV4T" H 4350 1750 50  0001 C CNN "Alternate Part Number"
+	1    4350 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR054
+U 1 1 5B9A0843
+P 4650 2150
+F 0 "#PWR054" H 4650 1900 50  0001 C CNN
+F 1 "GND" H 4655 1977 50  0000 C CNN
+F 2 "" H 4650 2150 50  0001 C CNN
+F 3 "" H 4650 2150 50  0001 C CNN
+	1    4650 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1750 4650 1750
+Wire Wire Line
+	4650 1800 4650 1750
+Connection ~ 4650 1750
+Wire Wire Line
+	4650 1750 5100 1750
+Wire Wire Line
+	4650 2100 4650 2150
+Wire Wire Line
+	5500 2150 5500 2200
+Wire Wire Line
+	5800 2150 5800 2200
+Wire Wire Line
+	5800 2200 5700 2200
+Connection ~ 5500 2200
+Wire Wire Line
+	5500 2200 5500 2250
+Wire Wire Line
+	5600 2150 5600 2200
+Connection ~ 5600 2200
+Wire Wire Line
+	5600 2200 5500 2200
+Wire Wire Line
+	5700 2150 5700 2200
+Connection ~ 5700 2200
+Wire Wire Line
+	5700 2200 5600 2200
+$Comp
+L power:GND #PWR055
+U 1 1 5BA09D17
+P 5050 1850
+F 0 "#PWR055" H 5050 1600 50  0001 C CNN
+F 1 "GND" H 5055 1677 50  0000 C CNN
+F 2 "" H 5050 1850 50  0001 C CNN
+F 3 "" H 5050 1850 50  0001 C CNN
+	1    5050 1850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1650 5050 1650
+Wire Wire Line
+	5050 1650 5050 1850
+$Comp
+L power:GND #PWR058
+U 1 1 5BA17EF3
+P 6150 1850
+F 0 "#PWR058" H 6150 1600 50  0001 C CNN
+F 1 "GND" H 6155 1677 50  0000 C CNN
+F 2 "" H 6150 1850 50  0001 C CNN
+F 3 "" H 6150 1850 50  0001 C CNN
+	1    6150 1850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1550 6150 1550
+Wire Wire Line
+	6150 1550 6150 1650
+Wire Wire Line
+	6100 1650 6150 1650
+Connection ~ 6150 1650
+Wire Wire Line
+	6150 1650 6150 1850
+Wire Wire Line
+	5600 1200 5600 1150
+Wire Wire Line
+	5600 1150 5050 1150
+Wire Wire Line
+	5050 1150 5050 1650
+Connection ~ 5050 1650
+$Comp
+L Device:L L4
+U 1 1 5BA529CB
+P 5700 950
+F 0 "L4" H 5753 996 50  0000 L CNN
+F 1 "12nH" H 5753 905 50  0000 L CNN
+F 2 "project_footprints:LQW15A" H 5700 950 50  0001 C CNN
+F 3 "~" H 5700 950 50  0001 C CNN
+F 4 "Murata" H 5700 950 50  0001 C CNN "Manufacturer"
+F 5 "LQW15AN12NJ8ZD" H 5700 950 50  0001 C CNN "Part Number"
+F 6 "0402" H 5700 950 50  0001 C CNN "Package"
+F 7 "FIXED IND 12NH 1.24A 93 MOHM" H 5700 950 50  0001 C CNN "Description"
+F 8 "HK1608R15J-T" H 5700 950 50  0001 C CNN "Alternate Part Number"
+	1    5700 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1100 5700 1200
+$Comp
+L power:+3.3VA #PWR056
+U 1 1 5BA61B7D
+P 5700 700
+F 0 "#PWR056" H 5700 550 50  0001 C CNN
+F 1 "+3.3VA" H 5715 873 50  0000 C CNN
+F 2 "" H 5700 700 50  0001 C CNN
+F 3 "" H 5700 700 50  0001 C CNN
+	1    5700 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 700  5700 750 
+Wire Wire Line
+	5850 750  5700 750 
+Connection ~ 5700 750 
+Wire Wire Line
+	5700 750  5700 800 
+$Comp
+L power:GND #PWR?
+U 1 1 5BA802F0
+P 6300 750
+AR Path="/5B782859/5BA802F0" Ref="#PWR?"  Part="1" 
+AR Path="/5B7DAEA8/5BA802F0" Ref="#PWR?"  Part="1" 
+AR Path="/5C1B2C8B/5BA802F0" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 6300 500 50  0001 C CNN
+F 1 "GND" H 6305 577 50  0000 C CNN
+F 2 "" H 6300 750 50  0001 C CNN
+F 3 "" H 6300 750 50  0001 C CNN
+	1    6300 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 750  6300 750 
+$Comp
+L power:GND #PWR047
+U 1 1 5BAC6193
+P 2750 7250
+F 0 "#PWR047" H 2750 7000 50  0001 C CNN
+F 1 "GND" H 2755 7077 50  0000 C CNN
+F 2 "" H 2750 7250 50  0001 C CNN
+F 3 "" H 2750 7250 50  0001 C CNN
+	1    2750 7250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BAC619E
+P 3250 5750
+AR Path="/5B782859/5BAC619E" Ref="C?"  Part="1" 
+AR Path="/5B7DAEA8/5BAC619E" Ref="C?"  Part="1" 
+AR Path="/5C1B2C8B/5BAC619E" Ref="C15"  Part="1" 
+F 0 "C15" V 3100 5700 50  0000 L CNN
+F 1 "100nF" V 3400 5650 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 3288 5600 50  0001 C CNN
+F 3 "~" H 3250 5750 50  0001 C CNN
+F 4 "CL05A104MP5NNNC" H 3250 5750 50  0001 C CNN "Part Number"
+F 5 "0402" H 3250 5750 50  0001 C CNN "Package"
+F 6 "CAP CER 0.1UF 10V X5R 0402" H 3250 5750 50  0001 C CNN "Description"
+F 7 "6.3V or greater" H 3250 5750 50  0001 C CNN "Notes"
+F 8 "GRM022R60J104ME15L" H 3250 5750 50  0001 C CNN "Alternate Part Number"
+	1    3250 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5BAC61C1
+P 2100 6400
+AR Path="/5B782859/5BAC61C1" Ref="R?"  Part="1" 
+AR Path="/5B7DAEA8/5BAC61C1" Ref="R?"  Part="1" 
+AR Path="/5C1B2C8B/5BAC61C1" Ref="R12"  Part="1" 
+F 0 "R12" H 1900 6450 50  0000 L CNN
+F 1 "100" V 2100 6350 50  0000 L CNN
+F 2 "project_footprints:R_0402" V 2030 6400 50  0001 C CNN
+F 3 "~" H 2100 6400 50  0001 C CNN
+F 4 "Panasonic" H 2100 6400 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1001X" H 2100 6400 50  0001 C CNN "Part Number"
+F 6 "0402" H 2100 6400 50  0001 C CNN "Package"
+F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 2100 6400 50  0001 C CNN "Description"
+F 8 "RT0402FRE071KL" H 2100 6400 50  0001 C CNN "Alternate Part Number"
+	1    2100 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 6550 2350 6550
+$Comp
+L Device:L L1
+U 1 1 5BAC61E6
+P 1900 6950
+F 0 "L1" H 1953 6996 50  0000 L CNN
+F 1 "12nH" H 1953 6905 50  0000 L CNN
+F 2 "project_footprints:LQW15A" H 1900 6950 50  0001 C CNN
+F 3 "~" H 1900 6950 50  0001 C CNN
+F 4 "Murata" H 1900 6950 50  0001 C CNN "Manufacturer"
+F 5 "LQW15AN12NJ8ZD" H 1900 6950 50  0001 C CNN "Part Number"
+F 6 "0402" H 1900 6950 50  0001 C CNN "Package"
+F 7 "FIXED IND 12NH 1.24A 93 MOHM" H 1900 6950 50  0001 C CNN "Description"
+F 8 "HK1608R15J-T" H 1900 6950 50  0001 C CNN "Alternate Part Number"
+	1    1900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BAC61F2
+P 1600 6750
+AR Path="/5B782859/5BAC61F2" Ref="C?"  Part="1" 
+AR Path="/5B7DAEA8/5BAC61F2" Ref="C?"  Part="1" 
+AR Path="/5C1B2C8B/5BAC61F2" Ref="C12"  Part="1" 
+F 0 "C12" V 1450 6700 50  0000 L CNN
+F 1 "100pF" V 1750 6650 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 1638 6600 50  0001 C CNN
+F 3 "~" H 1600 6750 50  0001 C CNN
+F 4 "Murata" H 1600 6750 50  0001 C CNN "Manufacturer"
+F 5 "GRM0225C1E101GA02L" H 1600 6750 50  0001 C CNN "Part Number"
+F 6 "0402" H 1600 6750 50  0001 C CNN "Package"
+F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 1600 6750 50  0001 C CNN "Description"
+F 8 "500X07N101MV4T" H 1600 6750 50  0001 C CNN "Alternate Part Number"
+	1    1600 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 5BAC61F9
+P 1900 7150
+F 0 "#PWR039" H 1900 6900 50  0001 C CNN
+F 1 "GND" H 1905 6977 50  0000 C CNN
+F 2 "" H 1900 7150 50  0001 C CNN
+F 3 "" H 1900 7150 50  0001 C CNN
+	1    1900 7150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 6750 1900 6750
+Wire Wire Line
+	1900 6800 1900 6750
+Connection ~ 1900 6750
+Wire Wire Line
+	1900 6750 2350 6750
+Wire Wire Line
+	1900 7100 1900 7150
+Wire Wire Line
+	2750 7150 2750 7200
+Wire Wire Line
+	3050 7150 3050 7200
+Wire Wire Line
+	3050 7200 2950 7200
+Connection ~ 2750 7200
+Wire Wire Line
+	2750 7200 2750 7250
+Wire Wire Line
+	2850 7150 2850 7200
+Connection ~ 2850 7200
+Wire Wire Line
+	2850 7200 2750 7200
+Wire Wire Line
+	2950 7150 2950 7200
+Connection ~ 2950 7200
+Wire Wire Line
+	2950 7200 2850 7200
+$Comp
+L power:GND #PWR042
+U 1 1 5BAC620F
+P 2300 6850
+F 0 "#PWR042" H 2300 6600 50  0001 C CNN
+F 1 "GND" H 2305 6677 50  0000 C CNN
+F 2 "" H 2300 6850 50  0001 C CNN
+F 3 "" H 2300 6850 50  0001 C CNN
+	1    2300 6850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 6650 2300 6650
+Wire Wire Line
+	2300 6650 2300 6850
+$Comp
+L power:GND #PWR050
+U 1 1 5BAC6217
+P 3400 6850
+F 0 "#PWR050" H 3400 6600 50  0001 C CNN
+F 1 "GND" H 3405 6677 50  0000 C CNN
+F 2 "" H 3400 6850 50  0001 C CNN
+F 3 "" H 3400 6850 50  0001 C CNN
+	1    3400 6850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6550 3400 6550
+Wire Wire Line
+	3400 6550 3400 6650
+Wire Wire Line
+	3350 6650 3400 6650
+Connection ~ 3400 6650
+Wire Wire Line
+	3400 6650 3400 6850
+Wire Wire Line
+	2850 6200 2850 6150
+Wire Wire Line
+	2850 6150 2300 6150
+Wire Wire Line
+	2300 6150 2300 6650
+Connection ~ 2300 6650
+$Comp
+L Device:L L2
+U 1 1 5BAC622B
+P 2950 5950
+F 0 "L2" H 3003 5996 50  0000 L CNN
+F 1 "12nH" H 3003 5905 50  0000 L CNN
+F 2 "project_footprints:LQW15A" H 2950 5950 50  0001 C CNN
+F 3 "~" H 2950 5950 50  0001 C CNN
+F 4 "Murata" H 2950 5950 50  0001 C CNN "Manufacturer"
+F 5 "LQW15AN12NJ8ZD" H 2950 5950 50  0001 C CNN "Part Number"
+F 6 "0402" H 2950 5950 50  0001 C CNN "Package"
+F 7 "FIXED IND 12NH 1.24A 93 MOHM" H 2950 5950 50  0001 C CNN "Description"
+F 8 "HK1608R15J-T" H 2950 5950 50  0001 C CNN "Alternate Part Number"
+	1    2950 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6100 2950 6200
+$Comp
+L power:+3.3VA #PWR048
+U 1 1 5BAC6233
+P 2950 5700
+F 0 "#PWR048" H 2950 5550 50  0001 C CNN
+F 1 "+3.3VA" H 2965 5873 50  0000 C CNN
+F 2 "" H 2950 5700 50  0001 C CNN
+F 3 "" H 2950 5700 50  0001 C CNN
+	1    2950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5700 2950 5750
+Wire Wire Line
+	3100 5750 2950 5750
+Connection ~ 2950 5750
+Wire Wire Line
+	2950 5750 2950 5800
+$Comp
+L power:GND #PWR?
+U 1 1 5BAC623D
+P 3550 5750
+AR Path="/5B782859/5BAC623D" Ref="#PWR?"  Part="1" 
+AR Path="/5B7DAEA8/5BAC623D" Ref="#PWR?"  Part="1" 
+AR Path="/5C1B2C8B/5BAC623D" Ref="#PWR051"  Part="1" 
+F 0 "#PWR051" H 3550 5500 50  0001 C CNN
+F 1 "GND" H 3555 5577 50  0000 C CNN
+F 2 "" H 3550 5750 50  0001 C CNN
+F 3 "" H 3550 5750 50  0001 C CNN
+	1    3550 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5750 3550 5750
+Wire Wire Line
+	3350 6750 3600 6750
+Wire Wire Line
+	700  6750 1450 6750
+Wire Wire Line
+	6100 1750 10650 1750
+Wire Wire Line
+	10650 1750 10650 4100
+$Comp
+L Device:C C?
+U 1 1 5BB48FC2
+P 10300 4100
+AR Path="/5B782859/5BB48FC2" Ref="C?"  Part="1" 
+AR Path="/5B7DAEA8/5BB48FC2" Ref="C?"  Part="1" 
+AR Path="/5C1B2C8B/5BB48FC2" Ref="C21"  Part="1" 
+F 0 "C21" V 10150 4050 50  0000 L CNN
+F 1 "100pF" V 10450 4000 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 10338 3950 50  0001 C CNN
+F 3 "~" H 10300 4100 50  0001 C CNN
+F 4 "Murata" H 10300 4100 50  0001 C CNN "Manufacturer"
+F 5 "GRM0225C1E101GA02L" H 10300 4100 50  0001 C CNN "Part Number"
+F 6 "0402" H 10300 4100 50  0001 C CNN "Package"
+F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 10300 4100 50  0001 C CNN "Description"
+F 8 "500X07N101MV4T" H 10300 4100 50  0001 C CNN "Alternate Part Number"
+	1    10300 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 4100 9900 4100
+$Comp
+L Device:R R?
+U 1 1 5BB6A979
+P 2750 5950
+AR Path="/5B782859/5BB6A979" Ref="R?"  Part="1" 
+AR Path="/5B7DAEA8/5BB6A979" Ref="R?"  Part="1" 
+AR Path="/5C1B2C8B/5BB6A979" Ref="R13"  Part="1" 
+F 0 "R13" H 2550 6000 50  0000 L CNN
+F 1 "374" V 2750 5900 50  0000 L CNN
+F 2 "project_footprints:R_0402" V 2680 5950 50  0001 C CNN
+F 3 "~" H 2750 5950 50  0001 C CNN
+F 4 "Panasonic" H 2750 5950 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF3740X" H 2750 5950 50  0001 C CNN "Part Number"
+F 6 "0402" H 2750 5950 50  0001 C CNN "Package"
+F 7 "RES SMD 374 OHM 1% 1/10W 0402" H 2750 5950 50  0001 C CNN "Description"
+F 8 "RC0402FR-07374RL" H 2750 5950 50  0001 C CNN "Alternate Part Number"
+	1    2750 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6100 2750 6200
+Wire Wire Line
+	2750 5800 2750 5700
+Wire Wire Line
+	2750 5700 2950 5700
+Connection ~ 2950 5700
+$Comp
+L Device:R R?
+U 1 1 5BB8286F
+P 5500 950
+AR Path="/5B782859/5BB8286F" Ref="R?"  Part="1" 
+AR Path="/5B7DAEA8/5BB8286F" Ref="R?"  Part="1" 
+AR Path="/5C1B2C8B/5BB8286F" Ref="R18"  Part="1" 
+F 0 "R18" H 5300 1000 50  0000 L CNN
+F 1 "374" V 5500 900 50  0000 L CNN
+F 2 "project_footprints:R_0402" V 5430 950 50  0001 C CNN
+F 3 "~" H 5500 950 50  0001 C CNN
+F 4 "Panasonic" H 5500 950 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF3740X" H 5500 950 50  0001 C CNN "Part Number"
+F 6 "0402" H 5500 950 50  0001 C CNN "Package"
+F 7 "RES SMD 374 OHM 1% 1/10W 0402" H 5500 950 50  0001 C CNN "Description"
+F 8 "RC0402FR-07374RL" H 5500 950 50  0001 C CNN "Alternate Part Number"
+	1    5500 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1100 5500 1200
+Wire Wire Line
+	5500 800  5500 700 
+Wire Wire Line
+	5500 700  5700 700 
+Connection ~ 5700 700 
+$Comp
+L murata:SAW_3X3mm FL3
+U 1 1 5BB9BEA9
+P 5150 2950
+F 0 "FL3" H 4950 3400 50  0000 C CNN
+F 1 "SF2275E" H 5050 3300 50  0000 C CNN
+F 2 "project_footprints:SAW_3X3mm" H 5150 2950 200 0001 C CNN
+F 3 "https://wireless.murata.com/datasheet?/RFM/data/sf2275e.pdf" H 5150 2950 200 0001 C CNN
+F 4 "Murata" H 5150 2950 50  0001 C CNN "Manufacturer"
+F 5 "SF2275E" H 5150 2950 50  0001 C CNN "Part Number"
+F 6 "SAW 3x3mm" H 5150 2950 50  0001 C CNN "Package"
+F 7 "FILTER SAW FC=1542.5MHZ BW=35MHz" H 5150 2900 50  0000 C CNN "Description"
+	1    5150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L guerilla_rf:GRF4042 U7
+U 1 1 5B8B9CE5
+P 2450 6850
+F 0 "U7" H 3100 7550 50  0000 L CNN
+F 1 "GRF4042" H 3050 7450 50  0000 L CNN
+F 2 "project_footprints:QFN-12_EP_2x2_Pitch0.5mm" H 2450 6850 50  0001 C CNN
+F 3 "https://www.guerrilla-rf.com/gfiles/parts/GRF4042/GRF4042DS.pdf" H 2450 6850 50  0001 C CNN
+F 4 "Guerilla RF" H 2450 6850 50  0001 C CNN "Manufacturer"
+F 5 "GRF4042" H 2450 6850 50  0001 C CNN "Part Number"
+F 6 "QFN-12 2x2mm" H 2450 6850 50  0001 C CNN "Package"
+F 7 "Low Noise Amplifier with Bypass" H 2450 6850 50  0001 C CNN "Description"
+	1    2450 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B8BB046
+P 3750 6750
+AR Path="/5B782859/5B8BB046" Ref="C?"  Part="1" 
+AR Path="/5B7DAEA8/5B8BB046" Ref="C?"  Part="1" 
+AR Path="/5C1B2C8B/5B8BB046" Ref="C23"  Part="1" 
+F 0 "C23" V 3600 6700 50  0000 L CNN
+F 1 "100pF" V 3900 6650 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 3788 6600 50  0001 C CNN
+F 3 "~" H 3750 6750 50  0001 C CNN
+F 4 "Murata" H 3750 6750 50  0001 C CNN "Manufacturer"
+F 5 "GRM0225C1E101GA02L" H 3750 6750 50  0001 C CNN "Part Number"
+F 6 "0402" H 3750 6750 50  0001 C CNN "Package"
+F 7 "CAP CER 100PF 25V C0G/NP0 01005" H 3750 6750 50  0001 C CNN "Description"
+F 8 "500X07N101MV4T" H 3750 6750 50  0001 C CNN "Alternate Part Number"
+	1    3750 6750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 6750 4050 6750
+$Comp
+L te_connectivity:SHEILD8 M2
+U 1 1 5B8E6809
+P 6850 1450
+F 0 "M2" H 6925 2025 50  0000 C CNN
+F 1 "2118706-2" H 6925 1934 50  0000 C CNN
+F 2 "project_footprints:2118706-2" H 6850 1450 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2118706%7FA2%7Fpdf%7FEnglish%7FENG_CD_2118706_A2.pdf%7F2118706-2" H 6850 1450 50  0001 C CNN
+F 4 "TE Connectivity" H 6850 1450 50  0001 C CNN "Manufacturer"
+F 5 "2118706-2" H 6850 1450 50  0001 C CNN "Part Number"
+F 6 "RF Sheild" H 6850 1450 50  0001 C CNN "Description"
+	1    6850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR066
+U 1 1 5B8E6AF7
+P 6600 1450
+F 0 "#PWR066" H 6600 1200 50  0001 C CNN
+F 1 "GND" H 6605 1277 50  0000 C CNN
+F 2 "" H 6600 1450 50  0001 C CNN
+F 3 "" H 6600 1450 50  0001 C CNN
+	1    6600 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 1100 6600 1100
+Wire Wire Line
+	6600 1100 6600 1200
+Wire Wire Line
+	6650 1200 6600 1200
+Connection ~ 6600 1200
+Wire Wire Line
+	6600 1200 6600 1300
+Wire Wire Line
+	6650 1300 6600 1300
+Connection ~ 6600 1300
+Wire Wire Line
+	6600 1300 6600 1400
+Wire Wire Line
+	6650 1400 6600 1400
+Connection ~ 6600 1400
+Wire Wire Line
+	6600 1400 6600 1450
+$Comp
+L power:GND #PWR067
+U 1 1 5B91A515
+P 7250 1450
+F 0 "#PWR067" H 7250 1200 50  0001 C CNN
+F 1 "GND" H 7255 1277 50  0000 C CNN
+F 2 "" H 7250 1450 50  0001 C CNN
+F 3 "" H 7250 1450 50  0001 C CNN
+	1    7250 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1100 7250 1100
+Wire Wire Line
+	7250 1100 7250 1200
+Wire Wire Line
+	7200 1400 7250 1400
+Connection ~ 7250 1400
+Wire Wire Line
+	7250 1400 7250 1450
+Wire Wire Line
+	7200 1300 7250 1300
+Connection ~ 7250 1300
+Wire Wire Line
+	7250 1300 7250 1400
+Wire Wire Line
+	7200 1200 7250 1200
+Connection ~ 7250 1200
+Wire Wire Line
+	7250 1200 7250 1300
+$Comp
+L te_connectivity:SHEILD8 M1
+U 1 1 5B9513CB
+P 4200 6100
+F 0 "M1" H 4275 6675 50  0000 C CNN
+F 1 "2118706-2" H 4275 6584 50  0000 C CNN
+F 2 "project_footprints:2118706-2" H 4200 6100 50  0001 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2118706%7FA2%7Fpdf%7FEnglish%7FENG_CD_2118706_A2.pdf%7F2118706-2" H 4200 6100 50  0001 C CNN
+F 4 "TE Connectivity" H 4200 6100 50  0001 C CNN "Manufacturer"
+F 5 "2118706-2" H 4200 6100 50  0001 C CNN "Part Number"
+F 6 "RF Sheild" H 4200 6100 50  0001 C CNN "Description"
+	1    4200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR064
+U 1 1 5B9513D2
+P 3950 6100
+F 0 "#PWR064" H 3950 5850 50  0001 C CNN
+F 1 "GND" H 3955 5927 50  0000 C CNN
+F 2 "" H 3950 6100 50  0001 C CNN
+F 3 "" H 3950 6100 50  0001 C CNN
+	1    3950 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5750 3950 5750
+Wire Wire Line
+	3950 5750 3950 5850
+Wire Wire Line
+	4000 5850 3950 5850
+Connection ~ 3950 5850
+Wire Wire Line
+	3950 5850 3950 5950
+Wire Wire Line
+	4000 5950 3950 5950
+Connection ~ 3950 5950
+Wire Wire Line
+	3950 5950 3950 6050
+Wire Wire Line
+	4000 6050 3950 6050
+Connection ~ 3950 6050
+Wire Wire Line
+	3950 6050 3950 6100
+$Comp
+L power:GND #PWR065
+U 1 1 5B9513E3
+P 4600 6100
+F 0 "#PWR065" H 4600 5850 50  0001 C CNN
+F 1 "GND" H 4605 5927 50  0000 C CNN
+F 2 "" H 4600 6100 50  0001 C CNN
+F 3 "" H 4600 6100 50  0001 C CNN
+	1    4600 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5750 4600 5750
+Wire Wire Line
+	4600 5750 4600 5850
+Wire Wire Line
+	4550 6050 4600 6050
+Connection ~ 4600 6050
+Wire Wire Line
+	4600 6050 4600 6100
+Wire Wire Line
+	4550 5950 4600 5950
+Connection ~ 4600 5950
+Wire Wire Line
+	4600 5950 4600 6050
+Wire Wire Line
+	4550 5850 4600 5850
+Connection ~ 4600 5850
+Wire Wire Line
+	4600 5850 4600 5950
 $EndSCHEMATC
