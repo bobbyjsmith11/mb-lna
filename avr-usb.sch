@@ -15,21 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-MU U5
-U 1 1 5B78291C
-P 9550 3900
-F 0 "U5" H 8950 2650 50  0000 C CNN
-F 1 "ATmega328P-MU" H 8700 2550 50  0000 C CNN
-F 2 "project_footprints:QFN-32-1EP_5x5mm_Pitch0.5mm" H 9550 3900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 9550 3900 50  0001 C CNN
-F 4 "Microchip Technology" H 9550 3900 50  0001 C CNN "Manufacturer"
-F 5 "ATMEGA328P-MUR" H 9550 3900 50  0001 C CNN "Part Number"
-F 6 "32-VFQFN " H 9550 3900 50  0001 C CNN "Package"
-F 7 "IC MCU 8BIT 32KB FLASH 32VQFN" H 9550 3900 50  0001 C CNN "Description"
-	1    9550 3900
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Interface_USB:CP2102N-A01-GQFN24 U4
 U 1 1 5B782A3F
 P 4500 5850
@@ -529,39 +514,39 @@ F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 2300 6800 50  0001 C CNN "Description"
 $EndComp
 Text HLabel 8350 2900 0    50   Output ~ 0
 BYP_LNA1
-Text HLabel 8350 4000 0    50   Output ~ 0
+Text HLabel 8350 4100 0    50   Output ~ 0
 BYP_LNA2
-Text HLabel 8450 4600 0    50   Output ~ 0
+Text HLabel 8450 3900 0    50   Output ~ 0
 SWA_V1
-Text HLabel 8450 4700 0    50   Output ~ 0
+Text HLabel 8450 4000 0    50   Output ~ 0
 SWA_V2
-Text HLabel 8450 4800 0    50   Output ~ 0
+Text HLabel 8450 4600 0    50   Output ~ 0
 SWA_V3
-Text HLabel 8450 4900 0    50   Output ~ 0
+Text HLabel 8450 3600 0    50   Output ~ 0
 SWB_V1
-Text HLabel 8450 5000 0    50   Output ~ 0
+Text HLabel 8450 3700 0    50   Output ~ 0
 SWB_V2
-Text HLabel 8450 5100 0    50   Output ~ 0
+Text HLabel 8450 3800 0    50   Output ~ 0
 SWB_V3
+Wire Wire Line
+	8450 3900 8950 3900
+Wire Wire Line
+	8450 4000 8950 4000
 Wire Wire Line
 	8450 4600 8950 4600
 Wire Wire Line
-	8450 4700 8950 4700
+	8450 3600 8950 3600
 Wire Wire Line
-	8450 4800 8950 4800
+	8450 3700 8950 3700
 Wire Wire Line
-	8450 4900 8950 4900
-Wire Wire Line
-	8450 5000 8950 5000
-Wire Wire Line
-	8450 5100 8950 5100
+	8450 3800 8950 3800
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J2
+L Connector_Generic:Conn_02x03_Odd_Even J6
 U 1 1 5BC5A91A
 P 2900 2000
-F 0 "J2" H 2950 2317 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 2950 2226 50  0000 C CNN
-F 2 "project_footprints:FRAMATOME_67997-206HLF" H 2900 2000 50  0001 C CNN
+F 0 "J6" H 2950 2317 50  0000 C CNN
+F 1 "TAG-Connect" H 2950 2226 50  0000 C CNN
+F 2 "Connectors:Tag-Connect_TC2030-IDC-NL" H 2900 2000 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" H 2900 2000 50  0001 C CNN
 F 4 "Amphenol" H 2900 2000 50  0001 C CNN "Manufacturer"
 F 5 " 67997-206HLF" H 2900 2000 50  0001 C CNN "Part Number"
@@ -754,8 +739,6 @@ Wire Wire Line
 	10300 3400 10300 3450
 NoConn ~ 10150 2900
 NoConn ~ 10150 3000
-NoConn ~ 8950 3300
-NoConn ~ 8950 3400
 $Comp
 L power:+3.3V #PWR032
 U 1 1 5BD35B40
@@ -790,54 +773,48 @@ Wire Wire Line
 $Comp
 L Device:LED D5
 U 1 1 5BF7029D
-P 7150 3400
-F 0 "D5" V 7188 3283 50  0000 R CNN
-F 1 "SML-LX0402SUGC-TR" V 7097 3283 50  0000 R CNN
-F 2 "project_footprints:LED_0402" H 7150 3400 50  0001 C CNN
-F 3 "https://www.lumex.com/content/files/ProductAttachment/SML-LX0402SUGC-TR.pdf" H 7150 3400 50  0001 C CNN
-F 4 "Lumex" H 7150 3400 50  0001 C CNN "Manufacturer"
-F 5 "SML-LX0402SUGC-TR" H 7150 3400 50  0001 C CNN "Part Number"
-F 6 "0402" H 7150 3400 50  0001 C CNN "Package"
-F 7 "LED GREEN CLEAR SMD" H 7150 3400 50  0001 C CNN "Description"
-	1    7150 3400
-	0    -1   -1   0   
+P 6400 2700
+F 0 "D5" H 6450 2900 50  0000 R CNN
+F 1 "SML-LX0402SUGC-TR" H 6800 2800 50  0000 R CNN
+F 2 "project_footprints:LED_0402" H 6400 2700 50  0001 C CNN
+F 3 "https://www.lumex.com/content/files/ProductAttachment/SML-LX0402SUGC-TR.pdf" H 6400 2700 50  0001 C CNN
+F 4 "Lumex" H 6400 2700 50  0001 C CNN "Manufacturer"
+F 5 "SML-LX0402SUGC-TR" H 6400 2700 50  0001 C CNN "Part Number"
+F 6 "0402" H 6400 2700 50  0001 C CNN "Package"
+F 7 "LED GREEN CLEAR SMD" H 6400 2700 50  0001 C CNN "Description"
+	1    6400 2700
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 5BF704B7
-P 7150 3050
-F 0 "R5" H 7220 3096 50  0000 L CNN
-F 1 "1K" V 7150 3000 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 7080 3050 50  0001 C CNN
-F 3 "~" H 7150 3050 50  0001 C CNN
-F 4 "Panasonic" H 7150 3050 50  0001 C CNN "Manufacturer"
-F 5 "ERJ-2RKF1001X" H 7150 3050 50  0001 C CNN "Part Number"
-F 6 "0402" H 7150 3050 50  0001 C CNN "Package"
-F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 7150 3050 50  0001 C CNN "Description"
-F 8 "RCA04021K00FKEDHP" H 7150 3050 50  0001 C CNN "Alternate Part Number"
-	1    7150 3050
-	1    0    0    -1  
+P 7100 2700
+F 0 "R5" V 7200 2700 50  0000 L CNN
+F 1 "1K" V 7100 2650 50  0000 L CNN
+F 2 "project_footprints:R_0402" V 7030 2700 50  0001 C CNN
+F 3 "~" H 7100 2700 50  0001 C CNN
+F 4 "Panasonic" H 7100 2700 50  0001 C CNN "Manufacturer"
+F 5 "ERJ-2RKF1001X" H 7100 2700 50  0001 C CNN "Part Number"
+F 6 "0402" H 7100 2700 50  0001 C CNN "Package"
+F 7 "RES SMD 1K OHM 1% 1/10W 0402" H 7100 2700 50  0001 C CNN "Description"
+F 8 "RCA04021K00FKEDHP" H 7100 2700 50  0001 C CNN "Alternate Part Number"
+	1    7100 2700
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7150 3200 7150 3250
 $Comp
 L power:GND #PWR028
 U 1 1 5BF7F1BE
-P 7150 3600
-F 0 "#PWR028" H 7150 3350 50  0001 C CNN
-F 1 "GND" H 7155 3427 50  0000 C CNN
-F 2 "" H 7150 3600 50  0001 C CNN
-F 3 "" H 7150 3600 50  0001 C CNN
-	1    7150 3600
+P 5900 2750
+F 0 "#PWR028" H 5900 2500 50  0001 C CNN
+F 1 "GND" H 5905 2577 50  0000 C CNN
+F 2 "" H 5900 2750 50  0001 C CNN
+F 3 "" H 5900 2750 50  0001 C CNN
+	1    5900 2750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 3550 7150 3600
-Wire Wire Line
-	8950 2700 7150 2700
-Wire Wire Line
-	7150 2700 7150 2900
-Text Label 8450 2700 0    50   ~ 0
+	8950 4700 8350 4700
+Text Label 8450 4700 0    50   ~ 0
 LED_GRN
 Wire Wire Line
 	1200 6650 1200 6700
@@ -861,12 +838,152 @@ Wire Wire Line
 	8750 2250 8750 2300
 Wire Wire Line
 	8950 2900 8350 2900
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 5BA61A95
+P 6350 3900
+F 0 "J2" H 6400 4217 50  0000 C CNN
+F 1 ".1\" Header" H 6400 4126 50  0000 C CNN
+F 2 "project_footprints:FRAMATOME_67997-206HLF" H 6350 3900 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" H 6350 3900 50  0001 C CNN
+F 4 "Amphenol" H 6350 3900 50  0001 C CNN "Manufacturer"
+F 5 " 67997-206HLF" H 6350 3900 50  0001 C CNN "Part Number"
+F 6 "Connector Header Through Hole 6 position 0.100\" (2.54mm)" H 6350 3900 50  0001 C CNN "Description"
+F 7 "M20-9980345" H 6350 3900 50  0001 C CNN "Alternate Part Number"
+	1    6350 3900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	8350 4000 8950 4000
-NoConn ~ 8950 3600
-NoConn ~ 8950 3700
-NoConn ~ 8950 3800
-NoConn ~ 8950 3900
-NoConn ~ 8950 4100
-NoConn ~ 8950 2800
+	6950 2700 6550 2700
+Wire Wire Line
+	6250 2700 5900 2700
+Wire Wire Line
+	5900 2700 5900 2750
+Wire Wire Line
+	8950 4100 8350 4100
+$Comp
+L power:GND #PWR071
+U 1 1 5BA72DF9
+P 6750 4000
+F 0 "#PWR071" H 6750 3750 50  0001 C CNN
+F 1 "GND" H 6755 3827 50  0000 C CNN
+F 2 "" H 6750 4000 50  0001 C CNN
+F 3 "" H 6750 4000 50  0001 C CNN
+	1    6750 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4000 6750 4000
+Wire Wire Line
+	8350 4900 8950 4900
+Wire Wire Line
+	8350 5000 8950 5000
+Wire Wire Line
+	8350 5100 8950 5100
+Wire Wire Line
+	8350 3300 8950 3300
+Wire Wire Line
+	8350 3400 8950 3400
+Text Label 8450 4900 0    50   ~ 0
+PC0
+Text Label 8450 5000 0    50   ~ 0
+PC1
+Text Label 8450 5100 0    50   ~ 0
+PC2
+Text Label 8450 3300 0    50   ~ 0
+PC3
+Text Label 8450 3400 0    50   ~ 0
+PC4
+Text Label 5900 3800 0    50   ~ 0
+PC0
+Text Label 5900 3900 0    50   ~ 0
+PC1
+Text Label 6750 3800 0    50   ~ 0
+PC2
+Text Label 6750 3900 0    50   ~ 0
+PC3
+Text Label 5900 4000 0    50   ~ 0
+PC4
+Wire Wire Line
+	5800 3800 6150 3800
+Wire Wire Line
+	5800 3900 6150 3900
+Wire Wire Line
+	5800 4000 6150 4000
+Wire Wire Line
+	7050 3800 6650 3800
+Wire Wire Line
+	7050 3900 6650 3900
+$Comp
+L sw_push:SW_Push SW1
+U 1 1 5BAAB702
+P 6400 3300
+F 0 "SW1" H 6400 3650 50  0000 C CNN
+F 1 "TL3305AF160QG" H 6400 3550 50  0000 C CNN
+F 2 "e_switch:TL3305AF160QG" H 6400 3500 50  0001 C CNN
+F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 6400 3500 50  0001 C CNN
+F 4 "E-Switch" H 6400 3300 50  0001 C CNN "Manufacturer"
+F 5 "TL3305AF160QG" H 6400 3300 50  0001 C CNN "Part Number"
+F 6 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 6400 3300 50  0001 C CNN "Description"
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3400 6700 3400
+Wire Wire Line
+	6700 3400 6700 3300
+Wire Wire Line
+	6700 3200 6650 3200
+Wire Wire Line
+	6700 3300 7050 3300
+Connection ~ 6700 3300
+Wire Wire Line
+	6700 3300 6700 3200
+Text Label 6850 3300 0    50   ~ 0
+BTN
+$Comp
+L power:GND #PWR072
+U 1 1 5BAB2DD5
+P 5950 3300
+F 0 "#PWR072" H 5950 3050 50  0001 C CNN
+F 1 "GND" H 5955 3127 50  0000 C CNN
+F 2 "" H 5950 3300 50  0001 C CNN
+F 3 "" H 5950 3300 50  0001 C CNN
+	1    5950 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3200 6100 3200
+Wire Wire Line
+	6100 3200 6100 3300
+Wire Wire Line
+	6100 3400 6150 3400
+Wire Wire Line
+	5950 3300 6100 3300
+Connection ~ 6100 3300
+Wire Wire Line
+	6100 3300 6100 3400
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-MU U5
+U 1 1 5B78291C
+P 9550 3900
+F 0 "U5" H 8950 2650 50  0000 C CNN
+F 1 "ATmega328P-MU" H 8700 2550 50  0000 C CNN
+F 2 "project_footprints:QFN-32-1EP_5x5mm_Pitch0.5mm" H 9550 3900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 9550 3900 50  0001 C CNN
+F 4 "Microchip Technology" H 9550 3900 50  0001 C CNN "Manufacturer"
+F 5 "ATMEGA328P-MUR" H 9550 3900 50  0001 C CNN "Part Number"
+F 6 "32-VFQFN " H 9550 3900 50  0001 C CNN "Package"
+F 7 "IC MCU 8BIT 32KB FLASH 32VQFN" H 9550 3900 50  0001 C CNN "Description"
+	1    9550 3900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 2800 8950 2800
+Text Label 8500 2800 0    50   ~ 0
+BTN
+Text Label 7350 2700 0    50   ~ 0
+LED_GRN
+Wire Wire Line
+	7750 2700 7250 2700
 $EndSCHEMATC

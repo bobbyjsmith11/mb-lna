@@ -472,30 +472,30 @@ $EndComp
 $Comp
 L power:GND #PWR057
 U 1 1 5B95A466
-P 4650 7000
-F 0 "#PWR057" H 4650 6750 50  0001 C CNN
-F 1 "GND" H 4655 6827 50  0000 C CNN
-F 2 "" H 4650 7000 50  0001 C CNN
-F 3 "" H 4650 7000 50  0001 C CNN
-	1    4650 7000
+P 6400 7000
+F 0 "#PWR057" H 6400 6750 50  0001 C CNN
+F 1 "GND" H 6405 6827 50  0000 C CNN
+F 2 "" H 6400 7000 50  0001 C CNN
+F 3 "" H 6400 7000 50  0001 C CNN
+	1    6400 7000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L nxp:TVS-2-pin D?
 U 1 1 5B9767C9
-P 4250 6900
+P 6000 6900
 AR Path="/5B782859/5B9767C9" Ref="D?"  Part="1" 
 AR Path="/5B7DAEA8/5B9767C9" Ref="D?"  Part="1" 
 AR Path="/5C1B2C8B/5B9767C9" Ref="D8"  Part="1" 
-F 0 "D8" V 4150 6850 60  0000 L CNN
-F 1 "ESD8472MUT5G" V 4350 6550 60  0000 L CNN
-F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 4250 6900 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 4250 6900 60  0001 C CNN
-F 4 "ON Semiconductor" H 4250 6900 50  0001 C CNN "Manufacturer"
-F 5 "ESD8472MUT5G" H 4250 6900 50  0001 C CNN "Part Number"
-F 6 "0201 (0603 Metric)" H 4250 6900 50  0001 C CNN "Package"
-F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 4250 6900 50  0001 C CNN "Description"
-	1    4250 6900
+F 0 "D8" V 5900 6850 60  0000 L CNN
+F 1 "ESD8472MUT5G" V 6100 6550 60  0000 L CNN
+F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 6000 6900 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 6000 6900 60  0001 C CNN
+F 4 "ON Semiconductor" H 6000 6900 50  0001 C CNN "Manufacturer"
+F 5 "ESD8472MUT5G" H 6000 6900 50  0001 C CNN "Part Number"
+F 6 "0201 (0603 Metric)" H 6000 6900 50  0001 C CNN "Package"
+F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 6000 6900 50  0001 C CNN "Description"
+	1    6000 6900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -585,8 +585,8 @@ Connection ~ 1950 1950
 Wire Wire Line
 	1950 1950 1350 1950
 Wire Wire Line
-	4650 6750 4050 6750
-Connection ~ 4050 6750
+	6400 6750 5800 6750
+Connection ~ 5800 6750
 Wire Wire Line
 	3700 1750 4150 1750
 Wire Wire Line
@@ -596,8 +596,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 1950 4150 1750
 Connection ~ 4150 1750
-Wire Wire Line
-	4150 1750 4200 1750
 $Comp
 L Device:R R?
 U 1 1 5BA19EF0
@@ -947,7 +945,7 @@ Wire Wire Line
 	1450 3750 1450 4900
 Text Notes 9550 5800 0    50   ~ 10
 V1      V2      V3     RF\n0        0       0      1\n0        0       1      2\n0        1       0      3\n0        1       1      4\n1        0       0      ISO\n1        0       1      50 Ohm\n1        1       1      SHDN
-Text Notes 5500 6350 0    50   ~ 10
+Text Notes 6450 5800 0    50   ~ 10
 BAND    SWA_V1    SWA_V2    SWA_V3     SWB_V1     SWB_V2    SWB_V3\nFL1         0         1          0          0            1           1\nFL2         0         0          1          0            0           0\nFL3         0         0          0          0            0           1\nEXT         0         1          1          0            1           0
 Wire Wire Line
 	7200 4750 9450 4750
@@ -1040,27 +1038,27 @@ Connection ~ 9800 2750
 $Comp
 L rf_connectors:RF-GND1 J7
 U 1 1 5B86BC5C
-P 4850 6750
-F 0 "J7" H 4779 6986 50  0000 C CNN
-F 1 "619540-1" H 4779 6895 50  0000 C CNN
-F 2 "project_footprints:619540-1" H 4850 6750 50  0001 C CNN
-F 3 "" H 4850 6750 50  0001 C CNN
-F 4 "TE Connectivity" H 4850 6750 50  0001 C CNN "Manufacturer"
-F 5 "619540-1" H 4850 6750 50  0001 C CNN "Part Number"
-F 6 "SMA THRU RA" H 4850 6750 50  0001 C CNN "Package"
-F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 4850 6750 50  0001 C CNN "Description"
-	1    4850 6750
+P 6600 6750
+F 0 "J7" H 6529 6986 50  0000 C CNN
+F 1 "619540-1" H 6529 6895 50  0000 C CNN
+F 2 "project_footprints:619540-1" H 6600 6750 50  0001 C CNN
+F 3 "" H 6600 6750 50  0001 C CNN
+F 4 "TE Connectivity" H 6600 6750 50  0001 C CNN "Manufacturer"
+F 5 "619540-1" H 6600 6750 50  0001 C CNN "Part Number"
+F 6 "SMA THRU RA" H 6600 6750 50  0001 C CNN "Package"
+F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 6600 6750 50  0001 C CNN "Description"
+	1    6600 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4050 6900 4050 6750
+	5800 6900 5800 6750
 Wire Wire Line
-	4450 6900 4650 6900
+	6200 6900 6400 6900
 Wire Wire Line
-	4650 6900 4650 7000
-Connection ~ 4650 6900
+	6400 6900 6400 7000
+Connection ~ 6400 6900
 Wire Wire Line
-	4650 6900 4850 6900
+	6400 6900 6600 6900
 Wire Wire Line
 	2200 4200 2750 4200
 Wire Wire Line
@@ -1611,8 +1609,6 @@ F 8 "500X07N101MV4T" H 3750 6750 50  0001 C CNN "Alternate Part Number"
 	1    3750 6750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3900 6750 4050 6750
 $Comp
 L te_connectivity:SHEILD8 M2
 U 1 1 5B8E6809
@@ -1761,4 +1757,81 @@ Wire Wire Line
 Connection ~ 4600 5850
 Wire Wire Line
 	4600 5850 4600 5950
+Wire Wire Line
+	4150 1750 4200 1750
+Wire Wire Line
+	3900 6750 5300 6750
+$Comp
+L pspice:INDUCTOR L5
+U 1 1 5B9C6C97
+P 5300 6400
+F 0 "L5" V 5254 6478 50  0000 L CNN
+F 1 "1uH" V 5345 6478 50  0000 L CNN
+F 2 "murata:INDC2520X100" H 5300 6400 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243A-0085.pdf" H 5300 6400 50  0001 C CNN
+F 4 "Murata" H 5300 6400 50  0001 C CNN "Manufacturer"
+F 5 "LQW2UAS1R0J00L" H 5300 6400 50  0001 C CNN "Part Number"
+F 6 "1008 (2520 Metric)" H 5300 6400 50  0001 C CNN "Package"
+F 7 "1µH Unshielded Wirewound Inductor 370mA 1.75 Ohm Max 1008 (2520 Metric)" H 5300 6400 50  0001 C CNN "Description"
+	1    5300 6400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 6650 5300 6750
+Connection ~ 5300 6750
+Wire Wire Line
+	5300 6750 5800 6750
+$Comp
+L Device:C C?
+U 1 1 5B9D97E3
+P 5700 5950
+AR Path="/5C1B036A/5B9D97E3" Ref="C?"  Part="1" 
+AR Path="/5B9D97E3" Ref="C?"  Part="1" 
+AR Path="/5C1B2C8B/5B9D97E3" Ref="C24"  Part="1" 
+F 0 "C24" H 5700 6050 50  0000 L CNN
+F 1 "1uF" H 5700 5850 50  0000 L CNN
+F 2 "project_footprints:C_0402" H 5738 5800 50  0001 C CNN
+F 3 "~" H 5700 5950 50  0001 C CNN
+F 4 "Murata" H 5700 5950 50  0001 C CNN "Manufacturer"
+F 5 "GRM153R60J105ME95D" H 5700 5950 50  0001 C CNN "Part Number"
+F 6 "0402" H 5700 5950 50  0001 C CNN "Package"
+F 7 "CAP 1UF 6.3V X5R 0402" H 5700 5950 50  0001 C CNN "Description"
+F 8 "6.3V or greater" H 5700 5950 50  0001 C CNN "Notes"
+F 9 "CL05A105MQ3LNNH" H 5700 5950 50  0001 C CNN "Alternate Part Number"
+	1    5700 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR070
+U 1 1 5B9EA2AF
+P 5700 6150
+F 0 "#PWR070" H 5700 5900 50  0001 C CNN
+F 1 "GND" H 5705 5977 50  0000 C CNN
+F 2 "" H 5700 6150 50  0001 C CNN
+F 3 "" H 5700 6150 50  0001 C CNN
+	1    5700 6150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 6100 5700 6150
+Wire Wire Line
+	5700 5800 5300 5800
+Wire Wire Line
+	5300 5800 5300 6150
+$Comp
+L power:+5VP #PWR?
+U 1 1 5BA100FD
+P 5300 5700
+AR Path="/5BA100FD" Ref="#PWR?"  Part="1" 
+AR Path="/5C1B2C8B/5BA100FD" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 5300 5550 50  0001 C CNN
+F 1 "+5VP" H 5315 5873 50  0000 C CNN
+F 2 "" H 5300 5700 50  0001 C CNN
+F 3 "" H 5300 5700 50  0001 C CNN
+	1    5300 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5700 5300 5800
+Connection ~ 5300 5800
 $EndSCHEMATC
