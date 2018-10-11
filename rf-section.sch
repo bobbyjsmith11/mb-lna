@@ -472,30 +472,30 @@ $EndComp
 $Comp
 L power:GND #PWR057
 U 1 1 5B95A466
-P 6400 7000
-F 0 "#PWR057" H 6400 6750 50  0001 C CNN
-F 1 "GND" H 6405 6827 50  0000 C CNN
-F 2 "" H 6400 7000 50  0001 C CNN
-F 3 "" H 6400 7000 50  0001 C CNN
-	1    6400 7000
+P 6050 7000
+F 0 "#PWR057" H 6050 6750 50  0001 C CNN
+F 1 "GND" H 6055 6827 50  0000 C CNN
+F 2 "" H 6050 7000 50  0001 C CNN
+F 3 "" H 6050 7000 50  0001 C CNN
+	1    6050 7000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L nxp:TVS-2-pin D?
 U 1 1 5B9767C9
-P 6000 6900
+P 5650 6900
 AR Path="/5B782859/5B9767C9" Ref="D?"  Part="1" 
 AR Path="/5B7DAEA8/5B9767C9" Ref="D?"  Part="1" 
 AR Path="/5C1B2C8B/5B9767C9" Ref="D8"  Part="1" 
-F 0 "D8" V 5900 6850 60  0000 L CNN
-F 1 "ESD8472MUT5G" V 6100 6550 60  0000 L CNN
-F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 6000 6900 60  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 6000 6900 60  0001 C CNN
-F 4 "ON Semiconductor" H 6000 6900 50  0001 C CNN "Manufacturer"
-F 5 "ESD8472MUT5G" H 6000 6900 50  0001 C CNN "Part Number"
-F 6 "0201 (0603 Metric)" H 6000 6900 50  0001 C CNN "Package"
-F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 6000 6900 50  0001 C CNN "Description"
-	1    6000 6900
+F 0 "D8" V 5550 6850 60  0000 L CNN
+F 1 "ESD8472MUT5G" V 5750 6550 60  0000 L CNN
+F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 5650 6900 60  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 5650 6900 60  0001 C CNN
+F 4 "ON Semiconductor" H 5650 6900 50  0001 C CNN "Manufacturer"
+F 5 "ESD8472MUT5G" H 5650 6900 50  0001 C CNN "Part Number"
+F 6 "0201 (0603 Metric)" H 5650 6900 50  0001 C CNN "Package"
+F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 5650 6900 50  0001 C CNN "Description"
+	1    5650 6900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -576,17 +576,9 @@ Wire Wire Line
 Wire Wire Line
 	2050 2550 2200 2550
 Wire Wire Line
-	2200 2550 2200 1950
-Wire Wire Line
-	2200 1950 1950 1950
-Wire Wire Line
 	1950 2100 1950 1950
-Connection ~ 1950 1950
 Wire Wire Line
 	1950 1950 1350 1950
-Wire Wire Line
-	6400 6750 5800 6750
-Connection ~ 5800 6750
 Wire Wire Line
 	3700 1750 4150 1750
 Wire Wire Line
@@ -655,14 +647,6 @@ F 8 "RT0402FRE071KL" H 2450 3500 50  0001 C CNN "Alternate Part Number"
 $EndComp
 Wire Wire Line
 	2000 3300 2150 3300
-Wire Wire Line
-	2150 3300 2150 3200
-Wire Wire Line
-	2150 3200 2300 3200
-Wire Wire Line
-	2550 3350 2200 3350
-Wire Wire Line
-	2200 3350 2200 3400
 Wire Wire Line
 	2200 3400 2000 3400
 Wire Wire Line
@@ -766,8 +750,8 @@ Wire Wire Line
 Text Label 4400 1250 0    50   ~ 0
 BYP_LNA1
 Wire Wire Line
-	2100 6250 1600 6250
-Text Label 1650 6250 0    50   ~ 0
+	2100 6250 1250 6250
+Text Label 1300 6250 0    50   ~ 0
 BYP_LNA2
 Text HLabel 4350 1250 0    50   Input ~ 0
 BYP_LNA1
@@ -783,7 +767,7 @@ Text HLabel 8100 4000 0    50   Input ~ 0
 SWB_V2
 Text HLabel 8100 3850 0    50   Input ~ 0
 SWB_V3
-Text HLabel 1600 6250 0    50   Input ~ 0
+Text HLabel 1250 6250 0    50   Input ~ 0
 BYP_LNA2
 $Comp
 L murata:SAW_3X3mm FL2
@@ -979,86 +963,10 @@ Wire Wire Line
 	6100 4200 7200 4200
 Wire Wire Line
 	7200 4200 7200 4750
-$Comp
-L rf_connectors:RF-GND1 J5
-U 1 1 5B859577
-P 3500 1750
-F 0 "J5" H 3429 1986 50  0000 C CNN
-F 1 "619540-1" H 3429 1895 50  0000 C CNN
-F 2 "project_footprints:619540-1" H 3500 1750 50  0001 C CNN
-F 3 "" H 3500 1750 50  0001 C CNN
-F 4 "TE Connectivity" H 3500 1750 50  0001 C CNN "Manufacturer"
-F 5 "619540-1" H 3500 1750 50  0001 C CNN "Part Number"
-F 6 "SMA THRU RA" H 3500 1750 50  0001 C CNN "Package"
-F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 3500 1750 50  0001 C CNN "Description"
-	1    3500 1750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	3500 1900 3500 1950
+	5850 6900 6050 6900
 Wire Wire Line
-	3500 1950 3700 1950
-Connection ~ 3700 1950
-$Comp
-L rf_connectors:RF-GND1 J4
-U 1 1 5B84979D
-P 1150 1950
-F 0 "J4" H 1079 2186 50  0000 C CNN
-F 1 "619540-1" H 1079 2095 50  0000 C CNN
-F 2 "project_footprints:619540-1" H 1150 1950 50  0001 C CNN
-F 3 "" H 1150 1950 50  0001 C CNN
-F 4 "TE Connectivity" H 1150 1950 50  0001 C CNN "Manufacturer"
-F 5 "619540-1" H 1150 1950 50  0001 C CNN "Part Number"
-F 6 "SMA THRU RA" H 1150 1950 50  0001 C CNN "Package"
-F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 1150 1950 50  0001 C CNN "Description"
-	1    1150 1950
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 2100 1350 2100
-Connection ~ 1350 2100
-$Comp
-L rf_connectors:RF-GND1 J8
-U 1 1 5B85A87B
-P 10000 2600
-F 0 "J8" H 9929 2836 50  0000 C CNN
-F 1 "619540-1" H 9929 2745 50  0000 C CNN
-F 2 "project_footprints:619540-1" H 10000 2600 50  0001 C CNN
-F 3 "" H 10000 2600 50  0001 C CNN
-F 4 "TE Connectivity" H 10000 2600 50  0001 C CNN "Manufacturer"
-F 5 "619540-1" H 10000 2600 50  0001 C CNN "Part Number"
-F 6 "SMA THRU RA" H 10000 2600 50  0001 C CNN "Package"
-F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 10000 2600 50  0001 C CNN "Description"
-	1    10000 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10000 2750 9800 2750
-Connection ~ 9800 2750
-$Comp
-L rf_connectors:RF-GND1 J7
-U 1 1 5B86BC5C
-P 6600 6750
-F 0 "J7" H 6529 6986 50  0000 C CNN
-F 1 "619540-1" H 6529 6895 50  0000 C CNN
-F 2 "project_footprints:619540-1" H 6600 6750 50  0001 C CNN
-F 3 "" H 6600 6750 50  0001 C CNN
-F 4 "TE Connectivity" H 6600 6750 50  0001 C CNN "Manufacturer"
-F 5 "619540-1" H 6600 6750 50  0001 C CNN "Part Number"
-F 6 "SMA THRU RA" H 6600 6750 50  0001 C CNN "Package"
-F 7 "SMA Connector Jack, Female Socket 50 Ohm Through Hole, Right Angle Solder" H 6600 6750 50  0001 C CNN "Description"
-	1    6600 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 6900 5800 6750
-Wire Wire Line
-	6200 6900 6400 6900
-Wire Wire Line
-	6400 6900 6400 7000
-Connection ~ 6400 6900
-Wire Wire Line
-	6400 6900 6600 6900
+	6050 6900 6050 7000
 Wire Wire Line
 	2200 4200 2750 4200
 Wire Wire Line
@@ -1080,11 +988,11 @@ L guerilla_rf:GRF4042 U8
 U 1 1 5B93EEA6
 P 5200 1850
 F 0 "U8" H 5850 2550 50  0000 L CNN
-F 1 "GRF4042" H 5800 2450 50  0000 L CNN
+F 1 "GRF4142" H 5800 2450 50  0000 L CNN
 F 2 "project_footprints:QFN-12_EP_2x2_Pitch0.5mm" H 5200 1850 50  0001 C CNN
 F 3 "https://www.guerrilla-rf.com/gfiles/parts/GRF4042/GRF4042DS.pdf" H 5200 1850 50  0001 C CNN
 F 4 "Guerilla RF" H 5200 1850 50  0001 C CNN "Manufacturer"
-F 5 "GRF4042" H 5200 1850 50  0001 C CNN "Part Number"
+F 5 "GRF4142" H 5200 1850 50  0001 C CNN "Part Number"
 F 6 "QFN-12 2x2mm" H 5200 1850 50  0001 C CNN "Package"
 F 7 "Low Noise Amplifier with Bypass" H 5200 1850 50  0001 C CNN "Description"
 	1    5200 1850
@@ -1580,11 +1488,11 @@ L guerilla_rf:GRF4042 U7
 U 1 1 5B8B9CE5
 P 2450 6850
 F 0 "U7" H 3100 7550 50  0000 L CNN
-F 1 "GRF4042" H 3050 7450 50  0000 L CNN
+F 1 "GRF4142" H 3050 7450 50  0000 L CNN
 F 2 "project_footprints:QFN-12_EP_2x2_Pitch0.5mm" H 2450 6850 50  0001 C CNN
 F 3 "https://www.guerrilla-rf.com/gfiles/parts/GRF4042/GRF4042DS.pdf" H 2450 6850 50  0001 C CNN
 F 4 "Guerilla RF" H 2450 6850 50  0001 C CNN "Manufacturer"
-F 5 "GRF4042" H 2450 6850 50  0001 C CNN "Part Number"
+F 5 "GRF4142" H 2450 6850 50  0001 C CNN "Part Number"
 F 6 "QFN-12 2x2mm" H 2450 6850 50  0001 C CNN "Package"
 F 7 "Low Noise Amplifier with Bypass" H 2450 6850 50  0001 C CNN "Description"
 	1    2450 6850
@@ -1779,8 +1687,6 @@ $EndComp
 Wire Wire Line
 	5300 6650 5300 6750
 Connection ~ 5300 6750
-Wire Wire Line
-	5300 6750 5800 6750
 $Comp
 L Device:C C?
 U 1 1 5B9D97E3
@@ -1834,4 +1740,100 @@ $EndComp
 Wire Wire Line
 	5300 5700 5300 5800
 Connection ~ 5300 5800
+Wire Wire Line
+	2200 3350 2200 3400
+Wire Wire Line
+	2550 3350 2200 3350
+Wire Wire Line
+	2150 3300 2150 3200
+Wire Wire Line
+	2150 3200 2300 3200
+Wire Wire Line
+	2200 2550 2200 1950
+Wire Wire Line
+	2200 1950 1950 1950
+Connection ~ 1950 1950
+$Comp
+L samtec:SMA-J-P-H-ST-EM1 J4
+U 1 1 5BBE0F4C
+P 950 1950
+F 0 "J4" H 800 2300 50  0000 C CNN
+F 1 "SMA-J-P-H-ST-EM1" H 1150 2200 50  0000 C CNN
+F 2 "samtec:SMA-J-P-H-ST-EM1" H 950 1950 50  0001 L BNN
+F 3 "Connector SMA F 50Ohm Solder ST Edge Mount Gold Over Nickel Tray" H 950 1950 50  0001 L BNN
+F 4 "None" H 950 1950 50  0001 L BNN "Field4"
+F 5 "SMA-J-P-H-ST-EM1" H 950 1950 50  0001 L BNN "Field5"
+F 6 "Good" H 950 1950 50  0001 L BNN "Field6"
+F 7 "2.95 USD" H 950 1950 50  0001 L BNN "Field7"
+F 8 "Samtec" H 950 1950 50  0001 L BNN "Field8"
+	1    950  1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2050 1350 2100
+Connection ~ 1350 2100
+$Comp
+L samtec:SMA-J-P-H-ST-EM1 J5
+U 1 1 5BBF29C0
+P 3300 1750
+F 0 "J5" H 3150 2100 50  0000 C CNN
+F 1 "SMA-J-P-H-ST-EM1" H 3500 2000 50  0000 C CNN
+F 2 "samtec:SMA-J-P-H-ST-EM1" H 3300 1750 50  0001 L BNN
+F 3 "Connector SMA F 50Ohm Solder ST Edge Mount Gold Over Nickel Tray" H 3300 1750 50  0001 L BNN
+F 4 "None" H 3300 1750 50  0001 L BNN "Field4"
+F 5 "SMA-J-P-H-ST-EM1" H 3300 1750 50  0001 L BNN "Field5"
+F 6 "Good" H 3300 1750 50  0001 L BNN "Field6"
+F 7 "2.95 USD" H 3300 1750 50  0001 L BNN "Field7"
+F 8 "Samtec" H 3300 1750 50  0001 L BNN "Field8"
+	1    3300 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1850 3700 1950
+Connection ~ 3700 1950
+$Comp
+L samtec:SMA-J-P-H-ST-EM1 J8
+U 1 1 5BC0432C
+P 10200 2600
+F 0 "J8" H 10100 2950 50  0000 R CNN
+F 1 "SMA-J-P-H-ST-EM1" H 10850 2850 50  0000 R CNN
+F 2 "samtec:SMA-J-P-H-ST-EM1" H 10200 2600 50  0001 L BNN
+F 3 "Connector SMA F 50Ohm Solder ST Edge Mount Gold Over Nickel Tray" H 10200 2600 50  0001 L BNN
+F 4 "None" H 10200 2600 50  0001 L BNN "Field4"
+F 5 "SMA-J-P-H-ST-EM1" H 10200 2600 50  0001 L BNN "Field5"
+F 6 "Good" H 10200 2600 50  0001 L BNN "Field6"
+F 7 "2.95 USD" H 10200 2600 50  0001 L BNN "Field7"
+F 8 "Samtec" H 10200 2600 50  0001 L BNN "Field8"
+	1    10200 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2700 9800 2750
+Connection ~ 9800 2750
+$Comp
+L samtec:SMA-J-P-H-ST-EM1 J7
+U 1 1 5BC27468
+P 6450 6750
+F 0 "J7" H 6350 7100 50  0000 R CNN
+F 1 "SMA-J-P-H-ST-EM1" H 7100 7000 50  0000 R CNN
+F 2 "samtec:SMA-J-P-H-ST-EM1" H 6450 6750 50  0001 L BNN
+F 3 "Connector SMA F 50Ohm Solder ST Edge Mount Gold Over Nickel Tray" H 6450 6750 50  0001 L BNN
+F 4 "None" H 6450 6750 50  0001 L BNN "Field4"
+F 5 "SMA-J-P-H-ST-EM1" H 6450 6750 50  0001 L BNN "Field5"
+F 6 "Good" H 6450 6750 50  0001 L BNN "Field6"
+F 7 "2.95 USD" H 6450 6750 50  0001 L BNN "Field7"
+F 8 "Samtec" H 6450 6750 50  0001 L BNN "Field8"
+	1    6450 6750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 6850 6050 6900
+Connection ~ 6050 6900
+Wire Wire Line
+	5300 6750 5450 6750
+Wire Wire Line
+	5450 6900 5450 6750
+Connection ~ 5450 6750
+Wire Wire Line
+	5450 6750 6050 6750
 $EndSCHEMATC
