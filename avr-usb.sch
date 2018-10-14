@@ -516,17 +516,17 @@ Text HLabel 8350 5100 0    50   Output ~ 0
 BYP_LNA1
 Text HLabel 8350 4100 0    50   Output ~ 0
 BYP_LNA2
-Text HLabel 8350 3800 0    50   Output ~ 0
+Text HLabel 8350 4000 0    50   Output ~ 0
 SWA_V1
 Text HLabel 8350 3900 0    50   Output ~ 0
 SWA_V2
-Text HLabel 8350 4000 0    50   Output ~ 0
+Text HLabel 8350 3800 0    50   Output ~ 0
 SWA_V3
-Text HLabel 8450 2700 0    50   Output ~ 0
+Text HLabel 8450 2900 0    50   Output ~ 0
 SWB_V1
 Text HLabel 8450 2800 0    50   Output ~ 0
 SWB_V2
-Text HLabel 8450 2900 0    50   Output ~ 0
+Text HLabel 8450 2700 0    50   Output ~ 0
 SWB_V3
 Wire Wire Line
 	8350 3800 8950 3800
@@ -545,8 +545,8 @@ L Connector_Generic:Conn_02x03_Odd_Even J6
 U 1 1 5BC5A91A
 P 7000 1400
 F 0 "J6" H 7050 1717 50  0000 C CNN
-F 1 "TAG-Connect" H 7050 1626 50  0000 C CNN
-F 2 "Connectors:Tag-Connect_TC2030-IDC-NL" H 7000 1400 50  0001 C CNN
+F 1 "2x3 0.1\" HEADER" H 7050 1626 50  0000 C CNN
+F 2 "amphenol:FRAMATOME_67997-206HLF" H 7000 1400 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" H 7000 1400 50  0001 C CNN
 F 4 "Amphenol" H 7000 1400 50  0001 C CNN "Manufacturer"
 F 5 " 67997-206HLF" H 7000 1400 50  0001 C CNN "Part Number"
@@ -912,7 +912,7 @@ F 7 "IC MCU 8BIT 32KB FLASH 32VQFN" H 9550 3900 50  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	8350 3700 8950 3700
-Text Label 8450 5000 0    50   ~ 0
+Text Label 8450 4900 0    50   ~ 0
 BTN
 Text Label 2850 2800 0    50   ~ 0
 LED1
@@ -1144,7 +1144,7 @@ Wire Wire Line
 	8350 4900 8950 4900
 Text Label 8450 4800 0    50   ~ 0
 LED2
-Text Label 8450 4900 0    50   ~ 0
+Text Label 8450 5000 0    50   ~ 0
 LED3
 Text Label 8500 3300 0    50   ~ 0
 LED4
