@@ -5,10 +5,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 3
-Title "Raspberry Pi HAT"
+Title "Multi-Band Low Noise Amplifier"
 Date ""
 Rev "A"
-Comp ""
+Comp "SCH: 505-201"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -83,9 +83,14 @@ L raspberrypi_hat:OX40HAT J3
 U 1 1 58DFC771
 P 2600 2250
 F 0 "J3" H 2950 2350 50  0000 C CNN
-F 1 "40HAT" H 2300 2350 50  0000 C CNN
+F 1 "DNF" H 2300 2350 50  0000 C CNN
 F 2 "project_footprints:PinSocket_2x20_P2.54mm_Vertical" H 2600 2450 50  0001 C CNN
-F 3 "" H 1900 2250 50  0000 C CNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2243/12768.pdf" H 1900 2250 50  0001 C CNN
+F 4 "Samtec" H 2600 2250 50  0001 C CNN "Manufacturer"
+F 5 "SSW-120-01-G-D" H 2600 2250 50  0001 C CNN "Part Number"
+F 6 "2x20 0.1\" female header" H 2600 2250 50  0001 C CNN "Description"
+F 7 "available from Adafruit" H 2600 2250 50  0001 C CNN "Notes"
+F 8 "SSW-120-01-G-D" H 2600 2250 50  0001 C CNN "Alternate Part Number"
 	1    2600 2250
 	1    0    0    -1  
 $EndComp
@@ -97,6 +102,10 @@ F 0 "U2" H 2450 6200 50  0000 C CNN
 F 1 "CAT24C32" H 1850 6200 50  0000 C CNN
 F 2 "project_footprints:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 5850 50  0001 C CNN
 F 3 "" H 2100 5850 50  0000 C CNN
+F 4 "ON Semiconductor" H 2100 5850 50  0001 C CNN "Manufacturer"
+F 5 "CAT24C32WI-GT3" H 2100 5850 50  0001 C CNN "Part Number"
+F 6 "SOIC-8" H 2100 5850 50  0001 C CNN "Package"
+F 7 "IC EEPROM 32K I2C 1MHZ 8SOIC" H 2100 5850 50  0001 C CNN "Description"
 	1    2100 5850
 	1    0    0    -1  
 $EndComp
@@ -143,6 +152,10 @@ F 0 "J9" H 750 6250 50  0000 C CNN
 F 1 "CONN_01X02" V 850 6100 50  0000 C CNN
 F 2 "project_footprints:PinHeader_1x02_P2.54mm_Vertical" H 750 6100 50  0001 C CNN
 F 3 "" H 750 6100 50  0000 C CNN
+F 4 "Amphenol" H 750 6100 50  0001 C CNN "Manufacturer"
+F 5 "77311-118-02LF" H 750 6100 50  0001 C CNN "Part Number"
+F 6 "CONN HEADER 2POS VERT T/H" H 750 6100 50  0001 C CNN "Description"
+F 7 "M20-9990246" H 750 6100 50  0001 C CNN "Alternate Part Number"
 	1    750  6100
 	-1   0    0    1   
 $EndComp
@@ -448,6 +461,7 @@ F 5 "0402" H 12450 6250 50  0001 C CNN "Package"
 F 6 "CAP CER 0.1UF 10V X5R 0402" H 12450 6250 50  0001 C CNN "Description"
 F 7 "6.3V or greater" H 12450 6250 50  0001 C CNN "Notes"
 F 8 "GRM022R60J104ME15L" H 12450 6250 50  0001 C CNN "Alternate Part Number"
+F 9 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12450 6250
 	1    0    0    -1  
 $EndComp
@@ -617,6 +631,7 @@ F 5 "0402" H 12300 7650 50  0001 C CNN "Package"
 F 6 "CAP CER 0.1UF 10V X5R 0402" H 12300 7650 50  0001 C CNN "Description"
 F 7 "6.3V or greater" H 12300 7650 50  0001 C CNN "Notes"
 F 8 "GRM022R60J104ME15L" H 12300 7650 50  0001 C CNN "Alternate Part Number"
+F 9 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12300 7650
 	1    0    0    -1  
 $EndComp

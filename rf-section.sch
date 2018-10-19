@@ -7,8 +7,8 @@ encoding utf-8
 Sheet 3 3
 Title ""
 Date ""
-Rev ""
-Comp ""
+Rev "A"
+Comp "505-201"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -45,6 +45,7 @@ F 5 "0402" H 6950 1150 50  0001 C CNN "Package"
 F 6 "CAP CER 0.1UF 10V X5R 0402" H 6950 1150 50  0001 C CNN "Description"
 F 7 "6.3V or greater" H 6950 1150 50  0001 C CNN "Notes"
 F 8 "GRM022R60J104ME15L" H 6950 1150 50  0001 C CNN "Alternate Part Number"
+F 9 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6950 1150
 	0    1    1    0   
 $EndComp
@@ -339,6 +340,7 @@ F 5 "0402" H 9800 3400 50  0001 C CNN "Package"
 F 6 "CAP CER 0.1UF 10V X5R 0402" H 9800 3400 50  0001 C CNN "Description"
 F 7 "6.3V or greater" H 9800 3400 50  0001 C CNN "Notes"
 F 8 "GRM022R60J104ME15L" H 9800 3400 50  0001 C CNN "Alternate Part Number"
+F 9 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9800 3400
 	0    1    1    0   
 $EndComp
@@ -389,6 +391,7 @@ F 5 "0402" H 2400 3900 50  0001 C CNN "Package"
 F 6 "CAP CER 0.1UF 10V X5R 0402" H 2400 3900 50  0001 C CNN "Description"
 F 7 "6.3V or greater" H 2400 3900 50  0001 C CNN "Notes"
 F 8 "GRM022R60J104ME15L" H 2400 3900 50  0001 C CNN "Alternate Part Number"
+F 9 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2400 3900
 	0    1    1    0   
 $EndComp
@@ -917,7 +920,7 @@ Wire Wire Line
 Text Notes 9550 5800 0    50   ~ 10
 V1      V2      V3     RF\n0        0       0      1\n0        0       1      2\n0        1       0      3\n0        1       1      4\n1        0       0      ISO\n1        0       1      50 Ohm\n1        1       1      SHDN
 Text Notes 6450 5800 0    50   ~ 10
-BAND    SWA_V1    SWA_V2    SWA_V3     SWB_V1     SWB_V2    SWB_V3\nFL1         0         1          0          0            1           1\nFL2         0         0          1          0            0           0\nFL3         0         0          0          0            0           1\nEXT         0         1          1          0            1           0
+BAND    SWA_V1    SWA_V2    SWA_V3     SWB_V1     SWB_V2    SWB_V3\nFL1         0         0          0          0            0           1\nFL2         0         1          0          0            1           1\nFL3         0         0          1          0            0           0\nEXT         0         1          1          0            1           0
 Wire Wire Line
 	7200 4750 9450 4750
 Wire Wire Line
@@ -1052,6 +1055,7 @@ F 5 "0402" H 4150 6200 50  0001 C CNN "Package"
 F 6 "CAP CER 0.1UF 10V X5R 0402" H 4150 6200 50  0001 C CNN "Description"
 F 7 "6.3V or greater" H 4150 6200 50  0001 C CNN "Notes"
 F 8 "GRM022R60J104ME15L" H 4150 6200 50  0001 C CNN "Alternate Part Number"
+F 9 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4150 6200
 	0    1    1    0   
 $EndComp
@@ -1391,11 +1395,10 @@ F 0 "J4" H 800 2300 50  0000 C CNN
 F 1 "SMA-J-P-H-ST-EM1" H 1150 2200 50  0000 C CNN
 F 2 "samtec:SMA-J-P-H-ST-EM1" H 950 1950 50  0001 L BNN
 F 3 "Connector SMA F 50Ohm Solder ST Edge Mount Gold Over Nickel Tray" H 950 1950 50  0001 L BNN
-F 4 "None" H 950 1950 50  0001 L BNN "Field4"
-F 5 "SMA-J-P-H-ST-EM1" H 950 1950 50  0001 L BNN "Field5"
-F 6 "Good" H 950 1950 50  0001 L BNN "Field6"
-F 7 "2.95 USD" H 950 1950 50  0001 L BNN "Field7"
-F 8 "Samtec" H 950 1950 50  0001 L BNN "Field8"
+F 4 "Samtec" H 950 1950 50  0001 C CNN "Manufacturer"
+F 5 "SMA-J-P-H-ST-EM1" H 950 1950 50  0001 C CNN "Part Number"
+F 6 "SMA_END_LAUNCH" H 950 1950 50  0001 C CNN "Package"
+F 7 "SMA Connector Jack, Female Socket 50 Ohm Board Edge, End Launch Solder" H 950 1950 50  0001 C CNN "Description"
 	1    950  1950
 	1    0    0    -1  
 $EndComp
@@ -1410,11 +1413,10 @@ F 0 "J5" H 2500 2100 50  0000 C CNN
 F 1 "SMA-J-P-H-ST-EM1" H 2850 2000 50  0000 C CNN
 F 2 "samtec:SMA-J-P-H-ST-EM1" H 2650 1750 50  0001 L BNN
 F 3 "Connector SMA F 50Ohm Solder ST Edge Mount Gold Over Nickel Tray" H 2650 1750 50  0001 L BNN
-F 4 "None" H 2650 1750 50  0001 L BNN "Field4"
-F 5 "SMA-J-P-H-ST-EM1" H 2650 1750 50  0001 L BNN "Field5"
-F 6 "Good" H 2650 1750 50  0001 L BNN "Field6"
-F 7 "2.95 USD" H 2650 1750 50  0001 L BNN "Field7"
-F 8 "Samtec" H 2650 1750 50  0001 L BNN "Field8"
+F 4 "Samtec" H 2650 1750 50  0001 C CNN "Manufacturer"
+F 5 "SMA-J-P-H-ST-EM1" H 2650 1750 50  0001 C CNN "Part Number"
+F 6 "SMA_END_LAUNCH" H 2650 1750 50  0001 C CNN "Package"
+F 7 "SMA Connector Jack, Female Socket 50 Ohm Board Edge, End Launch Solder" H 2650 1750 50  0001 C CNN "Description"
 	1    2650 1750
 	1    0    0    -1  
 $EndComp
@@ -1429,11 +1431,10 @@ F 0 "J8" H 10100 2950 50  0000 R CNN
 F 1 "SMA-J-P-H-ST-EM1" H 10850 2850 50  0000 R CNN
 F 2 "samtec:SMA-J-P-H-ST-EM1" H 10200 2600 50  0001 L BNN
 F 3 "Connector SMA F 50Ohm Solder ST Edge Mount Gold Over Nickel Tray" H 10200 2600 50  0001 L BNN
-F 4 "None" H 10200 2600 50  0001 L BNN "Field4"
-F 5 "SMA-J-P-H-ST-EM1" H 10200 2600 50  0001 L BNN "Field5"
-F 6 "Good" H 10200 2600 50  0001 L BNN "Field6"
-F 7 "2.95 USD" H 10200 2600 50  0001 L BNN "Field7"
-F 8 "Samtec" H 10200 2600 50  0001 L BNN "Field8"
+F 4 "Samtec" H 10200 2600 50  0001 C CNN "Manufacturer"
+F 5 "SMA-J-P-H-ST-EM1" H 10200 2600 50  0001 C CNN "Part Number"
+F 6 "SMA_END_LAUNCH" H 10200 2600 50  0001 C CNN "Package"
+F 7 "SMA Connector Jack, Female Socket 50 Ohm Board Edge, End Launch Solder" H 10200 2600 50  0001 C CNN "Description"
 	1    10200 2600
 	-1   0    0    -1  
 $EndComp
@@ -1448,11 +1449,10 @@ F 0 "J7" H 6350 7100 50  0000 R CNN
 F 1 "SMA-J-P-H-ST-EM1" H 7100 7000 50  0000 R CNN
 F 2 "samtec:SMA-J-P-H-ST-EM1" H 6450 6750 50  0001 L BNN
 F 3 "Connector SMA F 50Ohm Solder ST Edge Mount Gold Over Nickel Tray" H 6450 6750 50  0001 L BNN
-F 4 "None" H 6450 6750 50  0001 L BNN "Field4"
-F 5 "SMA-J-P-H-ST-EM1" H 6450 6750 50  0001 L BNN "Field5"
-F 6 "Good" H 6450 6750 50  0001 L BNN "Field6"
-F 7 "2.95 USD" H 6450 6750 50  0001 L BNN "Field7"
-F 8 "Samtec" H 6450 6750 50  0001 L BNN "Field8"
+F 4 "Samtec" H 6450 6750 50  0001 C CNN "Manufacturer"
+F 5 "SMA-J-P-H-ST-EM1" H 6450 6750 50  0001 C CNN "Part Number"
+F 6 "SMA_END_LAUNCH" H 6450 6750 50  0001 C CNN "Package"
+F 7 "SMA Connector Jack, Female Socket 50 Ohm Board Edge, End Launch Solder" H 6450 6750 50  0001 C CNN "Description"
 	1    6450 6750
 	-1   0    0    -1  
 $EndComp
@@ -1506,6 +1506,7 @@ F 2 "guerilla_rf:DFN1.5MMX1.5MMX0.45MM-6" H 2700 6850 50  0001 C CNN
 F 3 "" H 2700 6850 50  0001 C CNN
 F 4 "Guerilla RF" H 2700 6850 50  0001 C CNN "Manufacturer"
 F 5 "GRF4142" H 2700 6850 50  0001 C CNN "Part Number"
+F 6 "RF Amplifier .1-3.8GHz GaAs Gain 16dB" H 2700 6850 50  0001 C CNN "Description"
 	1    2700 6850
 	1    0    0    -1  
 $EndComp
@@ -1519,6 +1520,7 @@ F 2 "guerilla_rf:DFN1.5MMX1.5MMX0.45MM-6" H 5350 1850 50  0001 C CNN
 F 3 "" H 5350 1850 50  0001 C CNN
 F 4 "Guerilla RF" H 5350 1850 50  0001 C CNN "Manufacturer"
 F 5 "GRF4142" H 5350 1850 50  0001 C CNN "Part Number"
+F 6 "RF Amplifier .1-3.8GHz GaAs Gain 16dB" H 5350 1850 50  0001 C CNN "Description"
 	1    5350 1850
 	1    0    0    -1  
 $EndComp
