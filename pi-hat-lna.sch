@@ -20,7 +20,7 @@ U 1 1 5834BC4A
 P 5650 6000
 F 0 "H1" H 5500 6100 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 5650 5850 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 5550 6000 60  0001 C CNN
+F 2 "project_footprints.pretty:NPTH_3mm_ID" H 5550 6000 60  0001 C CNN
 F 3 "" H 5550 6000 60  0001 C CNN
 F 4 "" H -12600 -4650 50  0001 C CNN "MFR"
 F 5 "" H -12600 -4650 50  0001 C CNN "MPN"
@@ -36,7 +36,7 @@ U 1 1 5834BCDF
 P 6650 6000
 F 0 "H2" H 6500 6100 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 6650 5850 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 6550 6000 60  0001 C CNN
+F 2 "project_footprints.pretty:NPTH_3mm_ID" H 6550 6000 60  0001 C CNN
 F 3 "" H 6550 6000 60  0001 C CNN
 F 4 "" H -12600 -4650 50  0001 C CNN "MFR"
 F 5 "" H -12600 -4650 50  0001 C CNN "MPN"
@@ -52,7 +52,7 @@ U 1 1 5834BD62
 P 5650 6550
 F 0 "H3" H 5500 6650 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 5650 6400 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 5550 6550 60  0001 C CNN
+F 2 "project_footprints.pretty:NPTH_3mm_ID" H 5550 6550 60  0001 C CNN
 F 3 "" H 5550 6550 60  0001 C CNN
 F 4 "" H -12600 -4650 50  0001 C CNN "MFR"
 F 5 "" H -12600 -4650 50  0001 C CNN "MPN"
@@ -68,7 +68,7 @@ U 1 1 5834BDED
 P 6700 6550
 F 0 "H4" H 6550 6650 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 6700 6400 60  0000 C CNN
-F 2 "project_footprints:NPTH_3mm_ID" H 6600 6550 60  0001 C CNN
+F 2 "project_footprints.pretty:NPTH_3mm_ID" H 6600 6550 60  0001 C CNN
 F 3 "" H 6600 6550 60  0001 C CNN
 F 4 "" H -12600 -4650 50  0001 C CNN "MFR"
 F 5 "" H -12600 -4650 50  0001 C CNN "MPN"
@@ -84,7 +84,7 @@ U 1 1 58DFC771
 P 2600 2250
 F 0 "J3" H 2950 2350 50  0000 C CNN
 F 1 "DNF" H 2300 2350 50  0000 C CNN
-F 2 "project_footprints:PinSocket_2x20_P2.54mm_Vertical" H 2600 2450 50  0001 C CNN
+F 2 "project_footprints.pretty:PinSocket_2x20_P2.54mm_Vertical" H 2600 2450 50  0001 C CNN
 F 3 "https://cdn-shop.adafruit.com/product-files/2243/12768.pdf" H 1900 2250 50  0001 C CNN
 F 4 "Samtec" H 2600 2250 50  0001 C CNN "Manufacturer"
 F 5 "SSW-120-01-G-D" H 2600 2250 50  0001 C CNN "Part Number"
@@ -100,7 +100,7 @@ U 1 1 58E1713F
 P 2100 5850
 F 0 "U2" H 2450 6200 50  0000 C CNN
 F 1 "CAT24C32" H 1850 6200 50  0000 C CNN
-F 2 "project_footprints:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 5850 50  0001 C CNN
+F 2 "project_footprints.pretty:SOIC-8_3.9x4.9mm_P1.27mm" H 2100 5850 50  0001 C CNN
 F 3 "" H 2100 5850 50  0000 C CNN
 F 4 "ON Semiconductor" H 2100 5850 50  0001 C CNN "Manufacturer"
 F 5 "CAT24C32WI-GT3" H 2100 5850 50  0001 C CNN "Part Number"
@@ -150,7 +150,7 @@ U 1 1 58E18D32
 P 750 6100
 F 0 "J9" H 750 6250 50  0000 C CNN
 F 1 "CONN_01X02" V 850 6100 50  0000 C CNN
-F 2 "project_footprints:PinHeader_1x02_P2.54mm_Vertical" H 750 6100 50  0001 C CNN
+F 2 "project_footprints.pretty:PinHeader_1x02_P2.54mm_Vertical" H 750 6100 50  0001 C CNN
 F 3 "" H 750 6100 50  0000 C CNN
 F 4 "Amphenol" H 750 6100 50  0001 C CNN "Manufacturer"
 F 5 "77311-118-02LF" H 750 6100 50  0001 C CNN "Part Number"
@@ -381,7 +381,7 @@ U 1 1 5B970E1C
 P 8500 8350
 F 0 "D11" V 8546 8271 50  0000 R CNN
 F 1 "BAT165" V 8455 8271 50  0000 R CNN
-F 2 "project_footprints:D_SOD-323" H 8500 8175 50  0001 C CNN
+F 2 "project_footprints.pretty:D_SOD-323" H 8500 8175 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 8500 8350 50  0001 C CNN
 F 4 "Infineon" H 8500 8350 50  0001 C CNN "Manufacturer"
 F 5 "BAT165E6327HTSA1" H 8500 8350 50  0001 C CNN "Part Number"
@@ -398,7 +398,7 @@ AR Path="/5C1B036A/5B97D4B2" Ref="U?"  Part="1"
 AR Path="/5B97D4B2" Ref="U3"  Part="1" 
 F 0 "U3" H 11900 6367 50  0000 C CNN
 F 1 "TPS73233DBVR" H 11900 6276 50  0000 C CNN
-F 2 "project_footprints:SOT-23-5" H 11900 5600 50  0001 C CIN
+F 2 "project_footprints.pretty:SOT-23-5" H 11900 5600 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps732.pdf" H 11900 5500 50  0001 C CNN
 F 4 "Texas Instruments" H 11900 6000 50  0001 C CNN "Manufacturer"
 F 5 "TPS73233DBVR" H 11900 6000 50  0001 C CNN "Part Number"
@@ -416,7 +416,7 @@ AR Path="/5C1B036A/5B97D4BF" Ref="C?"  Part="1"
 AR Path="/5B97D4BF" Ref="C2"  Part="1" 
 F 0 "C2" H 11150 6150 50  0000 L CNN
 F 1 "1uF" H 11150 5950 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 11188 5900 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 11188 5900 50  0001 C CNN
 F 3 "~" H 11150 6050 50  0001 C CNN
 F 4 "Murata" H 11150 6050 50  0001 C CNN "Manufacturer"
 F 5 "GRM153R60J105ME95D" H 11150 6050 50  0001 C CNN "Part Number"
@@ -435,7 +435,7 @@ AR Path="/5C1B036A/5B97D4CC" Ref="C?"  Part="1"
 AR Path="/5B97D4CC" Ref="C6"  Part="1" 
 F 0 "C6" H 12700 6150 50  0000 L CNN
 F 1 "1uF" H 12700 5950 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 12738 5900 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 12738 5900 50  0001 C CNN
 F 3 "~" H 12700 6050 50  0001 C CNN
 F 4 "Murata" H 12700 6050 50  0001 C CNN "Manufacturer"
 F 5 "GRM153R60J105ME95D" H 12700 6050 50  0001 C CNN "Part Number"
@@ -454,7 +454,7 @@ AR Path="/5C1B036A/5B97D4D8" Ref="C?"  Part="1"
 AR Path="/5B97D4D8" Ref="C4"  Part="1" 
 F 0 "C4" H 12450 6350 50  0000 L CNN
 F 1 "100nF" H 12450 6150 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 12488 6100 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 12488 6100 50  0001 C CNN
 F 3 "~" H 12450 6250 50  0001 C CNN
 F 4 "CL05A104MP5NNNC" H 12450 6250 50  0001 C CNN "Part Number"
 F 5 "0402" H 12450 6250 50  0001 C CNN "Package"
@@ -562,7 +562,7 @@ AR Path="/5C1B036A/5B97D511" Ref="U?"  Part="1"
 AR Path="/5B97D511" Ref="U1"  Part="1" 
 F 0 "U1" H 11850 7767 50  0000 C CNN
 F 1 "TPS73233DBVR" H 11850 7676 50  0000 C CNN
-F 2 "project_footprints:SOT-23-5" H 11850 7000 50  0001 C CIN
+F 2 "project_footprints.pretty:SOT-23-5" H 11850 7000 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tps732.pdf" H 11850 6900 50  0001 C CNN
 F 4 "Texas Instruments" H 11850 7400 50  0001 C CNN "Manufacturer"
 F 5 "TPS73233DBVR" H 11850 7400 50  0001 C CNN "Part Number"
@@ -582,7 +582,7 @@ AR Path="/5C1B036A/5B97D51E" Ref="C?"  Part="1"
 AR Path="/5B97D51E" Ref="C1"  Part="1" 
 F 0 "C1" H 11100 7550 50  0000 L CNN
 F 1 "1uF" H 11100 7350 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 11138 7300 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 11138 7300 50  0001 C CNN
 F 3 "~" H 11100 7450 50  0001 C CNN
 F 4 "Murata" H 11100 7450 50  0001 C CNN "Manufacturer"
 F 5 "GRM153R60J105ME95D" H 11100 7450 50  0001 C CNN "Part Number"
@@ -603,7 +603,7 @@ AR Path="/5C1B036A/5B97D52B" Ref="C?"  Part="1"
 AR Path="/5B97D52B" Ref="C5"  Part="1" 
 F 0 "C5" H 12650 7550 50  0000 L CNN
 F 1 "1uF" H 12650 7350 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 12688 7300 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 12688 7300 50  0001 C CNN
 F 3 "~" H 12650 7450 50  0001 C CNN
 F 4 "Murata" H 12650 7450 50  0001 C CNN "Manufacturer"
 F 5 "GRM153R60J105ME95D" H 12650 7450 50  0001 C CNN "Part Number"
@@ -624,7 +624,7 @@ AR Path="/5C1B036A/5B97D537" Ref="C?"  Part="1"
 AR Path="/5B97D537" Ref="C3"  Part="1" 
 F 0 "C3" H 12300 7750 50  0000 L CNN
 F 1 "100nF" H 12300 7550 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 12338 7500 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 12338 7500 50  0001 C CNN
 F 3 "~" H 12300 7650 50  0001 C CNN
 F 4 "CL05A104MP5NNNC" H 12300 7650 50  0001 C CNN "Part Number"
 F 5 "0402" H 12300 7650 50  0001 C CNN "Package"
@@ -770,7 +770,7 @@ U 1 1 5B997810
 P 7950 8350
 F 0 "D10" V 7996 8271 50  0000 R CNN
 F 1 "BAT165" V 7905 8271 50  0000 R CNN
-F 2 "project_footprints:D_SOD-323" H 7950 8175 50  0001 C CNN
+F 2 "project_footprints.pretty:D_SOD-323" H 7950 8175 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 7950 8350 50  0001 C CNN
 F 4 "Infineon" H 7950 8350 50  0001 C CNN "Manufacturer"
 F 5 "BAT165E6327HTSA1" H 7950 8350 50  0001 C CNN "Part Number"
@@ -838,7 +838,7 @@ U 1 1 5B959924
 P 6600 8350
 F 0 "D12" V 6646 8271 50  0000 R CNN
 F 1 "BAT165" V 6555 8271 50  0000 R CNN
-F 2 "project_footprints:D_SOD-323" H 6600 8175 50  0001 C CNN
+F 2 "project_footprints.pretty:D_SOD-323" H 6600 8175 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88946/b120.pdf" H 6600 8350 50  0001 C CNN
 F 4 "Infineon" H 6600 8350 50  0001 C CNN "Manufacturer"
 F 5 "BAT165E6327HTSA1" H 6600 8350 50  0001 C CNN "Part Number"
@@ -911,7 +911,7 @@ AR Path="/5C1B036A/5BC14805" Ref="R?"  Part="1"
 AR Path="/5BC14805" Ref="R8"  Part="1" 
 F 0 "R8" V 2450 7600 50  0000 L CNN
 F 1 "3.9K" V 2350 7550 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 2280 7650 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 2280 7650 50  0001 C CNN
 F 3 "~" H 2350 7650 50  0001 C CNN
 F 4 "Panasonic" H 2350 7650 50  0001 C CNN "Manufacturer"
 F 5 "RC0402FR-073K9L" H 2350 7650 50  0001 C CNN "Part Number"
@@ -929,7 +929,7 @@ AR Path="/5C1B036A/5BC1795B" Ref="R?"  Part="1"
 AR Path="/5BC1795B" Ref="R6"  Part="1" 
 F 0 "R6" V 2450 7350 50  0000 L CNN
 F 1 "3.9K" V 2350 7300 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 2280 7400 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 2280 7400 50  0001 C CNN
 F 3 "~" H 2350 7400 50  0001 C CNN
 F 4 "Panasonic" H 2350 7400 50  0001 C CNN "Manufacturer"
 F 5 "RC0402FR-073K9L" H 2350 7400 50  0001 C CNN "Part Number"
@@ -947,7 +947,7 @@ AR Path="/5C1B036A/5BC17DA9" Ref="R?"  Part="1"
 AR Path="/5BC17DA9" Ref="R7"  Part="1" 
 F 0 "R7" V 1300 2000 50  0000 L CNN
 F 1 "3.9K" V 1200 1950 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 1130 2050 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 1130 2050 50  0001 C CNN
 F 3 "~" H 1200 2050 50  0001 C CNN
 F 4 "Panasonic" H 1200 2050 50  0001 C CNN "Manufacturer"
 F 5 "RC0402FR-073K9L" H 1200 2050 50  0001 C CNN "Part Number"
@@ -965,7 +965,7 @@ AR Path="/5C1B036A/5BC180DD" Ref="R?"  Part="1"
 AR Path="/5BC180DD" Ref="R9"  Part="1" 
 F 0 "R9" V 1500 2000 50  0000 L CNN
 F 1 "3.9K" V 1400 1950 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 1330 2050 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 1330 2050 50  0001 C CNN
 F 3 "~" H 1400 2050 50  0001 C CNN
 F 4 "Panasonic" H 1400 2050 50  0001 C CNN "Manufacturer"
 F 5 "RC0402FR-073K9L" H 1400 2050 50  0001 C CNN "Part Number"
@@ -983,7 +983,7 @@ AR Path="/5C1B036A/5BC18658" Ref="R?"  Part="1"
 AR Path="/5BC18658" Ref="R29"  Part="1" 
 F 0 "R29" V 1650 6200 50  0000 L CNN
 F 1 "10K" V 1550 6200 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 1480 6250 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 1480 6250 50  0001 C CNN
 F 3 "~" H 1550 6250 50  0001 C CNN
 F 4 "Panasonic" H 1550 6250 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1002X" H 1550 6250 50  0001 C CNN "Part Number"
@@ -1001,7 +1001,7 @@ AR Path="/5C1B036A/5BC1B548" Ref="R?"  Part="1"
 AR Path="/5BC1B548" Ref="R11"  Part="1" 
 F 0 "R11" V 1200 6050 50  0000 L CNN
 F 1 "DNP" V 1300 6000 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 1230 6100 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 1230 6100 50  0001 C CNN
 F 3 "~" H 1300 6100 50  0001 C CNN
 F 4 "Panasonic" H 1300 6100 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1002X" H 1300 6100 50  0001 C CNN "Part Number"

@@ -20,7 +20,7 @@ U 1 1 5B782A3F
 P 4300 6200
 F 0 "U4" H 3900 7000 50  0000 C CNN
 F 1 "CP2102N-A01-GQFN24" H 4800 7000 50  0000 C CNN
-F 2 "project_footprints:QFN-24-1EP_4x4mm_Pitch0.5mm" H 4750 5400 50  0001 L CNN
+F 2 "project_footprints.pretty:QFN-24-1EP_4x4mm_Pitch0.5mm" H 4750 5400 50  0001 L CNN
 F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 4350 5150 50  0001 C CNN
 F 4 "Silicon Labs" H 4300 6200 50  0001 C CNN "Manufacturer"
 F 5 "CP2102N-A01-GQFN24" H 4300 6200 50  0001 C CNN "Part Number"
@@ -61,7 +61,7 @@ U 1 1 5B78CABD
 P 3300 7000
 F 0 "C7" H 3300 7100 50  0000 L CNN
 F 1 "1uF" H 3300 6900 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 3338 6850 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 3338 6850 50  0001 C CNN
 F 3 "~" H 3300 7000 50  0001 C CNN
 F 4 "Murata" H 3300 7000 50  0001 C CNN "Manufacturer"
 F 5 "GRM153R60J105ME95D" H 3300 7000 50  0001 C CNN "Part Number"
@@ -96,7 +96,7 @@ U 1 1 5B78D070
 P 3600 7000
 F 0 "C8" H 3600 7100 50  0000 L CNN
 F 1 "100nF" H 3600 6900 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 3638 6850 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 3638 6850 50  0001 C CNN
 F 3 "~" H 3600 7000 50  0001 C CNN
 F 4 "CL05A104MP5NNNC" H 3600 7000 50  0001 C CNN "Part Number"
 F 5 "0402" H 3600 7000 50  0001 C CNN "Package"
@@ -135,7 +135,7 @@ U 1 1 5B78D68D
 P 4600 5100
 F 0 "C9" V 4550 5150 50  0000 L CNN
 F 1 "4.7uF" V 4750 5000 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 4638 4950 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 4638 4950 50  0001 C CNN
 F 3 "~" H 4600 5100 50  0001 C CNN
 F 4 "TDK" H 4600 5100 50  0001 C CNN "Manufacturer"
 F 5 "C1005X5R1A475M050BC" H 4600 5100 50  0001 C CNN "Part Number"
@@ -190,7 +190,7 @@ U 1 1 5B78E030
 P 3500 5300
 F 0 "R1" H 3570 5346 50  0000 L CNN
 F 1 "1K" V 3500 5250 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 3430 5300 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 3430 5300 50  0001 C CNN
 F 3 "~" H 3500 5300 50  0001 C CNN
 F 4 "Panasonic" H 3500 5300 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1001X" H 3500 5300 50  0001 C CNN "Part Number"
@@ -215,7 +215,7 @@ U 1 1 5B78E943
 P 5400 6000
 F 0 "R2" V 5500 5950 50  0000 L CNN
 F 1 "1K" V 5400 5950 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 5330 6000 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 5330 6000 50  0001 C CNN
 F 3 "~" H 5400 6000 50  0001 C CNN
 F 4 "Panasonic" H 5400 6000 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1001X" H 5400 6000 50  0001 C CNN "Part Number"
@@ -231,7 +231,7 @@ U 1 1 5B78EA38
 P 5700 5900
 F 0 "R3" V 5600 5850 50  0000 L CNN
 F 1 "0" V 5700 5850 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 5630 5900 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 5630 5900 50  0001 C CNN
 F 3 "~" H 5700 5900 50  0001 C CNN
 F 4 "Panasonic" H 5700 5900 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2GE0R00X" H 5700 5900 50  0001 C CNN "Part Number"
@@ -285,7 +285,7 @@ U 1 1 5B791306
 P 9850 2250
 F 0 "C13" V 9700 2250 50  0000 L CNN
 F 1 "100nF" V 10000 2150 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 9888 2100 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 9888 2100 50  0001 C CNN
 F 3 "~" H 9850 2250 50  0001 C CNN
 F 4 "CL05A104MP5NNNC" H 9850 2250 50  0001 C CNN "Part Number"
 F 5 "0402" H 9850 2250 50  0001 C CNN "Package"
@@ -302,7 +302,7 @@ U 1 1 5B79153C
 P 9150 2250
 F 0 "C11" V 9000 2250 50  0000 L CNN
 F 1 "100nF" V 9300 2150 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 9188 2100 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 9188 2100 50  0001 C CNN
 F 3 "~" H 9150 2250 50  0001 C CNN
 F 4 "CL05A104MP5NNNC" H 9150 2250 50  0001 C CNN "Part Number"
 F 5 "0402" H 9150 2250 50  0001 C CNN "Package"
@@ -359,7 +359,7 @@ U 1 1 5B7A50C3
 P 1100 6600
 F 0 "J1" H 950 7250 50  0000 C CNN
 F 1 "USB_B_Mini" H 1100 6950 50  0000 C CNN
-F 2 "project_footprints:USB_Mini-B_Molex-054819-0519" H 1250 6550 50  0001 C CNN
+F 2 "project_footprints.pretty:USB_Mini-B_Molex-054819-0519" H 1250 6550 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/548190519_sd.pdf" H 1250 6550 50  0001 C CNN
 F 4 "Molex" H 1000 7150 50  0000 C CNN "Manufacturer"
 F 5 "0548190519" H 1100 7050 50  0000 C CNN "Part Number"
@@ -425,7 +425,7 @@ U 1 1 5B7BDCC7
 P 2450 7150
 F 0 "D3" V 2404 7229 50  0000 L CNN
 F 1 "PESD12VS1UB,115" H 2200 7050 50  0000 L CNN
-F 2 "project_footprints:D_SOD-523" H 2450 6950 50  0001 C CNN
+F 2 "project_footprints.pretty:D_SOD-523" H 2450 6950 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXS1UB_SERIES.pdf" H 2400 7150 50  0001 C CNN
 F 4 "Nexperia" H 2450 7150 50  0001 C CNN "Manufacturer"
 F 5 "PESD12VS1UB,115" H 2450 7150 50  0001 C CNN "Part Number"
@@ -488,7 +488,7 @@ AR Path="/5B7DAEA8/5B92C2E9" Ref="D?"  Part="1"
 AR Path="/5C1B036A/5B92C2E9" Ref="D1"  Part="1" 
 F 0 "D1" H 1728 7203 60  0000 L CNN
 F 1 "ESD8472MUT5G" V 1500 6700 60  0000 L CNN
-F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 1650 7150 60  0001 C CNN
+F 2 "project_footprints.pretty:ONSEMI_0201_DSN2_153AF" H 1650 7150 60  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 1650 7150 60  0001 C CNN
 F 4 "ON Semiconductor" H 1650 7150 50  0001 C CNN "Manufacturer"
 F 5 "ESD8472MUT5G" H 1650 7150 50  0001 C CNN "Part Number"
@@ -506,7 +506,7 @@ AR Path="/5B7DAEA8/5B92E2C8" Ref="D?"  Part="1"
 AR Path="/5C1B036A/5B92E2C8" Ref="D2"  Part="1" 
 F 0 "D2" H 2178 7203 60  0000 L CNN
 F 1 "ESD8472MUT5G" V 1950 6700 60  0000 L CNN
-F 2 "project_footprints:ONSEMI_0201_DSN2_153AF" H 2100 7150 60  0001 C CNN
+F 2 "project_footprints.pretty:ONSEMI_0201_DSN2_153AF" H 2100 7150 60  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/ESD8472-D.PDF" H 2100 7150 60  0001 C CNN
 F 4 "ON Semiconductor" H 2100 7150 50  0001 C CNN "Manufacturer"
 F 5 "ESD8472MUT5G" H 2100 7150 50  0001 C CNN "Part Number"
@@ -549,7 +549,7 @@ U 1 1 5BC5A91A
 P 7000 1400
 F 0 "J6" H 7050 1717 50  0000 C CNN
 F 1 "2x3 0.1\" HEADER" H 7050 1626 50  0000 C CNN
-F 2 "amphenol:FRAMATOME_67997-206HLF" H 7000 1400 50  0001 C CNN
+F 2 "project_footprints.pretty:FRAMATOME_67997-206HLF" H 7000 1400 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/67996.pdf" H 7000 1400 50  0001 C CNN
 F 4 "Amphenol" H 7000 1400 50  0001 C CNN "Manufacturer"
 F 5 " 67997-206HLF" H 7000 1400 50  0001 C CNN "Part Number"
@@ -595,7 +595,7 @@ U 1 1 5BC72310
 P 6700 900
 F 0 "R4" V 6800 850 50  0000 L CNN
 F 1 "10K" V 6700 850 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 6630 900 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 6630 900 50  0001 C CNN
 F 3 "~" H 6700 900 50  0001 C CNN
 F 4 "Panasonic" H 6700 900 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1002X" H 6700 900 50  0001 C CNN "Part Number"
@@ -616,7 +616,7 @@ U 1 1 5BC7E035
 P 5950 1100
 F 0 "D4" V 5904 1179 50  0000 L CNN
 F 1 "PESD12VS1UB,115" H 5700 1000 50  0000 L CNN
-F 2 "project_footprints:D_SOD-523" H 5950 900 50  0001 C CNN
+F 2 "project_footprints.pretty:D_SOD-523" H 5950 900 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXS1UB_SERIES.pdf" H 5900 1100 50  0001 C CNN
 F 4 "Nexperia" H 5950 1100 50  0001 C CNN "Manufacturer"
 F 5 "PESD12VS1UB,115" H 5950 1100 50  0001 C CNN "Part Number"
@@ -640,7 +640,7 @@ U 1 1 5BC8A605
 P 5550 1000
 F 0 "C10" H 5550 1100 50  0000 L CNN
 F 1 "100nF" H 5550 900 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 5588 850 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 5588 850 50  0001 C CNN
 F 3 "~" H 5550 1000 50  0001 C CNN
 F 4 "CL05A104MP5NNNC" H 5550 1000 50  0001 C CNN "Part Number"
 F 5 "0402" H 5550 1000 50  0001 C CNN "Package"
@@ -675,7 +675,7 @@ U 1 1 5BC9409A
 P 7800 1050
 F 0 "R10" V 7700 1000 50  0000 L CNN
 F 1 "0" V 7800 1000 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 7730 1050 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 7730 1050 50  0001 C CNN
 F 3 "~" H 7800 1050 50  0001 C CNN
 F 4 "Panasonic" H 7800 1050 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2GE0R00X" H 7800 1050 50  0001 C CNN "Part Number"
@@ -714,7 +714,7 @@ U 1 1 5BCB3669
 P 10300 3250
 F 0 "C14" H 10300 3350 50  0000 L CNN
 F 1 "100nF" H 10300 3150 50  0000 L CNN
-F 2 "project_footprints:C_0402" H 10338 3100 50  0001 C CNN
+F 2 "project_footprints.pretty:C_0402" H 10338 3100 50  0001 C CNN
 F 3 "~" H 10300 3250 50  0001 C CNN
 F 4 "CL05A104MP5NNNC" H 10300 3250 50  0001 C CNN "Part Number"
 F 5 "0402" H 10300 3250 50  0001 C CNN "Package"
@@ -781,7 +781,7 @@ U 1 1 5BF7029D
 P 5250 2600
 F 0 "D5" H 5300 2800 50  0000 R CNN
 F 1 "SML-LX0402SUGC-TR" H 5650 2700 50  0000 R CNN
-F 2 "project_footprints:LED_0402" H 5250 2600 50  0001 C CNN
+F 2 "project_footprints.pretty:LED_0402" H 5250 2600 50  0001 C CNN
 F 3 "https://www.lumex.com/content/files/ProductAttachment/SML-LX0402SUGC-TR.pdf" H 5250 2600 50  0001 C CNN
 F 4 "Lumex" H 5250 2600 50  0001 C CNN "Manufacturer"
 F 5 "SML-LX0402SUGC-TR" H 5250 2600 50  0001 C CNN "Part Number"
@@ -796,7 +796,7 @@ U 1 1 5BF704B7
 P 5950 2600
 F 0 "R5" V 6050 2600 50  0000 L CNN
 F 1 "1K" V 5950 2550 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 5880 2600 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 5880 2600 50  0001 C CNN
 F 3 "~" H 5950 2600 50  0001 C CNN
 F 4 "Panasonic" H 5950 2600 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1001X" H 5950 2600 50  0001 C CNN "Part Number"
@@ -857,7 +857,7 @@ U 1 1 5BAAB702
 P 2250 1750
 F 0 "SW1" H 2250 2100 50  0000 C CNN
 F 1 "TL3305AF160QG" H 2250 2000 50  0000 C CNN
-F 2 "e_switch:TL3305AF160QG" H 2250 1950 50  0001 C CNN
+F 2 "project_footprints.pretty:TL3305AF160QG" H 2250 1950 50  0001 C CNN
 F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 2250 1950 50  0001 C CNN
 F 4 "E-Switch" H 2250 1750 50  0001 C CNN "Manufacturer"
 F 5 "TL3305AF160QG" H 2250 1750 50  0001 C CNN "Part Number"
@@ -906,7 +906,7 @@ U 1 1 5B78291C
 P 9550 3900
 F 0 "U5" H 8950 2650 50  0000 C CNN
 F 1 "ATmega328P-MU" H 8700 2550 50  0000 C CNN
-F 2 "project_footprints:QFN-32-1EP_5x5mm_Pitch0.5mm" H 9550 3900 50  0001 C CIN
+F 2 "project_footprints.pretty:QFN-32-1EP_5x5mm_Pitch0.5mm" H 9550 3900 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 9550 3900 50  0001 C CNN
 F 4 "Microchip Technology" H 9550 3900 50  0001 C CNN "Manufacturer"
 F 5 "ATMEGA328P-MUR" H 9550 3900 50  0001 C CNN "Part Number"
@@ -941,7 +941,7 @@ U 1 1 5BDD5D68
 P 1900 3200
 F 0 "D13" H 1950 3400 50  0000 R CNN
 F 1 "SML-LX0402SUGC-TR" H 2300 3300 50  0000 R CNN
-F 2 "project_footprints:LED_0402" H 1900 3200 50  0001 C CNN
+F 2 "project_footprints.pretty:LED_0402" H 1900 3200 50  0001 C CNN
 F 3 "https://www.lumex.com/content/files/ProductAttachment/SML-LX0402SUGC-TR.pdf" H 1900 3200 50  0001 C CNN
 F 4 "Lumex" H 1900 3200 50  0001 C CNN "Manufacturer"
 F 5 "SML-LX0402SUGC-TR" H 1900 3200 50  0001 C CNN "Part Number"
@@ -956,7 +956,7 @@ U 1 1 5BDD5D74
 P 2600 3200
 F 0 "R19" V 2700 3200 50  0000 L CNN
 F 1 "1K" V 2600 3150 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 2530 3200 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 2530 3200 50  0001 C CNN
 F 3 "~" H 2600 3200 50  0001 C CNN
 F 4 "Panasonic" H 2600 3200 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1001X" H 2600 3200 50  0001 C CNN "Part Number"
@@ -993,7 +993,7 @@ U 1 1 5BDDA588
 P 5250 3150
 F 0 "D14" H 5300 3350 50  0000 R CNN
 F 1 "SML-LX0402SUGC-TR" H 5650 3250 50  0000 R CNN
-F 2 "project_footprints:LED_0402" H 5250 3150 50  0001 C CNN
+F 2 "project_footprints.pretty:LED_0402" H 5250 3150 50  0001 C CNN
 F 3 "https://www.lumex.com/content/files/ProductAttachment/SML-LX0402SUGC-TR.pdf" H 5250 3150 50  0001 C CNN
 F 4 "Lumex" H 5250 3150 50  0001 C CNN "Manufacturer"
 F 5 "SML-LX0402SUGC-TR" H 5250 3150 50  0001 C CNN "Part Number"
@@ -1008,7 +1008,7 @@ U 1 1 5BDDA594
 P 5950 3150
 F 0 "R20" V 6050 3150 50  0000 L CNN
 F 1 "1K" V 5950 3100 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 5880 3150 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 5880 3150 50  0001 C CNN
 F 3 "~" H 5950 3150 50  0001 C CNN
 F 4 "Panasonic" H 5950 3150 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1001X" H 5950 3150 50  0001 C CNN "Part Number"
@@ -1045,7 +1045,7 @@ U 1 1 5BDEDE59
 P 1900 3800
 F 0 "D15" H 1950 4000 50  0000 R CNN
 F 1 "SML-LX0402SUGC-TR" H 2300 3900 50  0000 R CNN
-F 2 "project_footprints:LED_0402" H 1900 3800 50  0001 C CNN
+F 2 "project_footprints.pretty:LED_0402" H 1900 3800 50  0001 C CNN
 F 3 "https://www.lumex.com/content/files/ProductAttachment/SML-LX0402SUGC-TR.pdf" H 1900 3800 50  0001 C CNN
 F 4 "Lumex" H 1900 3800 50  0001 C CNN "Manufacturer"
 F 5 "SML-LX0402SUGC-TR" H 1900 3800 50  0001 C CNN "Part Number"
@@ -1060,7 +1060,7 @@ U 1 1 5BDEDE65
 P 2600 3800
 F 0 "R23" V 2700 3800 50  0000 L CNN
 F 1 "1K" V 2600 3750 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 2530 3800 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 2530 3800 50  0001 C CNN
 F 3 "~" H 2600 3800 50  0001 C CNN
 F 4 "Panasonic" H 2600 3800 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1001X" H 2600 3800 50  0001 C CNN "Part Number"
@@ -1097,7 +1097,7 @@ U 1 1 5BE02B73
 P 1900 4400
 F 0 "D16" H 1950 4600 50  0000 R CNN
 F 1 "SML-LX0402SUGC-TR" H 2300 4500 50  0000 R CNN
-F 2 "project_footprints:LED_0402" H 1900 4400 50  0001 C CNN
+F 2 "project_footprints.pretty:LED_0402" H 1900 4400 50  0001 C CNN
 F 3 "https://www.lumex.com/content/files/ProductAttachment/SML-LX0402SUGC-TR.pdf" H 1900 4400 50  0001 C CNN
 F 4 "Lumex" H 1900 4400 50  0001 C CNN "Manufacturer"
 F 5 "SML-LX0402SUGC-TR" H 1900 4400 50  0001 C CNN "Part Number"
@@ -1112,7 +1112,7 @@ U 1 1 5BE02B7F
 P 2600 4400
 F 0 "R24" V 2700 4400 50  0000 L CNN
 F 1 "1K" V 2600 4350 50  0000 L CNN
-F 2 "project_footprints:R_0402" V 2530 4400 50  0001 C CNN
+F 2 "project_footprints.pretty:R_0402" V 2530 4400 50  0001 C CNN
 F 3 "~" H 2600 4400 50  0001 C CNN
 F 4 "Panasonic" H 2600 4400 50  0001 C CNN "Manufacturer"
 F 5 "ERJ-2RKF1001X" H 2600 4400 50  0001 C CNN "Part Number"
