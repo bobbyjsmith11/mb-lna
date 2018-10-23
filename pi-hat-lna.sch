@@ -15,66 +15,46 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Mechanical:Mounting_Hole H1
+L Mechanical:MountingHole H1
 U 1 1 5834BC4A
 P 5650 6000
 F 0 "H1" H 5500 6100 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 5650 5850 60  0000 C CNN
 F 2 "project_footprints.pretty:NPTH_3mm_ID" H 5550 6000 60  0001 C CNN
 F 3 "" H 5550 6000 60  0001 C CNN
-F 4 "" H -12600 -4650 50  0001 C CNN "MFR"
-F 5 "" H -12600 -4650 50  0001 C CNN "MPN"
-F 6 "" H -12600 -4650 50  0001 C CNN "SPR"
-F 7 "" H -12600 -4650 50  0001 C CNN "SPN"
-F 8 "" H -12600 -4650 50  0001 C CNN "SPURL"
 	1    5650 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole H2
+L Mechanical:MountingHole H2
 U 1 1 5834BCDF
 P 6650 6000
 F 0 "H2" H 6500 6100 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 6650 5850 60  0000 C CNN
 F 2 "project_footprints.pretty:NPTH_3mm_ID" H 6550 6000 60  0001 C CNN
 F 3 "" H 6550 6000 60  0001 C CNN
-F 4 "" H -12600 -4650 50  0001 C CNN "MFR"
-F 5 "" H -12600 -4650 50  0001 C CNN "MPN"
-F 6 "" H -12600 -4650 50  0001 C CNN "SPR"
-F 7 "" H -12600 -4650 50  0001 C CNN "SPN"
-F 8 "" H -12600 -4650 50  0001 C CNN "SPURL"
 	1    6650 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole H3
+L Mechanical:MountingHole H3
 U 1 1 5834BD62
 P 5650 6550
 F 0 "H3" H 5500 6650 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 5650 6400 60  0000 C CNN
 F 2 "project_footprints.pretty:NPTH_3mm_ID" H 5550 6550 60  0001 C CNN
 F 3 "" H 5550 6550 60  0001 C CNN
-F 4 "" H -12600 -4650 50  0001 C CNN "MFR"
-F 5 "" H -12600 -4650 50  0001 C CNN "MPN"
-F 6 "" H -12600 -4650 50  0001 C CNN "SPR"
-F 7 "" H -12600 -4650 50  0001 C CNN "SPN"
-F 8 "" H -12600 -4650 50  0001 C CNN "SPURL"
 	1    5650 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole H4
+L Mechanical:MountingHole H4
 U 1 1 5834BDED
 P 6700 6550
 F 0 "H4" H 6550 6650 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 6700 6400 60  0000 C CNN
 F 2 "project_footprints.pretty:NPTH_3mm_ID" H 6600 6550 60  0001 C CNN
 F 3 "" H 6600 6550 60  0001 C CNN
-F 4 "" H -12600 -4650 50  0001 C CNN "MFR"
-F 5 "" H -12600 -4650 50  0001 C CNN "MPN"
-F 6 "" H -12600 -4650 50  0001 C CNN "SPR"
-F 7 "" H -12600 -4650 50  0001 C CNN "SPN"
-F 8 "" H -12600 -4650 50  0001 C CNN "SPURL"
 	1    6700 6550
 	1    0    0    -1  
 $EndComp
@@ -1000,7 +980,7 @@ P 1300 6100
 AR Path="/5C1B036A/5BC1B548" Ref="R?"  Part="1" 
 AR Path="/5BC1B548" Ref="R11"  Part="1" 
 F 0 "R11" V 1200 6050 50  0000 L CNN
-F 1 "DNP" V 1300 6000 50  0000 L CNN
+F 1 "DNF" V 1300 6000 50  0000 L CNN
 F 2 "project_footprints.pretty:R_0402" V 1230 6100 50  0001 C CNN
 F 3 "~" H 1300 6100 50  0001 C CNN
 F 4 "Panasonic" H 1300 6100 50  0001 C CNN "Manufacturer"

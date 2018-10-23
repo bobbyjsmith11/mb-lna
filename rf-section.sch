@@ -1161,7 +1161,7 @@ L te_connectivity:SHEILD8 M2
 U 1 1 5B8E6809
 P 8150 1200
 F 0 "M2" H 8225 1775 50  0000 C CNN
-F 1 "DNP" H 8225 1684 50  0000 C CNN
+F 1 "DNF" H 8225 1684 50  0000 C CNN
 F 2 "project_footprints.pretty:2118706-2" H 8150 1200 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2118706%7FA2%7Fpdf%7FEnglish%7FENG_CD_2118706_A2.pdf%7F2118706-2" H 8150 1200 50  0001 C CNN
 F 4 "TE Connectivity" H 8150 1200 50  0001 C CNN "Manufacturer"
@@ -1235,7 +1235,7 @@ L te_connectivity:SHEILD8 M1
 U 1 1 5B9513CB
 P 1300 5750
 F 0 "M1" H 1375 6325 50  0000 C CNN
-F 1 "DNP" H 1375 6234 50  0000 C CNN
+F 1 "DNF" H 1375 6234 50  0000 C CNN
 F 2 "project_footprints.pretty:2118706-2" H 1300 5750 50  0001 C CNN
 F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2118706%7FA2%7Fpdf%7FEnglish%7FENG_CD_2118706_A2.pdf%7F2118706-2" H 1300 5750 50  0001 C CNN
 F 4 "TE Connectivity" H 1300 5750 50  0001 C CNN "Manufacturer"
