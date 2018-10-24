@@ -517,11 +517,11 @@ F 7 "TVS DIODE 5.3V 14V 2X3DFN" H 2100 7150 50  0001 C CNN "Description"
 $EndComp
 Text HLabel 8350 5100 0    50   Output ~ 0
 BYP_LNA1
-Text HLabel 8350 4100 0    50   Output ~ 0
-BYP_LNA2
-Text HLabel 8350 4000 0    50   Output ~ 0
-SWA_V1
 Text HLabel 8350 3900 0    50   Output ~ 0
+BYP_LNA2
+Text HLabel 8350 3600 0    50   Output ~ 0
+SWA_V1
+Text HLabel 8350 3700 0    50   Output ~ 0
 SWA_V2
 Text HLabel 8350 3800 0    50   Output ~ 0
 SWA_V3
@@ -923,9 +923,9 @@ Text Label 6200 2600 0    50   ~ 0
 LED1
 Wire Wire Line
 	6600 2600 6100 2600
-Text HLabel 8350 3600 0    50   Input ~ 0
+Text HLabel 8350 4000 0    50   Input ~ 0
 PI_SDA
-Text HLabel 8350 3700 0    50   Input ~ 0
+Text HLabel 8350 4100 0    50   Input ~ 0
 PI_SCL
 Wire Wire Line
 	8350 3300 8950 3300
